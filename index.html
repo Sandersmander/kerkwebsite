@@ -1,1 +1,1679 @@
-kaka
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protestantse Gemeente Ginneken — Laurentiuskerk Breda (PKN)</title>
+  <meta name="description" content="Officiële website van de Protestantse Gemeente Ginneken (PKN) in Breda. Informatie over zondagse erediensten om 10:00 uur in de historische Laurentiuskerk naast de Ginnekenmarkt, activiteiten, pastoraat, diaconaat en verhuur van Mariëndal." />
+  <meta name="keywords" content="Protestantse kerk Breda, Protestantse gemeente Ginneken, PKN Breda Ginneken, Laurentiuskerk, Protestantse Laurentiuskerk Ginneken, Mariëndal" />
+
+  <!-- Google Fonts: Plus Jakarta Sans (benadert PKN Museo Sans) & Lora (voor liturgische koppen) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       BOVENBALK (PKN Verbinding & Directe Snelkoppelingen)
+       ======================================================================== -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Laurentiuskerk &bull; Duivelsbruglaan 1, 4835 JD Breda (Ginnekenmarkt)
+        </span>
+        <span class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Eredienst elke zondag om 10:00 uur
+        </span>
+      </div>
+      <div class="topbar-links">
+        <a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          Kerkomroep Live
+        </a>
+        <a href="https://www.youtube.com/channel/UCNx5_R4W4CPvf3F_fTOlz1Q/featured/" target="_blank" rel="noopener">
+          Grote Kerk YouTube
+        </a>
+        <a href="https://protestantsekerk.nl/" target="_blank" rel="noopener">
+          Protestantse Kerk (PKN) &nearr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       HEADER & OVERZICHTELIJK MENU (Geordend in 6 heldere PKN-hoofdrubrieken)
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- PKN Beeldmerk + Lokale Gemeentenaam -->
+      <a href="#welkom" class="brand-logo" onclick="navigateTo('welkom'); return false;">
+        <!-- PKN Stijl Beeldmerk SVG (Cirkel van eenheid, kruis & duif/vlam in PKN Rood #CF3835 en Oranje #E98C00) -->
+        <svg class="pkn-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="PKN Beeldmerk">
+          <circle cx="32" cy="32" r="30" fill="url(#pknGrad)" />
+          <path d="M32 10V54M14 28H50" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round" />
+          <path d="M22 18C26 22 30 24 32 28C34 24 38 22 42 18" stroke="#FFD180" stroke-width="3" stroke-linecap="round" />
+          <circle cx="32" cy="28" r="4" fill="#FFFFFF" />
+          <defs>
+            <linearGradient id="pknGrad" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#CF3835" />
+              <stop offset="0.65" stop-color="#D95326" />
+              <stop offset="1" stop-color="#E98C00" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-eyebrow">Protestantse Kerk in Nederland</span>
+          <span class="brand-title">Protestantse Gemeente Ginneken</span>
+          <span class="brand-subtitle">Laurentiuskerk Breda &bull; Sinds 1316 / 1641</span>
+        </div>
+      </a>
+
+      <!-- Hoofdmenu met 6 overzichtelijke pijlers -->
+      <nav class="main-nav" aria-label="Hoofdnavigatie">
+        <div class="nav-item">
+          <button class="nav-link active" data-nav="welkom" onclick="navigateTo('welkom')">
+            Welkom
+          </button>
+        </div>
+
+        <!-- 1. Vieren & Diensten -->
+        <div class="nav-item">
+          <button class="nav-link" data-nav="diensten" onclick="navigateTo('diensten')">
+            Vieren &amp; Diensten
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="#diensten" class="dropdown-link" onclick="navigateTo('diensten', 'rooster-anchor'); return false;">
+              <span class="dropdown-icon">&#9962;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Zondagdiensten &amp; Rooster</span>
+                <span class="dropdown-desc">Kerkdiensten om 10:00 uur, voorgangers, liturgieën &amp; collecterooster</span>
+              </span>
+            </a>
+            <a href="#diensten" class="dropdown-link" onclick="navigateTo('diensten', 'rondom-vieren-anchor'); return false;">
+              <span class="dropdown-icon">&#10013;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Rondom het Vieren</span>
+                <span class="dropdown-desc">Liturgische identiteit, Avondmaal, Dopen, Cantorij, Goede Week &amp; Advent</span>
+              </span>
+            </a>
+            <a href="#verhuur" class="dropdown-link" onclick="navigateTo('verhuur', 'open-kerk-anchor'); return false;">
+              <span class="dropdown-icon">&#128682;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Open Kerk Ginneken</span>
+                <span class="dropdown-desc">Elke 1e zaterdag van de maand &amp; zomers van 13:30 – 16:30 uur</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Gemeente & Activiteiten -->
+        <div class="nav-item">
+          <button class="nav-link" data-nav="nieuws,verdieping,jeugd,fotos" onclick="navigateTo('nieuws')">
+            Gemeente &amp; Activiteiten
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="#nieuws" class="dropdown-link" onclick="navigateTo('nieuws'); return false;">
+              <span class="dropdown-icon">&#128240;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Gemeentenieuws &amp; Agenda</span>
+                <span class="dropdown-desc">Actuele mededelingen, concerten, gemeenteavonden &amp; nieuwsarchief</span>
+              </span>
+            </a>
+            <a href="#verdieping" class="dropdown-link" onclick="navigateTo('verdieping'); return false;">
+              <span class="dropdown-icon">&#128214;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Verdieping &amp; Rondom het Leren</span>
+                <span class="dropdown-desc">Schatten van Laurentius, Laurentiuslezing, Catechese &amp; Gespreksgroepen</span>
+              </span>
+            </a>
+            <a href="#jeugd" class="dropdown-link" onclick="navigateTo('jeugd'); return false;">
+              <span class="dropdown-icon">&#127775;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Jeugd, Kleine Kerk &amp; Studenten</span>
+                <span class="dropdown-desc">Kindernevendienst, De Kleine Kerk, Paperclip, Tieners &amp; CSV Ichthus Breda</span>
+              </span>
+            </a>
+            <a href="#fotos" class="dropdown-link" onclick="navigateTo('fotos'); return false;">
+              <span class="dropdown-icon">&#128247;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Fotoalbums (14 Albums)</span>
+                <span class="dropdown-desc">346 foto's van onze kerkelijke activiteiten, vieringen en monumenten</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Zorg & Organisatie -->
+        <div class="nav-item">
+          <button class="nav-link" data-nav="pastoraat,diaconaat,kerkenwerk,organisatie,anbi" onclick="navigateTo('pastoraat')">
+            Zorg &amp; Organisatie
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="#pastoraat" class="dropdown-link" onclick="navigateTo('pastoraat'); return false;">
+              <span class="dropdown-icon">&#129309;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Pastoraat &amp; Veilige Kerk</span>
+                <span class="dropdown-desc">Pastorale zorg, ouderlingen, gedragscode Veilige Kerk &amp; vertrouwenspersonen</span>
+              </span>
+            </a>
+            <a href="#diaconaat" class="dropdown-link" onclick="navigateTo('diaconaat'); return false;">
+              <span class="dropdown-icon">&#10084;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Diaconaat &amp; ZWO</span>
+                <span class="dropdown-desc">Barmhartigheid, ZWO Malawi project, Kerkelijk Huisbezoek &amp; maandelijkse lunch</span>
+              </span>
+            </a>
+            <a href="#kerkenwerk" class="dropdown-link" onclick="navigateTo('kerkenwerk'); return false;">
+              <span class="dropdown-icon">&#127760;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Kerkenwerk &amp; Oecumene</span>
+                <span class="dropdown-desc">Samenwerking PG Breda, wijkgemeenten, R.K. Parochie &amp; Raad van Kerken</span>
+              </span>
+            </a>
+            <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie'); return false;">
+              <span class="dropdown-icon">&#127970;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Kerkrentmeesters, Publiciteit &amp; Kerkgids</span>
+                <span class="dropdown-desc">Kerkbalans, Restauratiefonds, Kerknieuws, Laurentius Brief &amp; Privacy</span>
+              </span>
+            </a>
+            <a href="#anbi" class="dropdown-link" onclick="navigateTo('anbi'); return false;">
+              <span class="dropdown-icon">&#128203;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">ANBI (Kerk &amp; Diaconie)</span>
+                <span class="dropdown-desc">Fiscale gegevens, RSIN, beleidsplannen en staat van baten en lasten</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Kerkgebouw & Verhuur -->
+        <div class="nav-item">
+          <button class="nav-link" data-nav="geschiedenis,verhuur" onclick="navigateTo('geschiedenis')">
+            Kerkgebouw &amp; Verhuur
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="#geschiedenis" class="dropdown-link" onclick="navigateTo('geschiedenis'); return false;">
+              <span class="dropdown-icon">&#127963;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Geschiedenis Laurentiuskerk</span>
+                <span class="dropdown-desc">Zeven eeuwen historie (sinds 1316), Napoleon in Ginneken &amp; ramen van Charles Eyck</span>
+              </span>
+            </a>
+            <a href="#verhuur" class="dropdown-link" onclick="navigateTo('verhuur'); return false;">
+              <span class="dropdown-icon">&#128141;</span>
+              <span class="dropdown-text">
+                <span class="dropdown-title">Verhuur Mariëndal, Huwelijk &amp; Service</span>
+                <span class="dropdown-desc">Zaalverhuur (€ 130/dagdeel), Burgerlijk huwelijk, Uitvaart, Crèche &amp; KerkWebRadio</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Contact -->
+        <div class="nav-item">
+          <button class="nav-link" data-nav="contact" onclick="navigateTo('contact')">
+            Contact
+          </button>
+        </div>
+      </nav>
+
+      <!-- Rechts: Zoeken & Volledig Menu-overzicht (A-Z) -->
+      <div class="header-actions">
+        <button class="btn-icon" onclick="openModal('search-modal'); setTimeout(() => document.getElementById('global-search-input').focus(), 80);" title="Zoeken op de hele website" aria-label="Zoeken">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="btn-sitemap" onclick="openModal('sitemap-modal')" title="Overzicht van alle 20+ rubrieken">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Alle Rubrieken
+        </button>
+        <button class="mobile-menu-toggle" onclick="openModal('sitemap-modal')" aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       SNELKEUZE BALK (Directe toegang tot elke rubriek)
+       ======================================================================== -->
+  <div class="quick-menu-bar">
+    <div class="container">
+      <div class="quick-pills" role="tablist" aria-label="Snelmenu">
+        <button class="quick-pill active" data-target="welkom" onclick="navigateTo('welkom')">Welkom</button>
+        <button class="quick-pill" data-target="diensten" onclick="navigateTo('diensten')">Zondagdiensten &amp; Vieren</button>
+        <button class="quick-pill" data-target="nieuws" onclick="navigateTo('nieuws')">Gemeentenieuws</button>
+        <button class="quick-pill" data-target="verdieping" onclick="navigateTo('verdieping')">Verdieping &amp; Leren</button>
+        <button class="quick-pill" data-target="jeugd" onclick="navigateTo('jeugd')">Jeugd, Kleine Kerk &amp; Studenten</button>
+        <button class="quick-pill" data-target="pastoraat" onclick="navigateTo('pastoraat')">Pastoraat &amp; Veilige Kerk</button>
+        <button class="quick-pill" data-target="diaconaat" onclick="navigateTo('diaconaat')">Diaconaat &amp; ZWO</button>
+        <button class="quick-pill" data-target="kerkenwerk" onclick="navigateTo('kerkenwerk')">Kerkenwerk &amp; Oecumene</button>
+        <button class="quick-pill" data-target="organisatie" onclick="navigateTo('organisatie')">Kerkrentmeesters, Publiciteit &amp; Kerkgids</button>
+        <button class="quick-pill" data-target="anbi" onclick="navigateTo('anbi')">ANBI (Kerk &amp; Diaconie)</button>
+        <button class="quick-pill" data-target="verhuur" onclick="navigateTo('verhuur')">Verhuur, Trouwen &amp; Service</button>
+        <button class="quick-pill" data-target="geschiedenis" onclick="navigateTo('geschiedenis')">Geschiedenis</button>
+        <button class="quick-pill" data-target="fotos" onclick="navigateTo('fotos')">Fotoalbums</button>
+        <button class="quick-pill" data-target="contact" onclick="navigateTo('contact')">Contact</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SECTIE 1: WELKOM (HOME)
+       ======================================================================== -->
+  <main>
+    <section id="sec-welkom" class="view-section active" style="padding-top:0;">
+      <!-- Hero Banner -->
+      <div class="hero">
+        <div class="hero-bg-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+          <div>
+            <div class="hero-badge">
+              <span>&#10013;</span> Protestantse Laurentiuskerk Ginneken &bull; Breda
+            </div>
+            <h1>Een levendige, betrokken gemeente <span>midden in het hart van Ginneken</span></h1>
+            <p class="hero-lead">
+              Aan allen die betrokken zijn bij de Protestantse gemeente Ginneken: leden, gastleden, vrienden en geïnteresseerden. Wij hebben een mooie, oecumenisch gekleurde liturgie waarin Woord én Sacrament centraal staan. U bent van harte welkom op zondagmorgen om 10:00 uur!
+            </p>
+            <div class="hero-buttons">
+              <button class="btn btn-primary" onclick="navigateTo('diensten')">
+                Bekijk Zondagdiensten &amp; Liturgie
+              </button>
+              <button class="btn btn-orange" onclick="navigateTo('nieuws')">
+                Laatste Gemeentenieuws
+              </button>
+              <button class="btn btn-outline-light" onclick="navigateTo('contact')">
+                Contact &amp; Route
+              </button>
+            </div>
+          </div>
+
+          <!-- Eerstvolgende Dienst Kaart -->
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <span class="hero-card-tag">Eerstvolgende Kerkdienst</span>
+              <span class="hero-card-time">Zondag 10:00 uur</span>
+            </div>
+            <h3>Zondag 1 november — Gedachtenisdienst</h3>
+            <p style="font-size:0.9rem;color:var(--text-secondary);">Met alle heiligen / 7e zondag van de herfst &bull; Dienst van Woord en Gebed</p>
+            <div class="hero-card-meta">
+              <div>
+                <strong>Voorganger:</strong> ds. G.P.Th. Bosma
+              </div>
+              <div>
+                <strong>Collecte:</strong> Gedachtenisdienst — Tools to Work
+              </div>
+              <div>
+                <strong>Locatie:</strong> Laurentiuskerk, Duivelsbruglaan 1 (koffie na afloop in Mariëndal)
+              </div>
+            </div>
+            <div class="hero-card-footer">
+              <a href="https://protestantsegemeenteginneken.nl/documenten/261101HerdenkingsdienstGinneken-GB.pdf" target="_blank" rel="noopener" class="btn btn-primary" style="padding:0.55rem 1.1rem;font-size:0.86rem;">
+                Download Liturgie (PDF) &nearr;
+              </a>
+              <button class="btn btn-outline" style="padding:0.55rem 1.1rem;font-size:0.86rem;" onclick="navigateTo('diensten')">
+                Volledig Preekrooster
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Welkomsttekst & Kernpunten uit de originele voorpagina -->
+      <div class="container" style="margin-top:3.5rem;">
+        <div class="grid-sidebar">
+          <div>
+            <span class="section-eyebrow">Welkom bij PG Ginneken</span>
+            <h2 class="section-title">Midden in het Ginneken en midden in het leven</h2>
+            <p style="font-size:1.05rem;color:var(--text-secondary);margin-bottom:1.25rem;">
+              Aan allen die betrokken zijn bij de Protestantse gemeente Ginneken: leden, gastleden, vrienden, geïnteresseerden. Wij zijn een levendige, betrokken gemeente, midden in het hart van Ginneken en midden in het leven. Wij hebben een mooie liturgie, die het waard is om gevierd te worden.
+            </p>
+            <p style="font-size:1.05rem;color:var(--text-secondary);margin-bottom:1.75rem;">
+              Daarom nodigen wij u graag uit om de dienst eens bij te wonen op een zondagmorgen, in onze historische Laurentiuskerk naast de Ginnekenmarkt. Via deze website kunt u kennismaken met onze gemeente, waar we voor staan, onze activiteiten en algemene informatie over onze kerkelijke gemeente.
+            </p>
+
+            <!-- 4 Kernblokken van de voorpagina -->
+            <div class="grid-2" style="margin-top:2rem;">
+              <div class="card card-accent-red card-hover">
+                <span class="badge badge-red" style="margin-bottom:0.5rem;">Elke 1e zaterdag &amp; zomer</span>
+                <h3>Open Kerk Ginneken</h3>
+                <p>Elke 1e zaterdag van de maand en iedere zaterdag in juli en augustus zijn de deuren geopend van <strong>13:30 – 16:30 uur</strong> (jan–mrt tot 16:00 uur).</p>
+                <a href="#verhuur" onclick="navigateTo('verhuur', 'open-kerk-anchor'); return false;" style="font-weight:700;font-size:0.9rem;">Zie rubriek Service &rarr;</a>
+              </div>
+
+              <div class="card card-accent-orange card-hover">
+                <span class="badge badge-orange" style="margin-bottom:0.5rem;">Ontmoeting</span>
+                <h3>Koffie &amp; Maandelijkse Lunch</h3>
+                <p>Elke zondag na de dienst drinken we koffie in gemeentecentrum <strong>Mariëndal</strong> (Duivelsbruglaan 13). Op de laatste zondag van de maand is er lunch na de dienst (opgeven bij Diny of Ingeborg).</p>
+                <a href="#diaconaat" onclick="navigateTo('diaconaat'); return false;" style="font-weight:700;font-size:0.9rem;">Meer over ontmoeting &rarr;</a>
+              </div>
+
+              <div class="card card-accent-purple card-hover">
+                <span class="badge badge-purple" style="margin-bottom:0.5rem;">Preventie &amp; Vertrouwen</span>
+                <h3>Veilige Kerk</h3>
+                <p>De Protestantse Kerk wil een veilige plaats zijn waar mensen in vrijheid en vertrouwen samenkomen. Lees onze volledige gedragscode en bereik onze vertrouwenspersonen.</p>
+                <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+                  <a href="#pastoraat" onclick="navigateTo('pastoraat', 'veilige-kerk-anchor'); return false;" style="font-weight:700;font-size:0.9rem;">Gedragscode lezen &rarr;</a>
+                  <a href="https://protestantsegemeenteginneken.nl/documenten/Gedragscode.pdf" target="_blank" rel="noopener" style="font-weight:700;font-size:0.9rem;">PDF &nearr;</a>
+                </div>
+              </div>
+
+              <div class="card card-accent-taupe card-hover">
+                <span class="badge badge-taupe" style="margin-bottom:0.5rem;">Trouwen &amp; Afscheid</span>
+                <h3>Huwelijk, Uitvaart &amp; Verhuur</h3>
+                <p>De Laurentiuskerk is een officiële trouwlocatie ("huis van de gemeente") van Breda. Ook voor een kerkelijke of niet-kerkelijke uitvaart en verhuur van Mariëndal kunt u bij ons terecht.</p>
+                <a href="#verhuur" onclick="navigateTo('verhuur'); return false;" style="font-weight:700;font-size:0.9rem;">Bekijk mogelijkheden &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rechterkolom: Sfeerimpressie Laurentiuskerk & Bijzondere Items -->
+          <div style="display:flex;flex-direction:column;gap:1.5rem;">
+            <div class="card" style="padding:1rem;">
+              <img src="assets/images/kerk-zomer2017-2.jpg" alt="Protestantse Laurentiuskerk Ginneken" style="border-radius:8px;width:100%;max-height:360px;object-fit:cover;margin-bottom:0.75rem;" />
+              <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;margin-bottom:0.6rem;">
+                <img src="assets/images/kerkraam_web.jpg" alt="Kerkraam" style="border-radius:6px;height:80px;width:100%;object-fit:cover;" />
+                <img src="assets/images/oude_collectebus_web.jpg" alt="Oude collectebus" style="border-radius:6px;height:80px;width:100%;object-fit:cover;" />
+                <img src="assets/images/kaars_kroonluchter_web.jpg" alt="Kroonluchter" style="border-radius:6px;height:80px;width:100%;object-fit:cover;" />
+              </div>
+              <p style="font-size:0.8rem;color:var(--text-muted);text-align:center;margin:0;">
+                Historische Protestantse Laurentiuskerk Ginneken &bull; <a href="http://kerkfotografie.nl/laurentiuskerk-breda/" target="_blank" rel="noopener">Met dank aan kerkfotografie.nl</a>
+              </p>
+            </div>
+
+            <div class="card" style="display:flex;gap:1rem;align-items:center;">
+              <img src="assets/images/burgerlijkHuwelijk.jpg" alt="Burgerlijk huwelijk" style="width:76px;height:76px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
+              <div>
+                <h4 style="margin-bottom:0.2rem;">Burgerlijk huwelijk in de kerk</h4>
+                <p style="font-size:0.86rem;margin-bottom:0.35rem;">Trouwen in de kerk, consistoriekamer of de tuinen van de Laurentiuskerk.</p>
+                <a href="#verhuur" onclick="navigateTo('verhuur', 'burgerlijk-huwelijk-anchor'); return false;" style="font-size:0.85rem;font-weight:700;">Meer informatie &rarr;</a>
+              </div>
+            </div>
+
+            <div class="card" style="display:flex;gap:1rem;align-items:center;">
+              <img src="assets/images/honingboom-2-klein.jpg" alt="Honingboom op Oud Ginneken" style="width:76px;height:76px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
+              <div>
+                <h4 style="margin-bottom:0.2rem;">Honingboom op Oud Ginneken</h4>
+                <p style="font-size:0.86rem;margin-bottom:0.35rem;">De bijzondere monumentale honingboom op begraafplaats Oud Ginneken.</p>
+                <a href="#nieuws" onclick="openArticle('agenda', '477'); return false;" style="font-size:0.85rem;font-weight:700;">Lees artikel &amp; bekijk video &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Laatste Nieuws sectie op de Homepagina -->
+        <div style="margin-top:4rem;padding-top:3rem;border-top:1px solid var(--border-subtle);">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;">
+            <div>
+              <span class="section-eyebrow">Actueel in onze gemeente</span>
+              <h2 class="section-title" style="margin-bottom:0;">Laatste nieuws &amp; agenda</h2>
+            </div>
+            <button class="btn btn-outline" onclick="navigateTo('nieuws')">
+              Bekijk alle berichten &amp; archief &rarr;
+            </button>
+          </div>
+          <div id="home-news-list" class="grid-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 2: VIEREN & ZONDAGDIENSTEN (zondagdiensten.php + rondomhetvieren.html)
+         ======================================================================== -->
+    <section id="sec-diensten" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Vieren &amp; Eredienst</span>
+          <h1 class="section-title">Zondagdiensten &amp; Rondom het Vieren</h1>
+          <p class="section-lead">
+            Iedere zondagmorgen om 10:00 uur komen wij samen in de Laurentiuskerk. Met uitzondering van de eerste zondag van de maand (Dienst van Woord en Gebed) vieren wij in iedere dienst het Heilig Avondmaal (Dienst van Schrift en Maaltijd).
+          </p>
+        </div>
+
+        <div id="rooster-anchor" class="grid-sidebar">
+          <!-- Linkerkolom: Preekrooster -->
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;margin-bottom:1.25rem;">
+              <h2 style="font-family:var(--font-serif);font-size:1.55rem;">Kerkdienstenrooster — Seizoen Herfst / Advent</h2>
+              <span class="badge badge-red">Aanvang 10:00 uur</span>
+            </div>
+
+            <div class="service-list">
+              <div class="service-row">
+                <div>
+                  <div class="service-date">Zondag 1 november</div>
+                  <span class="service-time">10:00 uur</span>
+                </div>
+                <div>
+                  <div class="service-theme">Met alle heiligen – gedachtenisdienst / 7e van de herfst</div>
+                  <div class="service-pastor">Dienst van Woord en Gebed &bull; Voorganger: <strong>ds. G.P.Th. Bosma</strong></div>
+                </div>
+                <div>
+                  <a href="https://protestantsegemeenteginneken.nl/documenten/261101HerdenkingsdienstGinneken-GB.pdf" target="_blank" rel="noopener" class="btn btn-primary" style="padding:0.45rem 0.95rem;font-size:0.82rem;">Liturgie (PDF) &nearr;</a>
+                </div>
+              </div>
+
+              <div class="service-row">
+                <div>
+                  <div class="service-date">Zondag 8 november</div>
+                  <span class="service-time">10:00 uur</span>
+                </div>
+                <div>
+                  <div class="service-theme">8ste zondag van de herfst</div>
+                  <div class="service-pastor">Dienst van Schrift en Maaltijd &bull; Voorganger: <strong>C.M. Blokland-den Hertog</strong> (Geldermalsen)</div>
+                </div>
+                <div>
+                  <span class="badge badge-taupe">Liturgie volgt</span>
+                </div>
+              </div>
+
+              <div class="service-row">
+                <div>
+                  <div class="service-date">Zondag 15 november</div>
+                  <span class="service-time">10:00 uur</span>
+                </div>
+                <div>
+                  <div class="service-theme">9ste zondag van de herfst</div>
+                  <div class="service-pastor">Let op: Dienst van Schrift en Maaltijd &bull; Voorganger: <strong>B. Kuipers</strong> (Rotterdam)</div>
+                </div>
+                <div>
+                  <span class="badge badge-taupe">Liturgie volgt</span>
+                </div>
+              </div>
+
+              <div class="service-row">
+                <div>
+                  <div class="service-date">Zondag 22 november</div>
+                  <span class="service-time">10:00 uur</span>
+                </div>
+                <div>
+                  <div class="service-theme">10de v.d. Herfst / 24ste na Pinksteren — Voleinding</div>
+                  <div class="service-pastor">Dienst van Schrift en Maaltijd &bull; Voorganger: <strong>B. Hendriksen</strong> (Chaam)</div>
+                </div>
+                <div>
+                  <span class="badge badge-taupe">Liturgie volgt</span>
+                </div>
+              </div>
+
+              <div class="service-row">
+                <div>
+                  <div class="service-date">Zondag 29 november</div>
+                  <span class="service-time">10:00 uur</span>
+                </div>
+                <div>
+                  <div class="service-theme">1ste zondag van Advent</div>
+                  <div class="service-pastor">Dienst van Schrift en Maaltijd &bull; Voorganger: <strong>J. van Baardwijk</strong> (Wijk bij Duurstede)</div>
+                </div>
+                <div>
+                  <span class="badge badge-taupe">Liturgie volgt</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Online meeluisteren & Liedboek -->
+            <div class="grid-3" style="margin-top:1.75rem;">
+              <a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener" class="card card-hover" style="text-decoration:none;">
+                <span class="badge badge-red" style="margin-bottom:0.4rem;">Audio &amp; Archief</span>
+                <h4>Kerkomroep.nl &nearr;</h4>
+                <p style="font-size:0.86rem;">Luister onze kerkdiensten rechtstreeks of achteraf mee via Kerkomroep.</p>
+              </a>
+              <a href="https://kerkliedwiki.nl/Liedboek_2013/Inhoud/" target="_blank" rel="noopener" class="card card-hover" style="text-decoration:none;">
+                <span class="badge badge-orange" style="margin-bottom:0.4rem;">Liedboek 2013</span>
+                <h4>Kerkliederen opzoeken &nearr;</h4>
+                <p style="font-size:0.86rem;">Bekijk de inhoud en achtergronden van het Liedboek op Kerkliedwiki.</p>
+              </a>
+              <a href="https://www.youtube.com/channel/UCNx5_R4W4CPvf3F_fTOlz1Q/featured/" target="_blank" rel="noopener" class="card card-hover" style="text-decoration:none;">
+                <span class="badge badge-purple" style="margin-bottom:0.4rem;">Video</span>
+                <h4>Grote Kerk-diensten &nearr;</h4>
+                <p style="font-size:0.86rem;">Kijk gezamenlijke diensten in de Grote Kerk Breda terug via YouTube.</p>
+              </a>
+            </div>
+          </div>
+
+          <!-- Rechterkolom: Predikant, Koster, Collecterooster & Orde van Dienst Archief -->
+          <div style="display:flex;flex-direction:column;gap:1.5rem;">
+            <div class="card card-accent-red">
+              <h3>Predikant &amp; Koster</h3>
+              <table class="info-table">
+                <tr>
+                  <th>Predikant</th>
+                  <td>dr. G.P.Th. Bosma<br /><a href="mailto:pgg.predikant@gmail.com">pgg.predikant@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <th>Koster-Beheerder</th>
+                  <td>Mevr. Ingeborg Haspels<br />Tel: <a href="tel:0652148933">06-52148933</a><br /><a href="mailto:pgg.koster@gmail.com">pgg.koster@gmail.com</a></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="card card-accent-orange">
+              <h3>Collecterooster</h3>
+              <ul style="list-style:none;display:flex;flex-direction:column;gap:0.75rem;">
+                <li>
+                  <strong>Zondag 1 november:</strong><br />
+                  <span style="color:var(--text-secondary);">Gedachtenisdienst: Tools to Work</span>
+                </li>
+                <li>
+                  <strong>Zondag 8 november:</strong><br />
+                  <span style="color:var(--text-secondary);">Restauratiefonds en onderhoud gebouwen</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card card-accent-taupe">
+              <h3>Orde van Dienst (Liturgie PDF's)</h3>
+              <p style="font-size:0.86rem;margin-bottom:0.85rem;">Download de orde van dienst van komende en afgelopen zondagen:</p>
+              <div style="display:flex;flex-wrap:wrap;gap:0.45rem;">
+                <a class="badge badge-red" href="https://protestantsegemeenteginneken.nl/documenten/261101HerdenkingsdienstGinneken-GB.pdf" target="_blank" rel="noopener">1 november</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/5e-zondag-van-de-herfst-2026-Ginneken.pdf" target="_blank" rel="noopener">18 oktober</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/20261011-HerfstIV-Ginneken.pdf" target="_blank" rel="noopener">11 oktober</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/261004Herfst3Ginneken-BK.pdf" target="_blank" rel="noopener">4 oktober</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260927GinnekenHerfst2-GB.pdf" target="_blank" rel="noopener">27 september</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/ginneken-260920-Herfst-I.pdf" target="_blank" rel="noopener">20 september</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260913Zomer13-JvB.pdf" target="_blank" rel="noopener">13 september</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/Liturgie-Ginneken-6-september-2026.pdf" target="_blank" rel="noopener">6 september</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260830Zondag11Zomer-def-MM.pdf" target="_blank" rel="noopener">30 augustus</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/23-aug-def-Ginneken-2.pdf" target="_blank" rel="noopener">23 augustus</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260802ZomerdienstGroteKerk-GB.pdf" target="_blank" rel="noopener">2 augustus</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260712Zondag4Ginneken-GB.pdf" target="_blank" rel="noopener">12 juli</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/Liturgie-Ginneken-5-juli-2026.pdf" target="_blank" rel="noopener">5 juli</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260628Zomer2-GB.pdf" target="_blank" rel="noopener">28 juni</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/ginneken-260621-orde-zomer-I-A.pdf" target="_blank" rel="noopener">21 juni</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/260614Zondag2naTrinitatis-NV.pdf" target="_blank" rel="noopener">14 juni</a>
+                <a class="badge badge-taupe" href="https://protestantsegemeenteginneken.nl/documenten/20260607-1eZondag-na-Trinitatis-DEF.pdf" target="_blank" rel="noopener">7 juni</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RONDOM HET VIEREN (volledige inhoud van rondomhetvieren.html) -->
+        <div id="rondom-vieren-anchor" style="margin-top:4rem;padding-top:3rem;border-top:1px solid var(--border-subtle);">
+          <div class="section-header">
+            <span class="section-eyebrow">Kerkgids &bull; Rubriek Vieren</span>
+            <h2 class="section-title">Rondom het Vieren</h2>
+            <p class="section-lead">Alle aspecten die ons ten dienste staan ter viering van ons geloof in de Protestantse Gemeente Ginneken.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card card-accent-red">
+              <h3>Liturgische Identiteit</h3>
+              <p>Sinds de dertiger jaren van de vorige eeuw heeft er een groei plaatsgevonden naar erediensten volgens een brede oecumenische, katholieke liturgie met gezongen en gesproken vaste onderdelen. Met uitzondering van de eerste zondag van de maand, wordt in iedere dienst het heilig avondmaal gevierd.</p>
+              <p>Ook in de inrichting van het kerkgebouw staan woord én sacrament centraal: kansel, doopvont en Avondmaalstafel vormen het centrum. De diensten geven deze gemeente die bijzondere kleur, waar velen in de loop der jaren door geboeid zijn.</p>
+            </div>
+
+            <div class="card card-accent-orange">
+              <h3>Dopen &amp; Kleine Kerk</h3>
+              <p><strong>Dopen:</strong> Er is gelegenheid om te dopen op de eerste zondag van de maand. Vóór de doop wordt een gesprek gehouden bij de ouders thuis, waarin de betekenis van de doop en de gang van zaken tijdens de doopviering worden doorgesproken. Voor een doopdienst kunt u contact opnemen met de koster.</p>
+              <p><strong>Kleine Kerk:</strong> Op de eerste en derde zondag van de maand wordt in Mariëndal (Duivelsbruglaan 13) een dienst gehouden met de kinderen. Contact: <a href="mailto:kleinekerkginneken@outlook.com">kleinekerkginneken@outlook.com</a>.</p>
+            </div>
+
+            <div class="card card-accent-purple">
+              <h3>Cantorij &amp; Organisten</h3>
+              <p><strong>De Cantorij:</strong> Zingt één keer per maand in de kerkdienst en op kerkelijke hoogtijdagen. Repetities vinden plaats op elke woensdag van 20:00 – 21:30 uur in Mariëndal.<br />
+              Cantor-organist: dhr. G.W.G. van Spankeren (tel. 0168-472765).<br />
+              Contactpersoon: mevr. Henriette van IJzeren (tel. 076-5652949).</p>
+              <p><strong>Organisten:</strong><br />
+              1e organist: dhr. G.W.G. van Spankeren (0168-472765)<br />
+              2e organist: dhr. A. Eikelboom</p>
+            </div>
+
+            <div class="card">
+              <h3>Goede Week, Advent &amp; Avondgebed</h3>
+              <p><strong>Avondgebed &amp; 40-dagentijd:</strong> In de adventstijd en veertigdagentijd voor Pasen wordt het avondgebed tezamen met de R.K. Jeruzalem-parochie gevierd. Gebedsvieringen vinden plaats in de vijf weken voorafgaande aan de Goede Week op dinsdagavond in de R.K. Laurentiuskerk (Ginnekenweg 333) om 19:00 uur.</p>
+              <p><strong>De Goede Week:</strong> Lijdensmeditatie op maandag, dinsdag en woensdag om 19:30 uur in de Prot. Laurentiuskerk. Witte Donderdag om 19:30 uur avondmaal rond de tafel in het koor. Goede Vrijdag om 15:00 uur lijdensmeditatie. Paasnacht om 21:00 uur.</p>
+              <p><strong>Oecumenische Adventsvieringen:</strong> Op de vier woensdagavonden vóór Kerstmis in de Prot. Laurentiuskerk van 19:00 – 19:30 uur.</p>
+            </div>
+
+            <div class="card">
+              <h3>Bijzondere Diensten, Huwelijk &amp; Rouw</h3>
+              <p><strong>Bijzondere diensten:</strong> Gezamenlijk met andere protestantse gemeenten op Hemelvaartsdag, in de zomertijd en op de laatste zondag van oktober (Ontmoetingsdienst) om 10:30 uur in de Grote Kerk Breda.</p>
+              <p><strong>Huwelijksdiensten:</strong> Het bruidspaar neemt vroegtijdig contact op met de predikant voor de liturgie en met de koster voor het bespreken van de kerk.</p>
+              <p><strong>Rouwdiensten (Gedachtenisdienst):</strong> Bij rouwdiensten gedenken wij het unieke van die ene mens in het licht van het evangelie. De uitvaartleider neemt contact op met de koster.</p>
+            </div>
+
+            <div class="card">
+              <h3>Bloemendienst, Koffie &amp; Tehuizen</h3>
+              <p><strong>Bloemendienst:</strong> Elke zondagmorgen staan er bloemen op de tafel en bij het doopvont, die als groet worden gebracht naar een gemeentelid. Voorstellen kunt u doorgeven aan een van de diakenen.</p>
+              <p><strong>Koffiedrinken:</strong> Na de dienst in Mariëndal. Opgave vrijwilligers bij dhr. L. Nicolai (Bavelselaan 300, tel. 076-5153453).</p>
+              <p><strong>Diensten in de tehuizen:</strong><br />
+              &bull; <em>Huize Ruitersbos:</em> 1x per maand op vrijdagmiddag om 16:00 uur.<br />
+              &bull; <em>De IJpelaar:</em> Avondmaalsviering op nader te bepalen data.<br />
+              &bull; <em>Kerstfeest ouderen (70+):</em> In Mariëndal, georganiseerd door het Kerkelijk Huisbezoek.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 3: GEMEENTENIEUWS & AGENDA (agenda.php + agendaarchief.php)
+         ======================================================================== -->
+    <section id="sec-nieuws" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Actueel &amp; Agenda</span>
+          <h1 class="section-title">Laatste nieuws uit onze gemeente</h1>
+          <p class="section-lead">
+            Bekijk hieronder de actuele nieuwsberichten, concerten, gemeenteavonden en activiteiten. Klik op een bericht om het volledige artikel te lezen.
+          </p>
+        </div>
+
+        <!-- Actuele Nieuwsberichten Grid -->
+        <div id="news-grid-main" class="grid-3" style="margin-bottom:3.5rem;"></div>
+
+        <!-- Doorzoekbaar Nieuwsarchief -->
+        <div class="card card-accent-taupe">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;margin-bottom:1.25rem;">
+            <div>
+              <h3>Nieuwsarchief Protestantse Gemeente Ginneken</h3>
+              <p style="font-size:0.9rem;margin:0;">Doorzoek eerdere artikelen en activiteiten uit onze gemeente.</p>
+            </div>
+            <input
+              type="search"
+              placeholder="Filter archief op trefwoord of datum…"
+              oninput="filterNewsArchive(this.value)"
+              style="padding:0.6rem 1rem;border-radius:999px;border:1px solid var(--border-color);min-width:280px;font-family:inherit;font-size:0.9rem;"
+            />
+          </div>
+          <div style="overflow-x:auto;max-height:520px;overflow-y:auto;">
+            <table class="info-table">
+              <thead>
+                <tr style="border-bottom:2px solid var(--border-color);">
+                  <th style="width:120px;">Datum</th>
+                  <th style="width:280px;">Titel</th>
+                  <th>Samenvatting</th>
+                  <th style="width:90px;">Actie</th>
+                </tr>
+              </thead>
+              <tbody id="news-archive-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 4: VERDIEPING & RONDOM HET LEREN (verdieping.php + rondomhetleren.html)
+         ======================================================================== -->
+    <section id="sec-verdieping" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Bezinning, Symboliek &amp; Vorming</span>
+          <h1 class="section-title">Verdieping &amp; Rondom het Leren</h1>
+          <p class="section-lead">
+            Artikelen over de symboliek in onze Laurentiuskerk ("Schatten van Laurentius"), lezingen, catechese, kringen en theologische vorming. Kopij kan worden aangeleverd bij webredacteur <a href="mailto:lnicolai@ziggo.nl">dhr. L. Nicolai</a>.
+          </p>
+        </div>
+
+        <!-- 10 Verdiepingsartikelen (volledig leesbaar) -->
+        <h2 style="font-family:var(--font-serif);font-size:1.5rem;margin-bottom:1.25rem;">Verdiepingsartikelen &amp; Schatten van Laurentius</h2>
+        <div id="verdieping-grid" class="grid-3" style="margin-bottom:3.5rem;"></div>
+
+        <!-- Rondom het Leren (volledige inhoud van rondomhetleren.html) -->
+        <div style="padding-top:2.5rem;border-top:1px solid var(--border-subtle);">
+          <span class="section-eyebrow">Kerkgids &bull; Rubriek Leren</span>
+          <h2 class="section-title">Rondom het Leren: Catechese, Kringen &amp; Cursussen</h2>
+          <div class="grid-3" style="margin-top:1.5rem;">
+            <div class="card card-accent-red">
+              <h3>Basiscatechese &amp; Belijdeniscatechese</h3>
+              <p><strong>Basiscatechese:</strong> Op aanvraag wordt er basiscatechese gegeven voor kinderen van 10, 11 en 12 jaar. Contactpersoon: u kunt contact opnemen met de koster of predikant.</p>
+              <p><strong>Belijdeniscatechese:</strong> Mensen die ongeacht welke leeftijd belijdeniscatechese willen volgen, zijn van harte welkom.</p>
+            </div>
+
+            <div class="card card-accent-orange">
+              <h3>Kringwerk &amp; Oecumenische Kring Bavel</h3>
+              <p>Actuele informatie over gespreksgroepen en lezingen is te vinden op de pagina Gemeentenieuws &amp; Agenda.</p>
+              <p><strong>Oecumenische kring Bavel:</strong> Komt 1x per 6 weken op donderdagavond om 20:00 uur bij elkaar in het parochiecentrum te Bavel.<br />
+              Contactpersoon: Wim Eland, tel. <a href="tel:0765613598">076-5613598</a>.</p>
+            </div>
+
+            <div class="card card-accent-purple">
+              <h3>Theologische Vorming Gemeenteleden (TVG)</h3>
+              <p>Vanuit de PKN worden driejarige cursussen Theologische Vorming Gemeenteleden georganiseerd in Noord-Brabant (o.a. Aalburg, 's-Hertogenbosch en Eindhoven).</p>
+              <p><strong>Toelating &amp; Kosten:</strong> Iedereen met belangstelling voor theologie kan deelnemen zonder vooropleidingseisen. Kosten: € 180 – € 250 per jaar (plus ca. € 45 boeken). Meer info via <a href="https://protestantsekerk.nl" target="_blank" rel="noopener">protestantsekerk.nl</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 5: JEUGD, DE KLEINE KERK, PAPERCLIP & STUDENTEN
+         ======================================================================== -->
+    <section id="sec-jeugd" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Jongeren, Kinderen &amp; Studenten</span>
+          <h1 class="section-title">Jeugd, De Kleine Kerk &amp; Studenten</h1>
+          <p class="section-lead">
+            De jeugd heeft de toekomst! De kerk is voor iedereen, jong en oud. Ontdek hier alles over De Kleine Kerk (kindernevendienst), de tienergroep, Paperclip en studentenvereniging CSV Ichthus Breda.
+          </p>
+        </div>
+
+        <div class="grid-3" style="margin-bottom:3rem;">
+          <div class="card card-accent-red">
+            <span class="badge badge-red" style="margin-bottom:0.5rem;">4 jaar t/m groep 8</span>
+            <h3>De Kleine Kerk</h3>
+            <p>Omdat we zoveel leuke dingen op het programma hebben staan, hopen we dat jullie allemaal gezellig elke keer naar De Kleine Kerk komen. Neem gerust een vriendje of vriendinnetje mee!</p>
+            <ul style="font-size:0.9rem;color:var(--text-secondary);padding-left:1.1rem;margin-bottom:1rem;">
+              <li><strong>Door wie:</strong> Brigitte, Hanneke, Marguerite en Nynke</li>
+              <li><strong>Voor wie:</strong> Kinderen vanaf 4 jaar t/m groep 8</li>
+              <li><strong>Wanneer:</strong> Tijdens de dienst op de 1e (en 3e) zondag van de maand, de hele periode voor Pasen en de kerstperiode</li>
+              <li><strong>Wat:</strong> Bijbelverhalen en projecten rondom Pasen, Kerstmis, Hemelvaart en Pinksteren</li>
+            </ul>
+            <p style="font-size:0.9rem;">Contact: <a href="mailto:kleinekerkginneken@outlook.com">kleinekerkginneken@outlook.com</a></p>
+          </div>
+
+          <div class="card card-accent-orange">
+            <span class="badge badge-orange" style="margin-bottom:0.5rem;">Middelbare School &amp; Paperclip</span>
+            <h3>Jeugd / Tieners &amp; Paperclip</h3>
+            <p>Voor ‘de Jeugd’ / Tieners van de middelbare school is er een speciale groep gevormd. Zij komen bij elkaar op de <strong>eerste zondag van de maand</strong> voor een viering, afwisselend in de Markuskerk, Johanneskerk of in onze eigen Laurentiuskerk, onder leiding van een jeugdouderling.</p>
+            <p><strong>Paperclip:</strong> Onze vrolijke kinderpagina met nieuws, knutselactiviteiten (zoals Christingles en Palmpasenstokken maken) en kleurplaten voor De Kleine Kerk!</p>
+          </div>
+
+          <div class="card card-accent-purple">
+            <span class="badge badge-purple" style="margin-bottom:0.5rem;">Studenten in Breda</span>
+            <h3>CSV Ichthus Breda</h3>
+            <p>CSV Ichthus Breda is dé christelijke studentenvereniging in Breda. Wij staan voor groei, gezelligheid en geloof met een zachte G! De vereniging bestaat voornamelijk uit studenten van BUas (NHTV) en Avans.</p>
+            <p><strong>Bijeenkomsten &amp; Activiteiten:</strong> Op kringen en verdiepingsavonden verdiepen we ons samen in het woord van God en ondernemen we gezellige activiteiten.</p>
+            <p><a href="http://www.ichthusbreda.nl/" target="_blank" rel="noopener" style="font-weight:700;">Bezoek www.ichthusbreda.nl &nearr;</a></p>
+          </div>
+        </div>
+
+        <h2 style="font-family:var(--font-serif);font-size:1.5rem;margin-bottom:1.25rem;">Berichten &amp; Projecten van De Kleine Kerk</h2>
+        <div id="kleinekerk-grid" class="grid-3"></div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 6: FOTOALBUMS (fotos.php + alle 14 albums met 346 foto's)
+         ======================================================================== -->
+    <section id="sec-fotos" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Beeldarchief</span>
+          <h1 class="section-title">Fotoalbums van onze gemeente</h1>
+          <p class="section-lead">
+            Bekijk hier de 14 fotoalbums (346 foto's) van onze kerkelijke activiteiten, de Laurentiuskerk, Open Kerk, Kunst en vieringen. Klik op een album om de foto's en diavoorstelling te openen.
+          </p>
+        </div>
+
+        <div id="albums-grid" class="grid-3"></div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 7: PASTORAAT & VEILIGE KERK (pastoraat.html + Gedragscode)
+         ======================================================================== -->
+    <section id="sec-pastoraat" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Omzien naar elkaar</span>
+          <h1 class="section-title">Pastoraat &amp; Veilige Kerk</h1>
+          <p class="section-lead">
+            Wat het pastoraat voor u kan betekenen en hoe wij samen zorgen voor een veilige en vertrouwde geloofsgemeenschap.
+          </p>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:3rem;">
+          <div class="card card-accent-red">
+            <h3>Wat het Pastoraat voor u kan betekenen</h3>
+            <p>Ouderlingen zijn samen met de predikant verantwoordelijk voor de pastorale zorg. Daartoe behoort het bezoeken van de leden van de gemeente. Een gemeentelid dat graag met de predikant of een van de ouderlingen een gesprek wil, kan dat kenbaar maken na de kerkdienst of via de telefoon.</p>
+            <p>Redenen voor een gesprek kunnen zijn: vragen of gedachten die leven met betrekking tot het reilen en zeilen van de gemeente tot en met levensvragen van allerlei aard in relatie tot het geloof. Daarnaast beschouwen zij het als hun taak waar mogelijk bij te dragen aan toerusting van de gemeente bij het vervullen van de pastorale en de missionaire taken van de gemeente als zodanig en ieder gemeentelid afzonderlijk.</p>
+          </div>
+
+          <div class="card card-accent-orange">
+            <h3>Zorg voor de gemeenschap</h3>
+            <p>Ouderlingen hebben vooral ook de zorg voor de gemeente als gemeenschap en zij proberen mensen te motiveren om zich met de gemeente verbonden te blijven voelen. Zij dragen in het bijzonder medeverantwoordelijkheid voor de bediening van het Woord en de sacramenten. Dat betekent hun ambtelijke tegenwoordigheid in de kerkdiensten.</p>
+            <p>De ouderlingen en de predikant vergaderen gemiddeld eenmaal per maand.</p>
+            <div style="margin-top:1.25rem;padding:1rem;background:var(--bg-cream);border-radius:8px;">
+              <strong>Direct contact met de predikant of scriba:</strong><br />
+              Predikant dr. G.P.Th. Bosma: <a href="mailto:pgg.predikant@gmail.com">pgg.predikant@gmail.com</a><br />
+              Scriba mevr. W. Luijk: <a href="mailto:pgg.scribaat@gmail.com">pgg.scribaat@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Veilige Kerk & Volledige 10-punts Gedragscode -->
+        <div id="veilige-kerk-anchor" class="card card-accent-purple">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;">
+            <div>
+              <span class="badge badge-purple" style="margin-bottom:0.4rem;">Preventiebeleid Protestantse Gemeente Ginneken</span>
+              <h2 style="font-family:var(--font-serif);font-size:1.65rem;">Gedragscode "Veilige Kerk"</h2>
+            </div>
+            <a href="https://protestantsegemeenteginneken.nl/documenten/Gedragscode.pdf" target="_blank" rel="noopener" class="btn btn-outline">
+              Download Gedragscode (PDF) &nearr;
+            </a>
+          </div>
+
+          <p>De Protestantse Kerk in Nederland wil een veilige kerk zijn, een plaats waar mensen in vrijheid en vertrouwen samenkomen om hun geloof gestalte te geven. Als Protestantse Gemeente Ginneken onderschrijven wij dit en daarom gebruiken wij onderstaande gedragscode voor alle vrijwilligers op elk terrein van het kerkenwerk.</p>
+
+          <div class="grid-2" style="margin:1.75rem 0;">
+            <div>
+              <p><strong>1. Veilige omgeving:</strong> We werken samen aan een omgeving en een sfeer waarbinnen iedereen zich veilig en gerespecteerd voelt en vrijuit het geloof kan beleven.</p>
+              <p><strong>2. Respect:</strong> We respecteren elkaar en anderen. We benaderen de ander niet op een manier die haar of hem in waardigheid en integriteit aantast. Dit geldt in het bijzonder voor minderjarigen en andere kwetsbaren. Extra zorgvuldig zijn we bij pastorale en diaconale contacten.</p>
+              <p><strong>3. Geheimhouding:</strong> We gaan zorgvuldig om met vertrouwelijke (waaronder persoonlijke) informatie of gegevens van anderen, waaronder alles waarop onze geheimhoudingsplicht betrekking heeft.</p>
+              <p><strong>4. Persoonlijke integriteit:</strong> We respecteren de rechten van de ander. We berokkenen de ander geen schade. We vermijden fysiek of mentaal geweld.</p>
+              <p><strong>5. Lichamelijke integriteit:</strong> We respecteren elkaars lichamelijke integriteit. We zijn terughoudend in fysiek contact.</p>
+            </div>
+            <div>
+              <p><strong>6. Privacy:</strong> We respecteren de privacy van de ander en zullen ons niet mengen in het privéleven van mensen dan voor het uitoefenen van de functie strikt noodzakelijk is.</p>
+              <p><strong>7. Taalgebruik:</strong> Ons taalgebruik is respectvol. We stellen geen ongepaste vragen en maken geen ongewenste (seksueel getinte) opmerkingen. We praten met respect over de ander, ook via sociale media. We roddelen niet.</p>
+              <p><strong>8. Financiële belangen:</strong> We vermijden elke vorm van belangenverstrengeling, in het bijzonder op financieel terrein. Met giften en eigendommen gaan we zorgvuldig en integer om.</p>
+              <p><strong>9. Seksueel misbruik:</strong> We volgen in geval van (seksueel) misbruik of vermoedens daarvan het Protocol van de PKN. Alle seksuele handelingen, contacten en relaties tussen een vrijwilliger en een minderjarige zijn onder geen beding geoorloofd.</p>
+              <p><strong>10. Een cultuur van openheid:</strong> We zijn alert en spreken elkaar aan wanneer we signalen opvangen of situaties van ongewenst gedrag meemaken.</p>
+            </div>
+          </div>
+
+          <div style="background:var(--pkn-purple-light);padding:1.25rem 1.5rem;border-radius:12px;">
+            <h4 style="color:var(--pkn-purple);margin-bottom:0.5rem;">Vertrouwenspersonen Protestantse Gemeente Ginneken</h4>
+            <p style="font-size:0.92rem;margin-bottom:0.5rem;">Wanneer u aarzelt over de aanvaardbaarheid van gedrag van uzelf of een ander, kunt u vertrouwelijk contact opnemen met een van onze vertrouwenspersonen:</p>
+            <div style="display:flex;flex-wrap:wrap;gap:1.5rem;font-weight:700;">
+              <a href="mailto:rookmaaker@hetnet.nl">&#9993; Annet Rookmaaker (rookmaaker@hetnet.nl)</a>
+              <a href="mailto:jelle-ina121@hotmail.com">&#9993; Jelle Loosman (jelle-ina121@hotmail.com)</a>
+              <a href="mailto:leendertwoltering@gmail.com">&#9993; Leo Woltering (leendertwoltering@gmail.com)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 8: DIACONAAT & ZWO (diaconaat.html)
+         ======================================================================== -->
+    <section id="sec-diaconaat" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Barmhartigheid &bull; Gerechtigheid &bull; Wederkerigheid</span>
+          <h1 class="section-title">Diaconaat, ZWO &amp; Kerkelijk Huisbezoek</h1>
+          <p class="section-lead">
+            De Diaconie houdt zich bezig met zorg en aandacht voor wie dat nodig hebben, dichtbij in Breda en wereldwijd via Kerk in Actie en ZWO.
+          </p>
+        </div>
+
+        <div class="grid-sidebar">
+          <div style="display:flex;flex-direction:column;gap:1.75rem;">
+            <div class="card card-accent-red">
+              <h3>Taken van de Diaconie</h3>
+              <p>De Diaconie verkrijgt haar middelen uit wekelijkse collecten in de eredienst, giften en rente uit vermogen. Daarnaast zijn er inzamelingsacties voor speciale projecten. Het geld wordt besteed aan doelen uit het landelijke collecterooster (waarbij <strong>Kerk in Actie</strong> wereldwijd een belangrijke rol speelt) en projecten dichter bij huis, zoals:</p>
+              <ul style="padding-left:1.25rem;color:var(--text-secondary);margin-bottom:1rem;">
+                <li>Het Studentenpastoraat Breda</li>
+                <li>De Voedselbank Breda &amp; het Annahuis</li>
+                <li>Tools to Work in Teteringen &amp; Stichting HIBO</li>
+                <li>Individuele hulp in gevallen waar geen andere helper is</li>
+              </ul>
+              <p>In de eigen gemeente verzorgt de Diaconie o.a. de Kerst- en Paasgroet aan oudere gemeenteleden, het kerkelijk huisbezoek, de KerkWebRadio, de voorjaars-, herfst- en kerstlunches en de <strong>maandelijkse lunch op de laatste zondag van de maand</strong>.</p>
+            </div>
+
+            <div class="card card-accent-orange">
+              <h3>ZWO-commissie: Project Stichting Community Muona Malawi</h3>
+              <p>De ZWO-commissie (Zending, Werelddiaconaat en Ontwikkelingssamenwerking) werkt nauw samen met ZWO Breda, Ginneken en Prinsenbeek. Het huidige project ondersteunt <strong>Stichting Community Muona Malawi</strong> en haar lokale partner <em>Muona Foundation</em>.</p>
+              <p><strong>Onderwijs, Noodfonds &amp; Vakopleidingen:</strong> Voor € 250 per schooljaar (inclusief vervoer) kunnen kinderen uit kansarme gezinnen naar een kostschool voor middelbaar onderwijs. Daarnaast steunt de ZWO-groep het <strong>Noodfonds</strong> voor bijna-afgestudeerde studenten én praktijkgerichte <strong>naai- en lascursussen</strong> voor 20 cursisten in Muona, inclusief begeleiding bij het starten van een eigen bedrijf.</p>
+              <div style="background:var(--pkn-orange-light);padding:1rem;border-radius:8px;font-size:0.92rem;">
+                <strong>Steun het Malawi-project:</strong><br />
+                Donaties voor het Noodfonds en de naai- en lascursussen zijn welkom op <strong>NL14 INGB 0001 5429 41</strong> t.n.v. College van Diakenen PGB afdeling ZWO, o.v.v. <em>"malawi"</em>.
+              </div>
+            </div>
+
+            <div class="card card-accent-taupe">
+              <h3>Kerkelijk Huisbezoek</h3>
+              <p>Het Kerkelijk Huisbezoek brengt een bezoek met een bloemetje aan jarigen (80 jaar, 85 jaar en vervolgens iedere verjaardag daarna) en huwelijksjubilarissen in de gemeente. De groep komt eens per kwartaal ongeveer een uur bij elkaar om de bezoeken af te stemmen. Gemeenteleden die willen meedoen aan deze groep zijn van harte welkom!</p>
+            </div>
+          </div>
+
+          <!-- Rechterkolom: Contact & Rekeningnummers Diaconie -->
+          <div style="display:flex;flex-direction:column;gap:1.5rem;">
+            <div class="card card-accent-red">
+              <h3>Contact &amp; IBAN Diaconie</h3>
+              <table class="info-table">
+                <tr>
+                  <th>Voorzitter Diaconie</th>
+                  <td>Mevr. Diny Koopmanschap<br /><a href="mailto:pgg.diaconie@gmail.com">pgg.diaconie@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <th>Contact Diaconie</th>
+                  <td>Mevr. C. van Wijk<br /><a href="mailto:pgg.diaconie@gmail.com">pgg.diaconie@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <th>IBAN Diaconie</th>
+                  <td><strong>NL98 RABO 0373 7372 54</strong><br />t.n.v. Diaconie PG Ginneken</td>
+                </tr>
+                <tr>
+                  <th>ZWO Contact</th>
+                  <td>Mevr. B.C.M. Koopmanschap<br /><a href="mailto:bcmkoopmanschap@gmail.com">bcmkoopmanschap@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <th>Breda–Wismar–Arad</th>
+                  <td>Mw. Frankfoorder-Boevé<br /><a href="https://www.pknbreda.nl/diaconie" target="_blank" rel="noopener">Diaconie PKN Breda &nearr;</a></td>
+                </tr>
+              </table>
+              <button class="btn btn-outline" style="width:100%;margin-top:0.75rem;" onclick="navigateTo('anbi')">
+                Bekijk ANBI-gegevens Diaconie &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 9: KERKENWERK & OECUMENE (werkaandekerk.html)
+         ======================================================================== -->
+    <section id="sec-kerkenwerk" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Samenwerking in Breda &amp; Oecumene</span>
+          <h1 class="section-title">Kerkenwerk &amp; Oecumene</h1>
+          <p class="section-lead">
+            Hoe wij invulling geven aan de samenwerking met de Protestantse Gemeente Breda, de omliggende wijkgemeenten, de R.K. Parochie en de Raad van Kerken Breda.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card card-accent-red">
+            <h3>Protestantse Gemeente Breda &amp; Wijkgemeenten</h3>
+            <p>Er is een regelmatig overleg tussen de Protestantse Gemeente Ginneken en de Protestantse Gemeente Breda.<br />
+            <strong>Scriba Centrale Kerkenraad:</strong> dhr. A. Walet<br />
+            <strong>Kopij kerkblad S'amen:</strong> <a href="mailto:samen@protestantsegemeentebreda.nl">samen@protestantsegemeentebreda.nl</a><br />
+            <strong>Website:</strong> <a href="http://www.protestantsegemeentebreda.nl" target="_blank" rel="noopener">www.protestantsegemeentebreda.nl &nearr;</a></p>
+
+            <h4 style="margin-top:1.25rem;">Zusterkerken in Breda:</h4>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:0.75rem;margin-top:0.5rem;font-size:0.92rem;">
+              <li>
+                <strong><a href="https://www.lucaskerk.nl/" target="_blank" rel="noopener">Lucaskerk (Wijkgemeente NoorderBeemden) &nearr;</a></strong><br />
+                Tweeschaar 125, 4822 AS Breda (tel. 076-542 24 33) &bull; Aanvang zondagdienst: 10:45 uur (vacant)
+              </li>
+              <li>
+                <strong><a href="https://www.johanneskerkbreda.nl/" target="_blank" rel="noopener">Johanneskerk (Wijkgemeente Midden/Zuid) &nearr;</a></strong><br />
+                Dreef 5, 4813 ED Breda / Princenhage (tel. 076-521 05 45) &bull; Aanvang zondagdienst: 10:00 uur (vacant)
+              </li>
+              <li>
+                <strong><a href="https://www.markuskerk.nl/" target="_blank" rel="noopener">Markuskerk &nearr;</a></strong><br />
+                Hooghout 96, 4817 ED Breda (tel. 076-514 00 80) &bull; Aanvang: 10:00 uur<br />
+                Predikant: Ds. T. van Prooijen (Arenberglaan 168, tel. 076-542 33 34, <a href="mailto:tonvanprooijen@gmail.com">tonvanprooijen@gmail.com</a>)
+              </li>
+              <li>
+                <strong><a href="https://ekklesiabreda.nl/luthersekerk/" target="_blank" rel="noopener">Lutherse kerk &nearr;</a></strong><br />
+                Veemarktstraat 11 / Stadserf 3, 4811 ZB Breda &bull; Aanvang: 10:30 uur (Scriba: dhr. J.N. Dijkshoorn)
+              </li>
+            </ul>
+          </div>
+
+          <div class="card card-accent-orange">
+            <h3>Oecumene &amp; Raad van Kerken Breda</h3>
+            <p><strong>R.K. Parochie van de Heilige Familie (<a href="http://www.parochieheiligefamilie.nl/" target="_blank" rel="noopener">parochieheiligefamilie.nl &nearr;</a>):</strong></p>
+            <ul style="padding-left:1.2rem;font-size:0.92rem;color:var(--text-secondary);margin-bottom:1rem;">
+              <li>Pastor M. Kurstjens — Mariakerk, Mariaplein 1, Breda (tel. 076-5652260)</li>
+              <li>Pastor P. Derks — Petrus en Pauluskapel, Gr. Hendrik III-plein 28 (tel. 076-5210656)</li>
+              <li>Pastoor Lars Peetam — Ginnekenweg 335, Breda (tel. 076-5655433)</li>
+              <li>Ouderenpastoraat &amp; Sint Laurentiuskerk Ulvenhout (Dorpsstraat 42, tel. 076-5612308): mw. Marjan Luijben</li>
+              <li>Bavel (Heilige Maria Hemelvaart kerk, Kloosterstraat 3, tel. 0161-434279): Pastor P. Derks — regelmatig oecumenische diensten</li>
+            </ul>
+
+            <p><strong>Raad van Kerken Breda:</strong><br />
+            Elke dinsdag is er om <strong>12:30 uur een middaggebed</strong> in de Grote Kerk aan de Markt in Breda. Secretaris: mw. P. Kemna-Wilms. Website: <a href="https://www.raadvankerkenbreda.nl/" target="_blank" rel="noopener">www.raadvankerkenbreda.nl &nearr;</a></p>
+
+            <p><strong>Oecumenische doop- en huwelijksviering:</strong><br />
+            Het komt hier in het Zuiden regelmatig voor dat er om een oecumenische huwelijks- of doopviering wordt gevraagd. De dienst wordt dan samen met de predikant en een pastor voorbereid. Neem hiervoor contact op met de koster en de pastor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 10: KERKRENTMEESTERS, PUBLICITEIT & KERKGIDS
+         ======================================================================== -->
+    <section id="sec-organisatie" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Beheer, Communicatie &amp; Kerkgids</span>
+          <h1 class="section-title">Kerkrentmeesters, Publiciteit &amp; Kerkgids</h1>
+          <p class="section-lead">
+            Informatie over het College van Kerkrentmeesters, onze fondsen en bankrekeningen, de maandelijkse Laurentius Nieuwsbrief, Kerknieuws Ginneken en het privacybeleid.
+          </p>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:2.5rem;">
+          <!-- College van Kerkrentmeesters -->
+          <div class="card card-accent-red">
+            <h3>College van Kerkrentmeesters (voorheen Kerkvoogdij)</h3>
+            <p>De voornaamste taak van het college bestaat uit het verwerven en beheren van geldmiddelen en goederen (gebouwen, terreinen en financiën) ten dienste van de kerk. Contactpersoon: Secretaris <strong>dhr. F. Wunschmann</strong> (<a href="mailto:pgg.kerkrentmeesters@gmail.com">pgg.kerkrentmeesters@gmail.com</a>).</p>
+
+            <table class="info-table">
+              <tr>
+                <th>IBAN Algemeen (ING)</th>
+                <td><strong>NL50 INGB 0001 0790 21</strong><br />t.n.v. Protestantse Gemeente Ginneken</td>
+              </tr>
+              <tr>
+                <th>IBAN Algemeen (ABN AMRO)</th>
+                <td><strong>NL27 ABNA 0109 6381 07</strong><br />t.n.v. Protestantse Gemeente Ginneken</td>
+              </tr>
+              <tr>
+                <th>IBAN Kerknieuws (€ 25 - € 27,50/jr)</th>
+                <td><strong>NL72 INGB 0009 0241 86</strong><br />t.n.v. Protestantse Gemeente Ginneken</td>
+              </tr>
+            </table>
+
+            <h4>Actie Kerkbalans, Bloemenfonds &amp; Restauratiefonds</h4>
+            <p><strong>Financiën &amp; Kerkbalans:</strong> De belangrijkste bron van inkomsten vormt de jaarlijkse actie Kerkbalans in januari. Uit deze opbrengst worden de kosten verbonden aan de predikantsplaats betaald alsmede de salarissen voor koster en organist.</p>
+            <p><strong>Bloemenfonds:</strong> Voor de wekelijkse bloemen op de avondmaalstafel en bij het doopvont. Extra bijdragen zijn welkom o.v.v. <em>Bloemenfonds Protestantse Gemeente Ginneken</em>.</p>
+            <p><strong>Restauratiefonds:</strong> Bestemd voor de instandhouding van ons monumentale kerkgebouw (o.a. toekomstige dakrenovatie). Bijdragen of legaten zijn welkom o.v.v. <em>Restauratiefonds Protestantse Gemeente Ginneken</em>.</p>
+            <p><strong>Begraafplaatsen:</strong> Ook niet-gemeenteleden kunnen worden begraven op zowel <strong>De Bieberg</strong> als <strong>Kerkhof Oud-Ginneken</strong>. Informatie via Zuylen: <a href="tel:0765219453">076-521 94 53</a> of dhr. B. de Geus (<a href="mailto:basengreetdegeus@gmail.com">basengreetdegeus@gmail.com</a>).</p>
+            <p><a href="https://protestantsegemeenteginneken.nl/documenten/Calamiteietenplan-2024.pdf" target="_blank" rel="noopener" class="btn btn-outline" style="padding:0.45rem 1rem;font-size:0.85rem;">Download Calamiteitenplan (PDF) &nearr;</a></p>
+          </div>
+
+          <!-- Publiciteit, Nieuwsbrief & Kerkgids -->
+          <div class="card card-accent-orange">
+            <h3>Publiciteit, Kerknieuws &amp; Laurentius Nieuwsbrief</h3>
+            <p><strong>Digitale Laurentius Nieuwsbrief:</strong> Verschijnt sinds september 2022 één keer per maand voor leden, gastleden en vrienden. Kopij (max. ca. 200 woorden) graag vóór de 15e van de maand inleveren. Aanmelden, afmelden of kopij sturen kan via: <a href="mailto:pgglaurentius@gmail.com"><strong>pgglaurentius@gmail.com</strong></a>.</p>
+
+            <p><strong>Kerknieuws Ginneken:</strong> Verschijnt 9 keer per jaar (abonnementsprijs € 25,00 per jaar = kostprijs).<br />
+            Redactie: Dhr. B. van Halem &amp; Mevr. H. van IJzeren-ten Kley<br />
+            Postadres: Duivelsbruglaan 11, 4835 JD Breda &bull; E-mail: <a href="mailto:bvh@vanhalem.nl">bvh@vanhalem.nl</a></p>
+
+            <p><strong>Overige kanalen &amp; Vriendenstichting:</strong></p>
+            <ul style="padding-left:1.2rem;font-size:0.92rem;color:var(--text-secondary);margin-bottom:1rem;">
+              <li>Kerkblad <em>S’Amen</em> (digitaal aanvragen via <a href="mailto:webcoordinator@protestantsegemeentebreda.nl">webcoordinator@protestantsegemeentebreda.nl</a>), BN/De Stem, Nieuw Ginneken en Ons Blad.</li>
+              <li><strong>Stichting Vrienden van de Protestantse Laurentiuskerk:</strong> <a href="http://www.vriendenprotestantselaurentiuskerkginneken.nl" target="_blank" rel="noopener">vriendenprotestantselaurentiuskerkginneken.nl &nearr;</a></li>
+              <li><strong>Website Laurentiuskerk met quiz:</strong> <a href="https://solthor.wixsite.com/laurentius" target="_blank" rel="noopener">solthor.wixsite.com/laurentius &nearr;</a></li>
+              <li><strong>Webredacteur &amp; Webmaster:</strong> dhr. Lennart Nicolai (<a href="mailto:lnicolai@ziggo.nl">lnicolai@ziggo.nl</a>)</li>
+            </ul>
+
+            <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1rem;">
+              <a href="https://protestantsegemeenteginneken.nl/KN/Kerkgids%202017.pdf" target="_blank" rel="noopener" class="btn btn-primary" style="padding:0.5rem 1rem;font-size:0.85rem;">Download Kerkgids (PDF) &nearr;</a>
+              <a href="https://protestantsegemeenteginneken.nl/webversie_notitie_communicatie_1a.pdf" target="_blank" rel="noopener" class="btn btn-outline" style="padding:0.5rem 1rem;font-size:0.85rem;">Notitie Communicatie (PDF) &nearr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Privacyverklaring (privacyverklaring.html) -->
+        <div class="card card-accent-taupe">
+          <h3>Privacyverklaring Protestantse Gemeente Ginneken</h3>
+          <p>Dit privacystatement is van toepassing op de verwerking van persoonsgegevens van bezoekers van de website van de Protestantse Gemeente Ginneken. Wij kunnen uw voor- en achternaam, adresgegevens, telefoonnummer en e-mailadres verwerken wanneer u gebruikmaakt van onze diensten of zelf contact opneemt, uitsluitend om telefonisch of schriftelijk contact met u op te kunnen nemen.</p>
+          <p>Wij hebben passende technische en organisatorische maatregelen getroffen om uw persoonsgegevens te beschermen en verstrekken deze niet aan derden tenzij noodzakelijk voor een overeenkomst of wettelijke verplichting. U heeft het recht uw persoonsgegevens in te zien, te corrigeren of te verwijderen via <a href="mailto:pgg.kerkelijkbureau@gmail.com">pgg.kerkelijkbureau@gmail.com</a> (reactie binnen vier weken).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 11: ANBI TRANSPARANTIE (anbi.html & anbi-diaconie.html)
+         ======================================================================== -->
+    <section id="sec-anbi" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Algemeen Nut Beogende Instelling</span>
+          <h1 class="section-title">ANBI-gegevens: Kerk &amp; Diaconie</h1>
+          <p class="section-lead">
+            Zowel de Protestantse Gemeente Ginneken als de Diaconie zijn door de Belastingdienst geregistreerd als ANBI. Giften en schenkingen zijn daardoor aftrekbaar en vrijgesteld van schenk- en erfbelasting.
+          </p>
+        </div>
+
+        <!-- Wisselknoppen tussen ANBI-Kerk en ANBI-Diaconie -->
+        <div class="subnav-tabs">
+          <button class="subnav-btn active" onclick="switchSubTab('anbi', 'anbi-kerk-panel', this)">
+            1. ANBI — Protestantse Gemeente te Ginneken (Kerk)
+          </button>
+          <button class="subnav-btn" onclick="switchSubTab('anbi', 'anbi-diaconie-panel', this)">
+            2. ANBI — Diaconie Protestantse Gemeente Ginneken
+          </button>
+        </div>
+
+        <!-- PANEL 1: ANBI KERK -->
+        <div id="anbi-kerk-panel" data-tab-group="anbi">
+          <div class="grid-sidebar">
+            <div class="card card-accent-red">
+              <h3>ANBI-gegevens Protestantse Gemeente te Ginneken</h3>
+              <table class="info-table">
+                <tr><th>Naam ANBI</th><td>Protestantse gemeente te Ginneken</td></tr>
+                <tr><th>RSIN / Fiscaal nummer</th><td><strong>002650447</strong></td></tr>
+                <tr><th>Kamer van Koophandel</th><td>50858548</td></tr>
+                <tr><th>E-mail</th><td><a href="mailto:pgg.kerkelijkbureau@gmail.com">pgg.kerkelijkbureau@gmail.com</a></td></tr>
+                <tr><th>Bezoekadres</th><td>Duivelsbruglaan 1, 4835 JD Breda</td></tr>
+                <tr><th>Postadres</th><td>Postbus 4648, 4803 EP Breda</td></tr>
+              </table>
+
+              <h4 style="margin-top:1.5rem;">Samenstelling Bestuur &amp; Doelstelling</h4>
+              <p>Het bestuur van de kerkelijke gemeente ligt bij de kerkenraad (12 leden, gekozen door en uit de leden). Het College van Kerkrentmeesters telt 5 leden en beheert de financiële middelen en gebouwen. Leden van kerkenraden, colleges en commissies ontvangen geen vergoeding voor hun werkzaamheden. De beloning van de predikant en medewerkers is geregeld in de Generale Regelingen van de PKN.</p>
+
+              <h4>Uitgeoefende activiteiten</h4>
+              <ul style="padding-left:1.2rem;color:var(--text-secondary);margin-bottom:1.25rem;font-size:0.93rem;">
+                <li>Kerkdiensten op zon- en feestdagen, bij huwelijken en overlijden</li>
+                <li>Pastorale zorg aan gemeenteleden</li>
+                <li>Exploitatie en onderhoud van gebouwen en terreinen van de PG Ginneken</li>
+                <li>Deelname aan ZWO i.s.m. Protestantse Kerk Breda &amp; steun aan lokale/nationale stichtingen</li>
+                <li>Samenwerking met het (zorg)wijkteam Ginneken</li>
+                <li>Deelname aan Open Monumentendag en “Rondje Open Kerk”</li>
+                <li>Beschikbaar stellen van zalencomplex voor vergaderingen, koren en als trouwlocatie</li>
+                <li>Exploitatie van begraafplaats De Bieberg en Kerkhof Oud Ginneken</li>
+                <li>Verhuur terrein aan Scouting Ginneken</li>
+              </ul>
+
+              <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+                <a href="https://protestantsegemeenteginneken.nl/documenten/Beleidsplan-2021-2025-april-2022.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+                  Beleidsplan PG Ginneken (PDF) &nearr;
+                </a>
+                <a href="https://fris.pkn.nl/anbi-iframe?identifier=34f1efcb-a34f-4c66-9648-cf267e108501" target="_blank" rel="noopener" class="btn btn-outline">
+                  Officiële PKN FRIS ANBI-rapportage &nearr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card card-accent-orange">
+              <h3>Staat van Baten en Lasten (Kerk)</h3>
+              <p style="font-size:0.9rem;">Bekijk hieronder het financiële overzicht van de Protestantse Gemeente Ginneken (klik op de afbeelding om te vergroten):</p>
+              <a href="https://protestantsegemeenteginneken.nl/images/financials_ANBI_kerk_2025-concept.png" target="_blank" rel="noopener">
+                <img src="https://protestantsegemeenteginneken.nl/images/financials_ANBI_kerk_2025-concept.png" alt="Staat van baten en lasten ANBI Kerk" style="border-radius:8px;border:1px solid var(--border-subtle);width:100%;" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 2: ANBI DIACONIE -->
+        <div id="anbi-diaconie-panel" data-tab-group="anbi" style="display:none;">
+          <div class="grid-sidebar">
+            <div class="card card-accent-orange">
+              <h3>ANBI-gegevens Diaconie Protestantse Gemeente Ginneken</h3>
+              <table class="info-table">
+                <tr><th>Naam ANBI</th><td>Diaconie Protestantse Gemeente Ginneken</td></tr>
+                <tr><th>RSIN / Fiscaal nummer</th><td><strong>824104560</strong></td></tr>
+                <tr><th>Kamer van Koophandel</th><td>76352854</td></tr>
+                <tr><th>E-mail</th><td><a href="mailto:prot.gem.ginneken.diac@gmail.com">prot.gem.ginneken.diac@gmail.com</a></td></tr>
+                <tr><th>Postadres</th><td>Postbus 4648, 4803 EP Breda</td></tr>
+                <tr><th>Voorzitter</th><td>Diny Koopmanschap</td></tr>
+                <tr><th>Secretaris</th><td>Els Hagemans-de Vroomen</td></tr>
+                <tr><th>Financieel beheer</th><td>Bureau Krijgsman</td></tr>
+                <tr><th>Diakenen</th><td>Wil Bongers, Alain Gouamene, Els Hagemans-de Vroomen, Iris Pinel, Edward Wilms</td></tr>
+              </table>
+
+              <p style="margin-top:1rem;">De diaconie staat in een lange traditie van leniging van materiële noden binnen de eigen gemeente en daarbuiten (o.a. Annahuis, Voedselbank, inloop-koffieochtenden, drempelloze lunchbijeenkomsten, ZWO en attenties voor ouderen).</p>
+
+              <a href="https://protestantsegemeenteginneken.nl/documenten/BeleidsplanDiaconie2022-2026.pdf" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:0.5rem;">
+                Download Beleidsplan Diaconie 2022–2026 (PDF) &nearr;
+              </a>
+            </div>
+
+            <div class="card card-accent-red">
+              <h3>Staat van Baten en Lasten (Diaconie)</h3>
+              <p style="font-size:0.9rem;">Financieel ANBI-overzicht van de Diaconie (klik voor volledig formaat):</p>
+              <a href="https://protestantsegemeenteginneken.nl/images/ANBI_diaconie_2026.png" target="_blank" rel="noopener">
+                <img src="https://protestantsegemeenteginneken.nl/images/ANBI_diaconie_2026.png" alt="ANBI Diaconie Staat van Baten en Lasten" style="border-radius:8px;border:1px solid var(--border-subtle);width:100%;" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 12: GESCHIEDENIS VAN DE LAURENTIUSKERK (geschiedenis.html + extrageschiedenis.html)
+         ======================================================================== -->
+    <section id="sec-geschiedenis" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Zeven Eeuwen Historie &bull; Sinds 1316</span>
+          <h1 class="section-title">Geschiedenis van de Laurentiuskerk &amp; Gemeente</h1>
+          <p class="section-lead">
+            De historie van het kerkgebouw aan de Ginnekenmarkt, het ontstaan van onze zelfstandige protestantse gemeente in 1641 en de groei van onze liturgische identiteit.
+          </p>
+        </div>
+
+        <div class="grid-3" style="margin-bottom:3rem;">
+          <div class="card card-accent-red">
+            <span class="badge badge-red" style="margin-bottom:0.5rem;">1316 – 1998</span>
+            <h3>Historie van zeven eeuwen</h3>
+            <p>Het kerkgebouw is in het jaar <strong>1316</strong> als parochiekerk in gebruik genomen, gewijd aan de Heilige Laurentius. Aanvankelijk was de kerk driebeukig; nadat het schip in de Tachtigjarige Oorlog was opgeblazen, werd de kerk in 1631 door pastoor Van Biestraten herbouwd met één lage middenbeuk.</p>
+            <p>In <strong>1939</strong> werd een grondige restauratie voltooid onder grote invloed van de oecumenische visie van de kerkenraad en <strong>ds. B. ter Haar Romeny</strong>, met een zichtbare liturgische indeling. Na oorlogsschade in oktober 1944 werd de kerk in 1947 hersteld en in 1998 opnieuw uitvoerig gerestaureerd.</p>
+          </div>
+
+          <div class="card card-accent-orange">
+            <span class="badge badge-orange" style="margin-bottom:0.5rem;">1641 – Heden</span>
+            <h3>Ruim 380 jaar zelfstandige gemeente</h3>
+            <p>Op <strong>13 maart 1641</strong> werd een verzoek van de Hervormde Gemeente van Ginneken om een eigen predikant te mogen beroepen goedgekeurd door de Raad van State. Op zaterdag <strong>27 juni 1648</strong> werd het kerkgebouw officieel toevertrouwd aan de hervormden.</p>
+            <p>In mei 2007 kreeg de gemeente haar huidige naam binnen de PKN: <strong>Protestantse Gemeente Ginneken</strong>.</p>
+            <p><strong>Honingboom Oud Ginneken:</strong> Bekijk ook <a href="https://www.youtube.com/watch?v=1DWm0Dd6Spw/" target="_blank" rel="noopener">de BredaNu-reportage op YouTube &nearr;</a> over de bijzondere honingboom op begraafplaats Oud Ginneken.</p>
+          </div>
+
+          <div class="card card-accent-purple">
+            <span class="badge badge-purple" style="margin-bottom:0.5rem;">Naamgever</span>
+            <h3>De diaken Laurentius</h3>
+            <p>De diaken Laurentius weigerde de schatten van de kerk (heilige vaten en schriftrollen) uit te leveren aan de Romeinse keizer. Hij trad met de armen in zijn gemeente naar buiten — volgens hem de échte schatten van de kerk.</p>
+            <p>Laurentius werd daarop als martelaar ter dood gebracht op een rooster. Daarom wordt hij afgebeeld met een rooster én met een palmtak als teken van overwinning.</p>
+          </div>
+        </div>
+
+        <!-- Uitgebreide Geschiedenis (extrageschiedenis.html) -->
+        <div class="card card-accent-taupe">
+          <span class="section-eyebrow">Uitgebreide Kroniek (1795 – 1969)</span>
+          <h2 style="font-family:var(--font-serif);font-size:1.65rem;margin-bottom:1.25rem;">
+            Zelfs Napoleon kwam naar het Ginneken om zich te bemoeien met de strijd om de Laurentiuskerk
+          </h2>
+
+          <div class="grid-2">
+            <div>
+              <h4>1798: De Franse tijd en de 'Graauwmans-documenten'</h4>
+              <p>Toen bevelhebber Pichegru in januari 1795 ons land binnentrok, ontstonden er voor katholieken wettelijke mogelijkheden om kerken terug te vorderen. Op 19 juni 1798 diende een aantal Ginnekense katholieken een verzoek in voor teruggave van de kerk aan de Ginnekenmarkt (destijds getaxeerd op ruim ƒ 11.000,-). Predikant Ds. J.C. Hirschig vroeg om uitstel.</p>
+              <p>Een zevental katholieke inwoners uit Ulvenhout (C. Graauwmans, C. Laureijsen, J. van Hooijdonck, A. Meeren, C.A. Rombouts, J. van Miert en H. van Dijk) liet echter op 15 juni 1798 weten af te zien van enige aanspraak op de kerk in het Ginneken — mogelijk uit vrees voor gevolgen voor hun eigen kerk in Ulvenhout. Dankzij deze 'Graauwmans-fractie' behield de Hervormde Gemeente haar kerkgebouw.</p>
+
+              <h4>8 juli 1803 &amp; het bezoek van Koning Lodewijk Napoleon (1809)</h4>
+              <p>Op 8 juli 1803 klommen timmerman Henk Vermeulen en herbergier Anton Kuijpers de kerk binnen en vergrendelden de zijdeur met spieën. De Drossaard van de Hoge Vierschaar in Breda oordeelde later dat behalve kosteres Catharina Schellekens vrijwel iedereen fout had gehandeld. In 1809 bracht Koning Lodewijk Napoleon een bliksembezoek aan het Ginneken; de kerk van Bavel werd toen teruggegeven aan de katholieken, maar de Ginnekense kerk bleef hervormd.</p>
+            </div>
+
+            <div>
+              <h4>1830 – 1902: Belgische Opstand en de bouw van de nieuwe RK Laurentiuskerk</h4>
+              <p>Tijdens de Belgische Opstand in 1830 werden wegens cellentekort tijdelijk Belgen opgesloten in de kerktoren aan de Ginnekenmarkt. Na een laatste afgewezen terugvorderingsverzoek in 1834 (onder Ds. Roscam Abbing) bouwden de Ginnekense katholieken in 1843 een eigen kerk aan de Ginnekenweg, die in 1902 werd vervangen door de huidige kerk van architect Jos Cuypers.</p>
+
+              <h4>Ds. B. ter Haar Romeny &amp; de ramen van Charles Eyck (1964–1969)</h4>
+              <p>Vanaf 1916 leidde Ds. B. ter Haar Romeny als grote pionier de restauratie van de kerk en de aankoop van Huize 'Mariëndal' (1933) en begraafplaats De Bieberg. Na zware oorlogsschade in WOII werd de kerk prachtig hersteld. In de jaren zestig zorgde ds. A.C.D. van den Bosch voor de plaatsing van vier gebrandschilderde ramen van <strong>prof. Charles Eyck (1897–1983)</strong>: <em>"De overwinning op de dood"</em> (1964), het <em>Doopraam</em> (1965), het grote <em>Scheppingsraam</em> (1966) en <em>"Het Nieuwe Jeruzalem"</em> (1969).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 13: VERHUUR, BURGERLIJK HUWELIJK & SERVICE
+         ======================================================================== -->
+    <section id="sec-verhuur" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Faciliteiten, Gastvrijheid &amp; Dienstverlening</span>
+          <h1 class="section-title">Verhuur Mariëndal, Huwelijk &amp; Service</h1>
+          <p class="section-lead">
+            Mogelijkheden voor het huren van gemeentecentrum Mariëndal en de Laurentiuskerk, het sluiten van een burgerlijk huwelijk, kerkelijke uitvaarten en al onze vormen van gemeenteservice.
+          </p>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:2.5rem;">
+          <!-- Verhuur Mariëndal -->
+          <div class="card card-accent-red">
+            <h3>Verhuur Gemeentecentrum Mariëndal (Tarief 2026)</h3>
+            <p>Elke zondag vóór en na de kerkdienst wordt Mariëndal (Duivelsbruglaan 13) gebruikt door de eigen gemeente. Gedurende de week zijn er ruimschoots mogelijkheden om Mariëndal te huren voor bijvoorbeeld <strong>concerten, conferenties, lezingen, recepties en diploma-uitreikingen</strong>.</p>
+            <div style="background:var(--pkn-red-light);padding:1.1rem;border-radius:10px;margin:1rem 0;">
+              <strong>Huurtarief Mariëndal (2026): € 130,00 per dagdeel</strong><br />
+              &bull; Ochtend: tot 12:00 uur<br />
+              &bull; Middag: van 12:30 – 17:30 uur<br />
+              &bull; Avond: van 18:00 – 23:00 uur
+            </div>
+            <ul style="padding-left:1.2rem;font-size:0.92rem;color:var(--text-secondary);">
+              <li>De koster kan warme en/of koude dranken, broodjes e.d. verzorgen.</li>
+              <li>In overleg met de koster kunt u gebruikmaken van <strong>WiFi</strong>.</li>
+              <li>Als huurder heeft u het recht om maximaal 2 auto's op het terrein te parkeren (overige auto's op het Schoolakkerplein).</li>
+              <li><strong>Reserveren:</strong> Neem contact op met koster-beheerder Ingeborg Haspels via <a href="tel:0652148933">06-52148933</a> of <a href="mailto:pgg.koster@gmail.com">pgg.koster@gmail.com</a>.</li>
+            </ul>
+          </div>
+
+          <!-- Burgerlijk Huwelijk -->
+          <div id="burgerlijk-huwelijk-anchor" class="card card-accent-orange">
+            <h3>Burgerlijk Huwelijk in de Laurentiuskerk</h3>
+            <p>In het bruisend hart van Ginneken is het sinds 1 januari 2013 mogelijk om uw <strong>burgerlijk huwelijk c.q. geregistreerd partnerschap</strong> in de Protestantse Laurentiuskerk aan de Duivelsbruglaan 1 te laten voltrekken.</p>
+            <p>Deze locatie is door de gemeenteraad van Breda aangemerkt als <strong>"huis van de gemeente"</strong>, wat betekent dat in de kerk én op het gehele terrein van de kerk — inclusief de consistoriekamer en de tuinen — een burgerlijk huwelijk kan en mag worden voltrokken.</p>
+            <p>De Protestantse Gemeente zorgt voor de locatie en de gemeente Breda voor de ambtenaar van de burgerlijke stand. Voor verdere informatie en het formulier voor de optieovereenkomst kunt u contact opnemen met de koster (<a href="mailto:pgg.koster@gmail.com">pgg.koster@gmail.com</a>).</p>
+          </div>
+        </div>
+
+        <!-- Kerk en Uitvaart & Service rubrieken -->
+        <div class="grid-3">
+          <div class="card card-accent-purple">
+            <h3>Kerk en Uitvaart</h3>
+            <p><strong>Wat te doen bij overlijden?</strong> Wanneer u voor een (kerkelijke of niet-kerkelijke) uitvaart in de Laurentiuskerk kiest, is het van belang dat de uitvaartbegeleider eerst contact opneemt met koster <strong>Ingeborg Haspels (06-52148933)</strong> voordat harde afspraken worden gemaakt.</p>
+            <p>Via haar worden de kerk en Mariëndal vastgelegd en wordt nagegaan of predikant en organist beschikbaar zijn. Met de predikant bespreekt u inhoud en vorm van een betekenisvolle en troostende afscheidsbijeenkomst. Ook het huren van het kerkgebouw/Mariëndal voor een niet-kerkelijk afscheid (zonder predikant) is in overleg mogelijk.</p>
+          </div>
+
+          <div id="open-kerk-anchor" class="card card-accent-taupe">
+            <h3>Open Kerk Ginneken</h3>
+            <p>Elke <strong>eerste zaterdag van de maand</strong> en <strong>iedere zaterdag in juli en augustus</strong> is de kerk ’s middags open voor bezoekers. Ook gaan de deuren open tijdens evenementen zoals Bruisend Ginneken, de Ginnekense kerstmarkt en Open Monumentendag.</p>
+            <p><strong>Openingstijden:</strong><br />
+            &bull; April t/m december: <strong>13:30 – 16:30 uur</strong><br />
+            &bull; Januari, februari en maart: <strong>13:30 – 16:00 uur</strong><br />
+            <em>(Onder voorbehoud van uitvaart- of huwelijksdiensten.)</em></p>
+          </div>
+
+          <div class="card">
+            <h3>Crèche, Koffie, Lunch &amp; KerkWebRadio</h3>
+            <p><strong>Crèche op zondag:</strong> Streven naar openstelling van 9:30 – 11:30 uur voor kinderen t/m 4 jaar. Aanmelden als vrijwilliger bij <a href="mailto:s.g.kat@planet.nl">Marije Kat</a>.</p>
+            <p><strong>Koffiedrinken na de dienst:</strong> Elke zondag in Mariëndal. Opgave vrijwilligers bij <a href="mailto:lnicolai@ziggo.nl">dhr. L. Nicolai</a>.</p>
+            <p><strong>Lunch na de dienst:</strong> Elke laatste zondag van de maand (behalve in de zomer). Opgeven bij Diny Koopmanschap of Ingeborg Haspels.</p>
+            <p><strong>KerkWebRadio:</strong> Volg de kerkdienst thuis via <a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener">kerkomroep.nl</a>. De koster helpt u graag verder.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTIE 14: CONTACT & ADRESSEN (contact.html)
+         ======================================================================== -->
+    <section id="sec-contact" class="view-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Bereikbaarheid &amp; Adressen</span>
+          <h1 class="section-title">Contact met de Protestantse Gemeente Ginneken</h1>
+          <p class="section-lead">
+            Alle contactpersonen, e-mailadressen en locaties van onze kerkelijke gemeente overzichtelijk bij elkaar.
+          </p>
+        </div>
+
+        <div class="grid-3" style="margin-bottom:2.5rem;">
+          <!-- Moderamen & Koster -->
+          <div class="card card-accent-red">
+            <h3>Moderamen &amp; Koster</h3>
+            <table class="info-table">
+              <tr>
+                <th>Predikant</th>
+                <td>dr. G.P.Th. Bosma<br /><a href="mailto:pgg.predikant@gmail.com">pgg.predikant@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Preses</th>
+                <td>Dhr. Anne C. Tjepkema<br /><a href="mailto:ac.tjepkema@planet.nl">ac.tjepkema@planet.nl</a></td>
+              </tr>
+              <tr>
+                <th>Scriba</th>
+                <td>Mevr. W. Luijk<br /><a href="mailto:pgg.scribaat@gmail.com">pgg.scribaat@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Koster-Beheerder</th>
+                <td>Mevr. I.T. (Ingeborg) Haspels<br />Tel: <a href="tel:0652148933">06-52148933</a><br /><a href="mailto:pgg.koster@gmail.com">pgg.koster@gmail.com</a></td>
+              </tr>
+            </table>
+            <p style="font-size:0.84rem;color:var(--text-muted);margin-top:0.75rem;">
+              De koster-beheerder is het aanspreekpunt voor alle activiteiten en reserveringen in het kerkgebouw, Mariëndal en het Romenyhuis (reguliere diensten, rouw- en trouwdiensten en verhuur).
+            </p>
+          </div>
+
+          <!-- Kerkrentmeesters & Kerkelijk Bureau -->
+          <div class="card card-accent-orange">
+            <h3>Kerkrentmeesters &amp; Kerkelijk Bureau</h3>
+            <table class="info-table">
+              <tr>
+                <th>Voorzitter KRM</th>
+                <td><em>Vacature</em></td>
+              </tr>
+              <tr>
+                <th>Secretaris KRM</th>
+                <td>Dhr. F. Wunschmann<br /><a href="mailto:pgg.kerkrentmeesters@gmail.com">pgg.kerkrentmeesters@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Ledenadministratie</th>
+                <td>Dhr. H. van Dalen<br /><a href="mailto:hpdalen@ziggo.nl">hpdalen@ziggo.nl</a></td>
+              </tr>
+              <tr>
+                <th>Kerkbalans</th>
+                <td>Mevr. Ingrid Nuiten<br /><a href="mailto:ingridnuiten@hotmail.com">ingridnuiten@hotmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Begraafplaatsen</th>
+                <td>Dhr. B. de Geus<br /><a href="mailto:basengreetdegeus@gmail.com">basengreetdegeus@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Kerkelijk Bureau</th>
+                <td>Mevr. A. van Halem<br />Duivelsbruglaan 11, 4835 JD Breda<br /><a href="mailto:pgg.kerkelijkbureau@gmail.com">pgg.kerkelijkbureau@gmail.com</a></td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Diaconie, Gebouwen & Adressen -->
+          <div class="card card-accent-taupe">
+            <h3>Diaconie &amp; Bezoekadressen</h3>
+            <table class="info-table">
+              <tr>
+                <th>Voorzitter Diaconie</th>
+                <td>Mevr. D. Koopmanschap<br /><a href="mailto:pgg.diaconie@gmail.com">pgg.diaconie@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>KerkWebRadio</th>
+                <td>Mevr. I.T. Haspels<br /><a href="mailto:pgg.koster@gmail.com">pgg.koster@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Laurentiuskerk</th>
+                <td>Duivelsbruglaan 1<br />4835 JD Breda</td>
+              </tr>
+              <tr>
+                <th>Postadres Kerk &amp; Romenyhuis</th>
+                <td>Duivelsbruglaan 11<br />4835 JD Breda</td>
+              </tr>
+              <tr>
+                <th>Mariëndal (Gemeentecentrum)</th>
+                <td>Duivelsbruglaan 13<br />4835 JD Breda</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Kaart van de Laurentiuskerk -->
+        <div class="card" style="padding:1.25rem;">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;">
+            <div>
+              <h3 style="margin-bottom:0.2rem;">Locatie &amp; Route naar de Laurentiuskerk</h3>
+              <p style="font-size:0.9rem;margin:0;">Gelegen aan de Duivelsbruglaan 1–13 naast de Ginnekenmarkt in Breda-Zuid.</p>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Duivelsbruglaan+1+4835+JD+Breda" target="_blank" rel="noopener" class="btn btn-outline">
+              Open in Google Maps &nearr;
+            </a>
+          </div>
+          <iframe
+            title="Locatie Protestantse Laurentiuskerk Ginneken"
+            width="100%"
+            height="380"
+            style="border:0;border-radius:12px;"
+            loading="lazy"
+            src="https://maps.google.nl/maps?q=Duivelsbruglaan+1,+4835+JD+Breda&hl=nl&z=16&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER (In PKN-stijl met compleet menu-overzicht)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-title">Protestantse Gemeente Ginneken</div>
+          <p style="font-size:0.9rem;margin-bottom:1rem;color:rgba(255,255,255,0.75);">
+            Een levendige, betrokken geloofsgemeenschap binnen de Protestantse Kerk in Nederland (PKN), gevestigd in de historische Laurentiuskerk (1316) naast de Ginnekenmarkt in Breda.
+          </p>
+          <p style="font-size:0.86rem;color:rgba(255,255,255,0.65);">
+            <strong>Kerkgebouw:</strong> Duivelsbruglaan 1, 4835 JD Breda<br />
+            <strong>Mariëndal:</strong> Duivelsbruglaan 13, 4835 JD Breda<br />
+            <strong>Eredienst:</strong> Elke zondag om 10:00 uur
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-title">Vieren &amp; Gemeente</div>
+          <ul class="footer-links">
+            <li><a href="#welkom" onclick="navigateTo('welkom'); return false;">Welkom</a></li>
+            <li><a href="#diensten" onclick="navigateTo('diensten'); return false;">Zondagdiensten &amp; Preekrooster</a></li>
+            <li><a href="#diensten" onclick="navigateTo('diensten', 'rondom-vieren-anchor'); return false;">Rondom het Vieren</a></li>
+            <li><a href="#nieuws" onclick="navigateTo('nieuws'); return false;">Gemeentenieuws &amp; Agenda</a></li>
+            <li><a href="#verdieping" onclick="navigateTo('verdieping'); return false;">Verdieping &amp; Rondom het Leren</a></li>
+            <li><a href="#jeugd" onclick="navigateTo('jeugd'); return false;">Jeugd, Kleine Kerk &amp; Studenten</a></li>
+            <li><a href="#fotos" onclick="navigateTo('fotos'); return false;">Fotoalbums</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Zorg &amp; Organisatie</div>
+          <ul class="footer-links">
+            <li><a href="#pastoraat" onclick="navigateTo('pastoraat'); return false;">Pastoraat &amp; Veilige Kerk</a></li>
+            <li><a href="#diaconaat" onclick="navigateTo('diaconaat'); return false;">Diaconaat &amp; ZWO Malawi</a></li>
+            <li><a href="#kerkenwerk" onclick="navigateTo('kerkenwerk'); return false;">Kerkenwerk &amp; Oecumene</a></li>
+            <li><a href="#organisatie" onclick="navigateTo('organisatie'); return false;">Kerkrentmeesters &amp; Kerkgids</a></li>
+            <li><a href="#organisatie" onclick="navigateTo('organisatie'); return false;">Publiciteit &amp; Laurentius Brief</a></li>
+            <li><a href="#anbi" onclick="navigateTo('anbi'); return false;">ANBI-Kerk &amp; ANBI-Diaconie</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Gebouw, Service &amp; Contact</div>
+          <ul class="footer-links">
+            <li><a href="#geschiedenis" onclick="navigateTo('geschiedenis'); return false;">Geschiedenis Laurentiuskerk</a></li>
+            <li><a href="#verhuur" onclick="navigateTo('verhuur'); return false;">Verhuur Mariëndal (€ 130/dagdeel)</a></li>
+            <li><a href="#verhuur" onclick="navigateTo('verhuur', 'burgerlijk-huwelijk-anchor'); return false;">Burgerlijk Huwelijk in de kerk</a></li>
+            <li><a href="#verhuur" onclick="navigateTo('verhuur'); return false;">Kerk &amp; Uitvaart / Service</a></li>
+            <li><a href="#verhuur" onclick="navigateTo('verhuur', 'open-kerk-anchor'); return false;">Open Kerk Ginneken</a></li>
+            <li><a href="#contact" onclick="navigateTo('contact'); return false;">Contact &amp; Route</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; Protestantse Gemeente Ginneken (PKN) &bull; Alle rechten voorbehouden &bull; Webmaster: <a href="mailto:lnicolai@ziggo.nl" style="color:#FFB74D;">Lennart Nicolai</a>
+        </div>
+        <div style="display:flex;gap:1.25rem;">
+          <a href="#organisatie" onclick="navigateTo('organisatie'); return false;" style="color:rgba(255,255,255,0.7);">Privacyverklaring</a>
+          <a href="#anbi" onclick="navigateTo('anbi'); return false;" style="color:rgba(255,255,255,0.7);">ANBI Transparantie</a>
+          <a href="https://protestantsekerk.nl/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.7);">Protestantse Kerk in Nederland &nearr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL 1: VOLLEDIGE ARTIKEL-LEZER (Nieuws, Verdieping & Kleine Kerk)
+       ======================================================================== -->
+  <div id="article-modal" class="modal-backdrop" onclick="if(event.target===this) closeModal('article-modal')">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div>
+          <div id="article-modal-meta" style="margin-bottom:0.4rem;"></div>
+          <h2 id="article-modal-title" style="font-family:var(--font-serif);font-size:1.55rem;color:var(--text-main);"></h2>
+        </div>
+        <button class="modal-close" onclick="closeModal('article-modal')" aria-label="Sluiten">&times;</button>
+      </div>
+      <div id="article-modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 2: FOTOALBUM LIGHTBOX & DIAVOORSTELLING
+       ======================================================================== -->
+  <div id="album-modal" class="modal-backdrop" onclick="if(event.target===this) closeModal('album-modal')">
+    <div class="modal-window" style="max-width:960px;">
+      <div class="modal-header">
+        <div>
+          <div id="album-modal-meta" style="margin-bottom:0.35rem;"></div>
+          <h2 id="album-modal-title" style="font-family:var(--font-serif);font-size:1.55rem;"></h2>
+        </div>
+        <button class="modal-close" onclick="closeModal('album-modal')" aria-label="Sluiten">&times;</button>
+      </div>
+      <div id="album-modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 3: ZOEKEN OP DE WEBSITE
+       ======================================================================== -->
+  <div id="search-modal" class="modal-backdrop" onclick="if(event.target===this) closeModal('search-modal')">
+    <div class="modal-window" style="max-width:680px;">
+      <div class="modal-header">
+        <div style="width:100%;padding-right:1rem;">
+          <h3 style="font-family:var(--font-serif);margin-bottom:0.75rem;">Zoeken op protestantsegemeenteginneken.nl</h3>
+          <input
+            id="global-search-input"
+            type="search"
+            placeholder="Zoek op onderwerp, voorganger, Bach, ANBI, verhuur, geschiedenis…"
+            oninput="runGlobalSearch(this.value)"
+            style="width:100%;padding:0.8rem 1.15rem;border-radius:10px;border:2px solid var(--pkn-red);font-size:1rem;font-family:inherit;"
+          />
+        </div>
+        <button class="modal-close" onclick="closeModal('search-modal')" aria-label="Sluiten">&times;</button>
+      </div>
+      <div id="global-search-results" class="modal-body">
+        <p style="color:var(--text-muted);font-size:0.92rem;">Typ minimaal 2 letters om direct te zoeken in alle pagina's, diensten, nieuwsberichten en verdiepingsartikelen…</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 4: ALLE 20+ RUBRIEKEN OVERZICHT (SITEMAP & MOBIEL MENU)
+       ======================================================================== -->
+  <div id="sitemap-modal" class="modal-backdrop" onclick="if(event.target===this) closeModal('sitemap-modal')">
+    <div class="modal-window" style="max-width:920px;">
+      <div class="modal-header">
+        <div>
+          <span class="section-eyebrow">Overzichtelijk Menu</span>
+          <h2 style="font-family:var(--font-serif);font-size:1.55rem;">Alle Rubrieken van Protestantse Gemeente Ginneken</h2>
+        </div>
+        <button class="modal-close" onclick="closeModal('sitemap-modal')" aria-label="Sluiten">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;font-size:0.94rem;">
+          Alle 20+ oorspronkelijke pagina's van de website zijn hieronder helder gegroepeerd in 5 overzichtelijke pijlers:
+        </p>
+        <div class="grid-3">
+          <div class="card card-accent-red" style="padding:1.25rem;">
+            <h4>1. Vieren &amp; Diensten</h4>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;margin-top:0.75rem;">
+              <li><a href="#welkom" onclick="navigateTo('welkom'); return false;">&rarr; Welkom (Voorpagina)</a></li>
+              <li><a href="#diensten" onclick="navigateTo('diensten'); return false;">&rarr; Zondagdiensten &amp; Rooster</a></li>
+              <li><a href="#diensten" onclick="navigateTo('diensten', 'rondom-vieren-anchor'); return false;">&rarr; Rondom het Vieren</a></li>
+              <li><a href="#verhuur" onclick="navigateTo('verhuur', 'open-kerk-anchor'); return false;">&rarr; Open Kerk Ginneken</a></li>
+            </ul>
+          </div>
+
+          <div class="card card-accent-orange" style="padding:1.25rem;">
+            <h4>2. Gemeente &amp; Activiteiten</h4>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;margin-top:0.75rem;">
+              <li><a href="#nieuws" onclick="navigateTo('nieuws'); return false;">&rarr; Nieuws &amp; Agenda</a></li>
+              <li><a href="#verdieping" onclick="navigateTo('verdieping'); return false;">&rarr; Verdieping</a></li>
+              <li><a href="#verdieping" onclick="navigateTo('verdieping'); return false;">&rarr; Rondom het Leren</a></li>
+              <li><a href="#fotos" onclick="navigateTo('fotos'); return false;">&rarr; Foto's (14 Fotoalbums)</a></li>
+            </ul>
+          </div>
+
+          <div class="card card-accent-purple" style="padding:1.25rem;">
+            <h4>3. Jeugd &amp; Studenten</h4>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;margin-top:0.75rem;">
+              <li><a href="#jeugd" onclick="navigateTo('jeugd'); return false;">&rarr; Jeugd &amp; Tieners</a></li>
+              <li><a href="#jeugd" onclick="navigateTo('jeugd'); return false;">&rarr; De Kleine Kerk</a></li>
+              <li><a href="#jeugd" onclick="navigateTo('jeugd'); return false;">&rarr; Paperclip</a></li>
+              <li><a href="#jeugd" onclick="navigateTo('jeugd'); return false;">&rarr; Studenten (CSV Ichthus)</a></li>
+            </ul>
+          </div>
+
+          <div class="card card-accent-taupe" style="padding:1.25rem;">
+            <h4>4. Zorg &amp; Organisatie</h4>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;margin-top:0.75rem;">
+              <li><a href="#pastoraat" onclick="navigateTo('pastoraat'); return false;">&rarr; Pastoraat &amp; Veilige Kerk</a></li>
+              <li><a href="#diaconaat" onclick="navigateTo('diaconaat'); return false;">&rarr; Diaconaat &amp; ZWO</a></li>
+              <li><a href="#kerkenwerk" onclick="navigateTo('kerkenwerk'); return false;">&rarr; Kerkenwerk &amp; Oecumene</a></li>
+              <li><a href="#organisatie" onclick="navigateTo('organisatie'); return false;">&rarr; Kerkrentmeesters</a></li>
+              <li><a href="#organisatie" onclick="navigateTo('organisatie'); return false;">&rarr; Publiciteit &amp; Kerkgids</a></li>
+              <li><a href="#anbi" onclick="navigateTo('anbi'); return false;">&rarr; ANBI-Kerk &amp; ANBI-Diaconie</a></li>
+            </ul>
+          </div>
+
+          <div class="card card-accent-red" style="padding:1.25rem;">
+            <h4>5. Kerkgebouw, Verhuur &amp; Contact</h4>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;margin-top:0.75rem;">
+              <li><a href="#geschiedenis" onclick="navigateTo('geschiedenis'); return false;">&rarr; Geschiedenis &amp; Extra Historie</a></li>
+              <li><a href="#verhuur" onclick="navigateTo('verhuur'); return false;">&rarr; Verhuur Mariëndal</a></li>
+              <li><a href="#verhuur" onclick="navigateTo('verhuur', 'burgerlijk-huwelijk-anchor'); return false;">&rarr; Burgerlijk Huwelijk</a></li>
+              <li><a href="#verhuur" onclick="navigateTo('verhuur'); return false;">&rarr; Service &amp; Uitvaart</a></li>
+              <li><a href="#contact" onclick="navigateTo('contact'); return false;">&rarr; Contact &amp; Route</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts: Gescrapete Data + Applicatielogica -->
+  <script src="assets/js/scraped-articles.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
