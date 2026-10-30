@@ -5,378 +5,378 @@ window.PGG_SCRAPED_DATA = {
       "date": "21-11-2023",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Honingboom op begraafplaats Ou.png",
       "html": "In deze aflevering van Bomen in Breda (BredaNu) geen boom die je zomaar ineens tegen kunt komen. Deze honingboom staat namelijk op Begraafplaats Oud Ginneken, goed verstopt achter de Protestantse Laurentiuskerk.<br />\n<br />\n<a href=\"https://www.youtube.com/watch?v=1DWm0Dd6Spw/\" target=\"_blank\" >Klik hier</a> om het filmpje op YouTube te bekijken.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Honingboom op begraafplaats Ou.png"
+      "local_image": "assets/images/agenda/Honingboom_op_begraafplaats_Ou.png"
     },
     "531": {
       "title": "Startzondag 6 september",
       "date": "28-08-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Startzondag 6 september.jpeg",
       "html": "Na de kerkdienst is er in Mariëndal behalve koffiedrinken ook een lunch en een muzikaal / informatief programma o.l.v. Arie Eikelboom. <br />\n<br />\nDe lunch wordt (zoals ieder jaar) verzorgd door de deelnemers zelf. Eenieder neemt iets mee (eigengezin plus 1 extra). <br />\n<br />\nZondag 23 en zondag 30 augustus liggen er intekenlijsten in Mariëndal. U kunt hierop aangeven of u aanwezig zult zijn en wat u mee gaat brengen.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Startzondag 6 september.jpeg"
+      "local_image": "assets/images/agenda/Startzondag_6_september.jpeg"
     },
     "535": {
       "title": "Open Monumentendagen: 12 en 13 september",
       "date": "28-08-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Open Monumentendagen: 12 en 13.png",
       "html": "Wij doen mee aan de Open Monumentendagen op 12 & 13 september.<br />\nZien we jullie daar?<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Open Monumentendagen: 12 en 13.png"
+      "local_image": "assets/images/agenda/Open_Monumentendagen__12_en_13.png"
     },
     "534": {
       "title": "Gezocht: versterking kindernevendienst",
       "date": "28-08-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Gezocht-versterking-knd.jpg",
       "html": "We zijn dringend op zoek naar versterking voor de kindernevendienst.<br />\n<br />\nJong of oud: iedereen is van harte welkom om te helpen!<br />\nLijkt het je leuk om iets te betekenen voor onze jeugd?<br />\n<br />\nSpreek gerust één van de leiding aan of kom eens kijken bij de activiteiten. We hebben jouw / uw hulp hard nodig!<br />\n<br />\nNynke Cnossen<br />\n<br />\nVoor contact, <a href=\"mailto:ncnossen@icloud.com\">klik hier</a><br /><br />",
-      "local_image": "assets/images/Gezocht-versterking-knd.jpg"
+      "local_image": "assets/images/agenda/Gezocht-versterking-knd.jpg"
     },
     "533": {
       "title": "Schrijfactie Amnesty International",
       "date": "28-08-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Schrijfactie Amnesty Internati.jpg",
       "html": "Na een onderbreking van enkele maanden pakken we vanaf september de schrijfactie voor Amnesty  International weer op.  Elke tweede zondag van de maand is er na de dienst gelegenheid hieraan mee te doen. <br />\n<br />\nWe hopen u weer te zien rond de schrijftafel. <br />\n<br />\nWerkgroep Amnesty. <br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Schrijfactie Amnesty Internati.jpg"
+      "local_image": "assets/images/agenda/Schrijfactie_Amnesty_Internati.jpg"
     },
     "532": {
       "title": "Gemeenteavond - 15 oktober 20.00 uur",
       "date": "28-08-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Gemeenteavond.png",
       "html": "Donderdag 15 oktober is er weer een gemeenteavond.<br />\nAanvang 20.00 uur in Mariëndal<br />\n<br />\nGespreksthema van deze avond is:<br />\nliturgie<br />\n<br /><br />",
-      "local_image": "assets/images/Gemeenteavond.png"
+      "local_image": "assets/images/agenda/Gemeenteavond.png"
     },
     "529": {
       "title": "Expositie schilderijen André Nicolai",
       "date": "7-06-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Expositie schilderijen André .jpg",
       "html": "Van juni - oktober is er een expositie van schilderijen van André Nicolai in Mariëndal.<br />\n<br />\nNicolai begon op zijn vijftiende met schilderen. Hij was autodidact, hij leerde zichzelf werken met olieverf, pastel en aquarel. Geliefde onderwerpen waren landschappen, zee-, haven- en dorpsgezichten, vaak van zijn geliefde Breskens, waar Nicolai zijn hele leven woonde. <br />\n<br />\nHij overleed op 21 december 2015 op 97-jarige leeftijd.<br />\n<br />\nDe schilderijen zijn te bezichtigen in Mariëndal, Duivelsbruglaan 13, 4835 JD Breda<br />\n<br />\nOpeningstijden: <br />\nZondagochtend na de dienst (± 11.15 uur) <br />\nof op afspraak: 06-51393132<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Expositie schilderijen André .jpg"
+      "local_image": "assets/images/agenda/Expositie_schilderijen_André_.jpg"
     },
     "528": {
       "title": "Nieuwe beelden in en rond de kerk van Ludovicus van Eijnatte",
       "date": "7-06-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Nieuwe beelden in en rond de k.jpg",
       "html": "Zomer 2026, staan er weer nieuwe beelden van Ludovicus van Eijnatte in en rond onze kerk. Dit jaar 6 werken, waarvan 3 binnen en 3 buiten in natuursteen. Het beeld ‘Vogelwezen / Feniks’ staat voor het tweede jaar op het gazon tussen de muur van de Duivelsbruglaan en de kerk.  ‘Wederkeren’ is te<br />\nzien op de stilteplek van het kerkhof. Daarnaast zijn er 4 beelden die een vaste plek hebben gekregen op het kerkhof Oud Ginneken. ‘Wording’ staat op het Laurentiushof in de<br />\nbeukenhaag en ‘Bewogen- onbewogen’ heeft daar ook een definitieve plaats. <br />\n<br />\nAlle bovengenoemde beelden zijn uit arduin. Binnen in de kerk staan er drie werken. ‘Vleugelwezen en ‘Zieleleven’ met<br />\nin het midden ‘lichtpoort’. Deze drie beelden zijn uit albast en arduin.<br />\n<br />\nBovengenoemde beelden zijn symmetrisch vormgegeven en weerspiegelen orde en harmonie. De symmetrie en de sereniteit in de beelden zijn noodzakelijk om een diepere betekenis op te roepen bij de teoschouwer. Zijn studie architectuur resoneert in zijn beelden. Wat hij aan architectuur toevoegt is een natuurfilosofiche dimensie. De geometrische vormen worden getransformeerd tot meer natuurlijke, organische vormen. De beelden onthullen daarmee gedachten van geborgenheid en troost, ontwikkeling, oorsprong en overdenking.<br />\n<br />\nDe beschouwing van het beeld.<br />\n<br />\nHet is interessant de diepere betekenis te vernemen die de kunstenaar toedicht aan zijn werk. Ludovicus vindt het echter belangrijker dat jij als toeschouwer ontdekt wat de betekenis van een beeld voor jezelf is. Het vraagt om een ‘naar binnen gericht kijken’. Naar wat we in onszelf herkennen dat zich in het beeld openbaart. Soms raakt een beeld je onmiddellijk, soms gaat het aan je voorbij of spreekt het  je minder aan of ben je er nog niet klaar voor.<br />\nMaar door veel te kijken, word je onontkombaar gevoeliger voor de werkzaamheid van zijn beelden.<br />\n<br />\nKijken wordt zien en zien wordt inzien.<br />\n<br />\n<div class=\"foto2\"><img src=\"images/agenda/Detail-LichtpoortIX.JPG\" alt=\"Lichtpoort IX\" width=\"284\"/><br /><br />\n<i>Lichtpoort, Ludovicus van Eijnatte</i></a><br /></div><br />\n<br />\nVerbeelding in steen : buiten dagelijks. In de kerk op zaterdagen in de maand juli, augustus en de eerste week van september van 13.30 uur – 16.30 uur. Kunstroute Ginneken 29 en 30 augustus 12.00 uur – 17.00 uur.<br />\n<br />\nOpen Monumentendagen 12 en 13 september van 13.00 uur – 17.00 uur.<br />\n<a href=\"http://www.ludovicusvaneijnatte.nl/\" target=\"_blank\" >ludovicusvaneijnatte.nl</a><br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Nieuwe beelden in en rond de k.jpg"
+      "local_image": "assets/images/agenda/Nieuwe_beelden_in_en_rond_de_k.jpg"
     },
     "527": {
       "title": "Frequentie avondmaalsvieringen",
       "date": "5-05-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Frequentie avondmaalsvieringen.jpg",
       "html": "Op 16 april j.l. heeft de kerkenraad een beslissing genomen inzake de beantwoording van de brief van enkele tientallen gemeenteleden van 2 oktober 2025. De ingekomen brief is hier nu ook integraal opgenomen.<br />\n<br />\n<b>Besluit kerkenraad</b><br />\nBesluit kerkenraad inzake frequentie avondmaalsvieringen d.d. 25 april 2026, bijlage bij brief kerkenraad in antwoord op brief van Lennart Nicolai en mede-ondertekenaars d.d. 2 oktober 2025.<br />\n<br />\nIn oktober 2025 hebben de heer Lennart Nicolai en 23 mede ondertekenaars een brief gericht aan de kerkenraad om de frequentie van de avondmaalsvieringen te heroverwegen, dat wil zeggen te verminderen van driemaal naar tweemaal per maand. Deze brief was een vervolg op een in 2017 uitgebracht vrijwel gelijkluidend voorstel.<br />\n<br />\nEen reductie van het aantal vieringen schuurt evenwel met de decennialange traditie van de gemeente van aansluiting bij de zogeheten Liturgische Beweging (ca. 1900-1960).<br />\nDeze wereldwijde stroming binnen het rooms-katholicisme streefde naar een actieve deelname van gelovigen aan de eredienst. In de Nederlands Hervormde Kerk kwam tussen de wereldoorlogen een vergelijkbare beweging op.<br />\n<br />\nDe genoemde brief reikte een \"dragende motivering\" aan, te weten het ontbreken van een voorgeschreven frequentie binnen de Protestantse Kerkorde. Ook ervaren velen dat vieringen (te) lang duren en dat een hoge frequentie \"het bijzondere\" van het Heilig Avondmaal als sacrament aantast. De ondertekenaars wijzen erop dat hun brief aansluit<br />\nbij het beleidsplan Openheid en Verbinding dat jongere generaties tegemoet wil komen met afwisselende vieringen.<br />\n<br />\nDe kerkenraad heeft naar aanleiding van de recente brief tijdens de gemeente-avond van 24 februari jl. deze brief ter sprake gebracht. Voor- en tegenstanders van een aanpassing hebben zich toen kunnen uitspreken.<br />\n<br />\nIn de vergadering van 16 april 2026 heeft de kerkenraad besloten de frequentie van de avondmaalsvieringen terug te brengen van drie naar twee per maand. Dat wil zeggen dat op de eerste en de derde zondag van de maand een dienst van Woord en Gebed wordt gehouden.<br />\nOp de andere zondagen, inclusief een eventuele vijfde, vindt een viering van Schrift en Maaltijd plaats.<br />\n<br />\nDe kerkenraad is van mening dat dit besluit geen wezenlijke afbreuk doet aan de liturgische identiteit van onze gemeente.<br />\n<br />\nHet is de intentie deze programmering per 1 juni aanstaande te doen ingaan. Aan het einde van het lopende kalenderjaar wil de kerkenraad deze wijziging evalueren.<br />\n<br />\n<b>Overweging</b><br />\nIk wil daar graag enkele overwegingen aan toevoegen.<br />\nPerfecte compromissen bestaan niet, er zijn altijd restwaarden die onvoldoende in een compromis tot uitdrukking komen en die een eigen leven kunnen gaan leiden. Daarom roept de kerkenraad u op deze beslissing vooral niet in termen van winst of verlies te zien. Het mooist zou zijn als sluimerende fricties in onderlinge gesprekken tot verdieping van standpunten en inzichten leiden. Als we ons best doen de verbinding te zoeken, dan kunnen meningsverschillen juist aanleiding zijn tot het versterken van de verhoudingen over en weer.<br />\n<br />\nNamens de kerkenraad roep ik u op de eenheid binnen de gemeente te bewaren en deze in uw gebeden een plaats te geven.<br />\n<br />\nAnne Tjepkema<br />\n(voorzitter)<br />\n<br />\n------------------------------------------------------------<br />\n<b>Publicatie ingekomen brief</b><br />\nAan de kerkenraad van de Protestantse Gemeente Ginneken<br />\nBreda, 2 oktober 2025<br />\n<b>Betreft: Voorstel tot heroverweging frequentie avondmaalsvieringen</b><br />\n<br />\nGeachte leden van de kerkenraad,<br />\n<br />\nBinnen onze gemeente wordt het Heilig Avondmaal momenteel driemaal per maand gevierd. Zoals wellicht bekend heb ik in 2017 al eerder een voorstel gedaan voor een meer evenwichtige verdeling tussen de diensten met en zonder avondmaal. Hoewel er toen helaas geen vervolg aan is gegeven, is dit onderwerp door de komst van onze nieuwe predikant Gerlof Bosma weer actueel geworden. Ik heb begrepen dat Gerlof had aangegeven open te staan voor een herbezinning, mits er een dragende motivering kan worden aangereikt, welke ik u hierbij aanbied.<br />\n<br />\nVan meerdere kanten heb ik gehoord dat een eerlijkere verdeling van diensten met en zonder avondmaal wenselijk is, waarbij we streven naar twee zondagen per maand met avondmaal en twee zondagen zonder. Dit voorstel komt voort uit zowel theologische als praktische overwegingen en is bedoeld om beter aan te sluiten bij de behoeften van onze gemeenteleden.<br />\n<br />\nUit de Bijbel blijkt niet dat het avondmaal bij elke samenkomst gevierd moet worden en ook de Protestantse Kerkorde geeft ruimte om de frequentie aan te passen. Daarnaast ervaren ouderen en gezinnen met jonge kinderen de diensten met avondmaal als (te) lang, wat hun betrokkenheid kan verminderen. Daarom stel ik voor om tot een evenwichtiger verdeling te komen, waarin de Maaltijd van de Heer gevierd wordt, zonder dat dit ten koste gaat van de toegankelijkheid van onze erediensten voor álle generaties.<br />\n<br />\n<b>1. Bijbels-theologische overwegingen</b><br />\nDe viering van het Avondmaal is ongetwijfeld een centraal onderdeel van het gemeente-zijn. Tegelijk noemt het Nieuwe Testament geen vaste verplichting over de frequentie:<br />\n<br />\n• In 1 Korintiërs 11:25-26 schrijft Paulus: “Doe dit, zo dikwijls als u het drinkt, tot Mijn gedachtenis.” Het woord “zo dikwijls” biedt ruimte en flexibiliteit;<br />\n<br />\n• In Handelingen 2:42 en in Handelingen 20:7 lezen we over het breken van het brood in de eerste gemeente, maar ook daar wordt geen vaste frequentie genoemd;<br />\n<br />\nTheologisch is er dus ruimte om te zoeken naar een vorm en frequentie die recht doet aan de betekenis van de maaltijd én aan de context van onze gemeente.<br />\n<br />\n<b>2. Kerkordelijke ruimte</b><br />\n<br />\nOok de kerkorde van de Protestantse Kerk in Nederland schrijft geen verplichte frequentie voor. Er wordt gesproken over gezette tijden met een minimum van viermaal per jaar. Gemeenten mogen hierin hun eigen afwegingen maken. Een wijziging in frequentie – bijvoorbeeld naar twee keer per maand – blijft volledig binnen de kaders van de kerkorde en vormt dus geen probleem op formeel niveau.<br />\n<br />\n<b>3. Praktische en pastorale argumenten</b><br />\n<br />\n<b>A. Gemeente-brede toegankelijkheid</b><br />\nOnze gemeente kent een diverse samenstelling. Voor zowel ouderen met fysieke beperkingen als gezinnen met jonge kinderen kunnen de langere diensten met avondmaal een belemmering vormen. Dit leidt ertoe dat sommigen afhaken of afhaken overwegen. Door het avondmaal minder frequent te vieren, verlagen we deze drempel.<br />\n<br />\n<b>B. Liturgische balans en variatie</b><br />\nWat vaak genoemd wordt door mede-gemeenteleden is dat het “Bijzondere” van het Avondmaal teloor gaat door de veelvuldige frequentie ervan. Een maandelijkse afwisseling tussen diensten met en zonder avondmaal biedt ruimte voor liturgische diversiteit. Op zondagen zonder avondmaal kunnen andere accenten worden gelegd, zoals kindgerichte elementen, doopdiensten of verdiepende themadiensten.<br />\n<br />\n<b>C. Aansluiting bij jongere generaties</b><br />\nIn het licht van onze missionaire opdracht en het beleidsplan Openheid en Verbinding past het om meer rekening te houden met de leefwereld van jongere generaties. Velen van hen hebben aangegeven behoefte te hebben aan kortere, begrijpelijke en afwisselende vieringen. Een aanpassing in de avondmaal-frequentie zou daarin ondersteunend kunnen zijn.<br />\n<br />\n<b>4. Concreet voorstel</b><br />\nIk stel voor om de huidige situatie (gemiddeld 3 avondmaalsvieringen per maand) aan te passen naar een meer evenwichtige verdeling van 2 diensten per maand mét en 2 zonder avondmaal.<br />\n<br />\nHet onderstaande schema zou als uitgangspunt kunnen dienen:<br />\n• 1e en 3e zondag van de maand: dienst van Woord en Gebed<br />\n• 2e en 4e zondag van de maand: dienst van Schrift en Maaltijd<br />\n<br />\nWe zouden ook in een overgangsperiode gefaseerd kunnen afbouwen naar deze nieuwe balans. Een eventuele 5e zondag in een bepaalde maand kunnen we bijvoorbeeld “om en om” doen.<br />\n<br />\n<b>Slotopmerking</b><br />\n<br />\nZoals in het Beleidsplan 2021-2025 treffend wordt verwoord: “Het zoeken naar gezamenlijke noemers die helpen om zowel de verbinding als de verschillen tussen jong en oud bespreekbaar te maken, zien we als een belangrijke opgave.”<br />\n<br />\nJuist om recht te doen aan die verschillen, pleit ik voor een nieuwe balans. Niet om de waarde van het Avondmaal te verminderen, maar om deze waarde juist te verdiepen en te behouden, om sleur te voorkomen, ook voor de generaties die de toekomst van onze gemeente vormen.<br />\n<br />\nIk hoop dat u dit voorstel opnieuw in overweging wilt nemen en kijk uit naar een open gesprek hierover binnen de kerkenraad en een gemotiveerd antwoord aan de ondertekenaars. In geval van een positieve reactie uwerzijds zie ik graag een concreet stappenplan cq. tijdspad tegemoet waarop we op de voorgestelde manier met nieuw enthousiasme verder vieren.<br />\n<br />\nMet vriendelijke groet,<br />\nLennart Nicolai <br />\n(en 23 mede-ondertekenaars)<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Frequentie avondmaalsvieringen.jpg"
+      "local_image": "assets/images/agenda/Frequentie_avondmaalsvieringen.jpg"
     },
     "538": {
       "title": "Kunst (verkoop) tentoonstelling 3 en 4 oktober",
       "date": "29-09-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Kunst (verkoop) tentoonstellin.jpg",
       "html": "Stichting Vrienden van de Protestantse Laurentiuskerk organiseert in het weekend van 3 en 4 oktober, steeds van 12.30-16.30 uur in samenwerking met ervaren amateur-kunstenaars op het kerkelijk terrein een (verkoop)tentoonstelling van schilderijen, glaskunst en beelden. <br />\n<br />\nEen deel van de opbrengst van de verkochte werken is bestemd voor de Vriendenstichting! <br />\n<br />\nVrije toegang. Aanbevolen!<br />\ninformatie: Peter Wassink<br />\nmobiel 06-51293460 en email: pwassink@ziggo.nl<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Kunst (verkoop) tentoonstellin.jpg"
+      "local_image": "assets/images/agenda/Kunst_(verkoop)_tentoonstellin.jpg"
     },
     "539": {
       "title": "Bach in Ginneken - 8 november",
       "date": "29-09-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Bach in Ginneken - 8 november.jpg",
       "html": "\"Bach in Ginneken\" zondag 8 november, 16.00u. <br />\n<br />\nEen prachtig concert o.l.v. Ruben de Grauw.<br />\nWerken van o.a. Mendelssohn (‘Verlei uns Frieden’) en Sweelinck (Psalm 90); twee cantates van Joh. Seb. Bach op het programma: BWV 70 (‘Wachet, betet’) en BWV 150 (‘Nach dir, Herr, verlanget mich’). <br />\n<br />\nKaarten (20 € p.p.) zijn vanaf begin oktober verkrijgbaar.<br />\ninformatie: Peter Wassink<br />\nmobiel 06-51293460 en email: pwassink@ziggo.nl<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Bach in Ginneken - 8 november.jpg"
+      "local_image": "assets/images/agenda/Bach_in_Ginneken_-_8_november.jpg"
     },
     "537": {
       "title": "Plek voor je Verlies - november 2026",
       "date": "28-09-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Plek voor je Verlies - novembe.jpg",
       "html": "Ook dit jaar in november bieden we mensen, wonend in de wijken rondom onze kerken, een ‘Plek voor je Verlies’. We staan samen stil bij verlies dat mensen meedragen in hun leven. Verlieservaringen kunnen heel verschillend zijn: het verlies van een dierbare, levend verlies door dementie van een partner, een vader of moeder, verlies van een relatie, van gezondheid, van werk of …  <br />\n<br />\nHet is belangrijk te weten dat je niet alleen staat in je verdriet. We komen bij elkaar in een moment van stilte, herkenning, verbinding. Er worden gedichten voorgelezen, er is live muziek, wie dat wil kan een kaarsje branden en zo bewegen we met elkaar van het donker naar het licht.<br />\n<br />\nAl sinds 2021 zetten we onze kerken open voor een Plek voor je Verlies. Voor het eerst in de Lucaskerk, vanaf 2023 ook in de Markuskerk en in 2026 bieden we een Plek voor je Verlies in alle drie kerken, vanaf nu dus ook in de Johanneskerk. De kerken gaan een half uur van tevoren open, het programma duurt een uur en er is na afloop nog een half uur tijd om elkaar te ontmoeten bij een kop koffie of thee.<br />\n<br />\nIn de voorbereiding naar Plek voor je Verlies wordt samengewerkt met de Augustinusparochie, de RK gemeenschap van de Martinuskerk en daarnaast met diverse organisaties die zich richten op maatschappelijk welzijn, zoals De Zonnebloem, Surplus en wijkorganisaties die zich inzetten voor welzijn, verbinding en ontmoeting. Ook onderwijsinstellingen en woningcorporaties werken mee.<br />\n<br />\nEen Plek voor je Verlies wordt geboden in de:<br />\nLucaskerk\t  7 november 16:30u – 18:30u<br />\nMarkuskerk\t  8 november 14:30u – 16:30u<br />\nJohanneskerk\t22 november 15:30u – 17:30u<br />\n<br />\nPlek voor je Verlies staat open voor iedereen, die leeft met een verlieservaring, ongeacht de levensbeschouwelijke achtergrond. Voel je welkom!<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Plek voor je Verlies - novembe.jpg"
+      "local_image": "assets/images/agenda/Plek_voor_je_Verlies_-_novembe.jpg"
     },
     "476": {
       "title": "Gezamenlijke lunch: 26 november & 25 december",
       "date": "27-10-2023",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Gezamenlijke lunch.jpg",
       "html": "De opkomst was het afgelopen jaar heel verschillend. Maar de reacties zijn zeer positief. <br />\n<br />\nOok de komende tijd zal de laatste zondag van de maand een lunch georganiseerd worden door diaconie en vrijwilligers. Van harte aanbevolen! <br />\n<br />\nDe eerstvolgende lunch is zondag 26 november.<br />\nOok maandag Eerste Kerstdag 25 december zal er een lunch zijn.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Gezamenlijke lunch.jpg"
+      "local_image": "assets/images/agenda/Gezamenlijke_lunch.jpg"
     },
     "530": {
       "title": "Vieringen van Verlangen in de Grote Kerk",
       "date": "19-06-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Vieringen van Verlangen in de .jpg",
       "html": "Op zeven achtereenvolgende zondagen van 12 juli tot en met 23 augustus worden om 10 uur ’s morgens vieringen gehouden in de Grote Kerk in Breda. In een setting van gezamenlijkheid, goede woorden, muziek, stilte en gebed biedt de Grote Kerk in de zomerperiode een plek voor bezinning en verbondenheid. Voor iedereen die hier behoefte aan heeft.<br />\n<br />\nIn deze kerkdiensten staan de zogenoemde ‘Desiderata’ centraal, ‘dingen waar het verlangen naar uitgaat’. Het is een gedicht in proza uit 1927 van een Amerikaanse schrijver dat begint met de eigentijdse, maar tijdloze woorden “Blijf kalm temidden van het lawaai en de haast en bedenk hoe vredig de stilte kan zijn.” Voor vele mensen is dit gedicht een inspiratiebron geweest om goed en zinvol te leven. In de zeven vieringen wordt wekelijks ingegaan op een strofe van het gedicht dat ook in relatie wordt gebracht met een tekst uit de bijbel. De diensten worden muzikaal begeleid door Aart Bergwerff. <br />\n<br />\nDe vieringen zijn een oecumenisch initiatief dat mede mogelijk is gemaakt door De Raad van Kerken in Breda. Ze worden elke week door een ander kerkgenootschap georganiseerd: de Protestantse Gemeente Breda, Evangelische kerk Jefta, de Ekklesia Breda, de Remonstrantse gemeente Breda en de Doopsgezinde gemeente Breda en de Protestantse Gemeenten van Prinsenbeek en het Ginneken. <br />\n<br />\nEr wordt gecollecteerd voor diverse goede doelen, deelname is gratis.<br />\n<br />\nAls u meer graag meer informatie wilt krijgen, kunt u contact opnemen met dominee Thijske Fraanje<br />\ntel: 06-14762611<br />\ne-mail: <a href=\"mailto:t.fraanje@pknbreda.nl\">klik hier</a><br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Vieringen van Verlangen in de .jpg"
+      "local_image": "assets/images/agenda/Vieringen_van_Verlangen_in_de_.jpg"
     },
     "526": {
       "title": "Vrijheidsmaaltijd",
       "date": "29-04-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Vrijheidsmaaltijd.png",
       "html": "Vrijheid is kostbaar en kwetsbaar! Dat we in vrijheid samen leven vieren we op 5 mei met elkaar. Heel Nederland schuift aan bij de Vrijheidsmaaltijd. We eten samen om te vieren dat we in vrijheid leven. Dat kan op verschillende plekken in Breda, waaronder in de Markuskerk, Lucaskerk en Johanneskerk. Samen herdenken we de waarde van vrijheid en vieren we de verbondenheid met elkaar. <br />\n<br />\nDe lopers van het &#039;Bevrijdingsvuur Estafette Wageningen Breda&#039; brengen het bevrijdingsvuur om 17.30 naar de verschillende kerken in de stad waarna we het vuur de kerk in brengen.<br />\n<br />\nNa afloop van de maaltijd is er in elke kerk een inleiding door een spreker of schrijver over vrijheid en vrede en daarna is er ruimte voor gesprek over vrijheid.<br />\n<br />\nAanmelden kan op lnkt.nl/vm26 <br />\n<br />\nProgramma<br />\n17.00 Inloop en koffie<br />\n17.30 Ontvangst Bevrijdingsvuur Estafette Wageningen-Breda<br />\n17.45 Vrijheidsmaaltijd<br />\n19.00 Inleiding en gesprek over vrijheid:<br />\n<br />\nJohanneskerk: Hans Rombouts (gids bij het Maczek Memorial).<br />\nLucaskerk: Ad Koppe (veteraan missies gericht op handhaven internationale rechtsorde) en zijn vrouw Annemiek Koppe.<br />\nMarkuskerk: Olga van Gessel-Dekker (werkzaam bij Defensie).<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Vrijheidsmaaltijd.png"
+      "local_image": "assets/images/agenda/Vrijheidsmaaltijd.png"
     },
     "536": {
       "title": "Bredase Walk of Peace zaterdag 26 september",
       "date": "11-09-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Bredase Walk of Peace zaterdag.jpg",
       "html": "Bredase Walk of Peace en Bella Ciao Meezingactie op de Grote Markt<br />\n<br />\nDatum: zaterdag 26 september 2026<br />\nStart wandeling: 12:30u op het Brabantplein<br />\nMeezingactie: 15:00-15:30u op de Grote Markt,<br />\nmet Mannenkoor Heerenleven en trio De PaMiWi’s<br />\n<br />\nOrganisatie: Pax Ambassade van Vrede Breda en Mannenkoor Heerenleven<br />\n(de Ambassade van Vrede is een samenwerkingsverband van diverse maatschappelijke organisaties en kerken)<br />\n<br />\nContactpersoon: Ton van Prooijen | tonvanprooijen@gmail.com | 06-29283935<br />\n<br />\nBeschrijving:<br />\nOp de laatste zaterdag van de vredesweek, 26 september, wordt voor de achtste keer de Walk of Peace Breda georganiseerd. We lopen deze keer vanuit Brabantpark naar de Grote Markt. Daar wordt voor de derde keer de Bella Ciao Meezingactie voor vrede gehouden, met het Bredase trio De PaMiWi’s en Mannenkoor Heerenleven. De liederen die we samen zullen zingen zijn: Bella Ciao, You’ll Never Walk Alone en Imagine. Vorig jaar kwamen hier zo’n 1000 mensen op af!<br />\n<br />\nIn het kort het programma:<br />\n12:30 uur Verzamelen in winkelcentrum Brabantplein voor de AH<br />\n13:00 uur Soep en brood to go op het plein voor de Michaelkerk (Hooghout 67), met enkele sprekers.<br />\n14:10 uur kort programma bij het Poolse monument &#039;Pami??&#039; (Herinnering) op de hoek van de Claudius Prinsenlaan en Wilhelminasingel<br />\n14:45 uur Aankomst op de Grote Markt, waar om 15:00 uur het zingen begint.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Bredase Walk of Peace zaterdag.jpg"
+      "local_image": "assets/images/agenda/Bredase_Walk_of_Peace_zaterdag.jpg"
     },
     "525": {
       "title": "Hemelvaartsdag: Journey Gospel Choir in de Grote Kerk Breda",
       "date": "21-04-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Hemelvaartsdag: Journey Gospel.jpg",
       "html": "Elk jaar, op Hemelvaartsdag, voorafgaand aan de opening van Breda Jazz Festival, vindt de traditionele Gospeldienst plaats in de Grote Kerk van Breda. Journey Gospel Choir komt met toetsenist Anko Wong Loi Sing en solozangeres Jane Loois. Ook Aart Bergwerff, organist van internationale allure zal een muzikale bijdrage leveren.<br />\n<br />\nOok dit jaar belooft de dienst, die door de Raad van Kerken Breda wordt georganiseerd, weer feestelijk en relevant te zijn. Het thema van de viering is: \"Gelukkig de vredestichters\". <br />\n<br />\nDe gratis toegankelijke dienst begint om 11.30u. De deuren gaan om 11.00u open. Het aantal zitplaatsen is beperkt. <br />\n<br />\nfoto: Linda Pul<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Hemelvaartsdag: Journey Gospel.jpg"
+      "local_image": "assets/images/agenda/Hemelvaartsdag__Journey_Gospel.jpg"
     },
     "524": {
       "title": "Gemeenteavond dinsdagavond 24 februari",
       "date": "24-02-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Gemeenteavond dinsdagavond 24 .png",
       "html": "U bent van harte uitgenodigd in<br />\nMariëndal, aanvang 20.00 uur<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Gemeenteavond dinsdagavond 24 .png"
+      "local_image": "assets/images/agenda/Gemeenteavond_dinsdagavond_24_.png"
     },
     "523": {
       "title": "Actie Kerkbalans 2026",
       "date": "17-01-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Actie Kerkbalans 2026.jpg",
       "html": "Waarom is de Actie Kerkbalans belangrijk?<br />\n<br />\nFinanciële zelfstandigheid <br />\nDe Protestantse Kerk ontvangt geen subsidie voor het kerkenwerk. Dit betekent dat lokale gemeenten volledig afhankelijk zijn van de vrijwillige bijdragen van hun leden. De Actie Kerkbalans vormt een groot deel van de inkomsten van veel gemeenten. <br />\n <br />\nContinuïteit van het gemeenteleven <br />\nDe opbrengst van Kerkbalans maakt het mogelijk om:<br />\n•\tDe predikant en/of kerkelijk werker te bekostigen<br />\n•\tHet kerkgebouw te onderhouden en te verwarmen<br />\n•\tPastorale zorg te bieden aan gemeenteleden<br />\n•\tDiaconale activiteiten in de lokale gemeenschap te ondersteunen<br />\n•\tJeugdwerk en andere activiteiten te organiseren<br />\n<br />\nMaatschappelijke betekenis <br />\nKerken vervullen een belangrijke rol in de samenleving. Ze bieden niet alleen geestelijke ondersteuning, maar fungeren ook als ontmoetingsplaats en zijn via de inzet van veel vrijwilligers actief in maatschappelijke dienstverlening. Actie Kerkbalans draagt bij aan het in stand houden van deze waardevolle functies.  <br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Actie Kerkbalans 2026.jpg"
+      "local_image": "assets/images/agenda/Actie_Kerkbalans_2026.jpg"
     },
     "522": {
       "title": "Kerkdiensten in Mariëndal in de wintermaanden",
       "date": "17-01-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerkdiensten in Mariëndal in .jpg",
       "html": "Vanaf 17 januari tot eind maart wordt de zondagse kerkdienst gehouden in Mariëndal. <br />\n<br />\nDaarmee wordt behoorlijk energie bespaard omdat de kerk nu niet verwarmd hoeft te worden voor een uurtje per week. <br />\n<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerkdiensten in Mariëndal in .jpg"
+      "local_image": "assets/images/agenda/Kerkdiensten_in_Mariëndal_in_.jpg"
     },
     "521": {
       "title": "GEMEENTE-AVOND: dinsdagavond 24 februari 2026",
       "date": "9-01-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/GEMEENTE-AVOND: dinsdagavond 2.jpg",
       "html": "U bent van harte uitgenodigd in Mariëndal.<br />\nAanvang: 20.00 uur<br />\n<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/GEMEENTE-AVOND: dinsdagavond 2.jpg"
+      "local_image": "assets/images/agenda/GEMEENTE-AVOND__dinsdagavond_2.jpg"
     },
     "520": {
       "title": "Geen kerkdienst zondag vanwege weersomstandigheden",
       "date": "9-01-2026",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Geen kerkdienst zondag vanwege.jpg",
       "html": "Zondag 11 januari as. is er geen kerkdienst vanwege de verwachte weersomstandigheden. Excuses voor het ongemak.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Geen kerkdienst zondag vanwege.jpg"
+      "local_image": "assets/images/agenda/Geen_kerkdienst_zondag_vanwege.jpg"
     },
     "519": {
       "title": "Kerstsamenzang 24 december 21.00 uur",
       "date": "24-12-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerstsamenzang 24 december 21..jpg",
       "html": "Ook dit jaar gaan onze kerkdeuren weer open voor de Kerstavond zangdienst onder het motto:<br />\n\"Komt allen tezamen\"<br />\n<br />\nEr zullen weer veel aloude kerstliederen gezongen kunnen worden. Dr. Gerlof Bosma zal deze dienst voorgaan.<br />\n<br />\nDe dienst is op Kerstavond, 24 december om 21.00 uur.<br />\nNa de dienst is er gluhwein en warme chocolademelk in Mariëndal<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerstsamenzang 24 december 21..jpg"
+      "local_image": "assets/images/agenda/Kerstsamenzang_24_december_21..jpg"
     },
     "518": {
       "title": "Theatrada presenteert As it is in heaven",
       "date": "31-10-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Theatrada presenteert As it is.jpg",
       "html": "As It Is in Heaven, de nieuwe theatervoorstelling van Theatrada, wordt opgevoerd in de Markuskerk te Breda op 7, 8 en 9 november. <br />\n<br />\nDaniel Daréus, een wereldberoemde dirigent, krijgt tijdens een concert een hartaanval. Hij verlaat zijn drukke leven en keert terug naar zijn jeugdige dorp. Daar wordt hij gevraagd het dorpskoor te leiden. Wat begint als een simpele taak, groeit uit tot een krachtig proces dat het hele dorp verandert. Muziek doorbreekt barrières, lost conflicten op en brengt de gemeenschap samen. Tegelijkertijd voelt dominee Stig zijn gezag bedreigd door de nieuwe dynamiek. Het verhaal toont de helende kracht van muziek en de kracht van samen zingen.<br />\n <br />\nDeze voorstelling wordt gespeeld door een enthousiaste groep amateurs, die met hart en ziel dit verhaal tot leven brengen. De kracht van samen zingen wordt niet alleen muzikaal, maar ook emotioneel voelbaar. Onder de bezielende leiding van een gedreven regieteam is As It Is in Heaven een aangrijpend verhaal over de kracht van gemeenschap, verandering en de helende kracht van muziek.<br />\n <br />\nDe uitvoeringen vinden plaats in de Markuskerk, Hooghout 96 in Breda. Aanvang vrijdag 7 november en zaterdag 8 november 20.00 uur. Aanvang zondag 9 november 14.00 uur<br />\n <br />\nKaarten (verkrijgbaar op www.theatrada.nl) <br />\nkosten 19,50 euro per stuk incl. 1 consumptie. <br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Theatrada presenteert As it is.jpg"
+      "local_image": "assets/images/agenda/Theatrada_presenteert_As_it_is.jpg"
     },
     "517": {
       "title": "Bach in Ginneken, zondag 2 november 16.00 uur",
       "date": "11-10-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Bach in Ginneken, zondag 2 nov.jpg",
       "html": "Gedenken is het thema van dit zevende Ginnekense Bachconcert.<br />\nNiet toevallig gekozen: Op 2 november is het Allerzielen, met<br />\nAllerheiligen net achter ons. Er is prachtige, ontroerende<br />\nmuziek voor geschreven, passend bij de intieme sfeer van het<br />\nmiddeleeuwse kerkgebouw.<br />\n<br />\nHet orkest telt negen op elkaar ingespeelde professionele musici.Na afloop heeft u de mogelijkheid om zangers, musici en medetoehoorders te ontmoeten bij de nazit in Mariëndal.<br />\n<br />\nKaarten à € 20,00 - consumptie nazit inbegrepen - bij de<br />\nboekhandels Van Kemenade & Hollaers, de Vrije Boekhandel en<br />\nbij de ingang van de kerk. Tevens kaarten online te koop met<br />\nbijgaande QR-code, of via de website <a href=\"https://www.vriendenprotestantselaurentiuskerkginneken.nl/\" target=\"_blank\" >vriendenprotestantselaurentiuskerkginneken.nl</a><br /> <br />\n<br />\n<img src=\"images/agenda/QR-code-Bach-2025.jpg\" alt=\"QR-code\"/><br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Bach in Ginneken, zondag 2 nov.jpg"
+      "local_image": "assets/images/agenda/Bach_in_Ginneken,_zondag_2_nov.jpg"
     },
     "516": {
       "title": "Komt u ook woensdag 17 december naar de kerstlunch?",
       "date": "11-10-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Komt u ook woensdag 17 decembe.jpg",
       "html": "Op woensdag 17 december houden we onze jaarlijkse sfeervolle kerstlunch, waarvoor wij u van harte uitnodigen.<br />\nDe lunch wordt gehouden in Mariëndal aan de Duivelsbruglaan.<br />\nVanaf 11.30 uur is de zaal open voor een aperitief; de maaltijd begint om 12.00 uur.<br />\n<br />\nDe parkeergelegenheid bij Mariëndal is beperkt, indien mogelijk graag parkeren op het Schoolakkerplein.<br />\nEventueel kan er vervoer geregeld worden, maar het is erg beperkt wat we aan kunnen bieden.<br />\n<br />\nEr zijn geen kosten aan verbonden, maar een vrijwillige bijdrage na afloop wordt op prijs gesteld.<br />\n<br />\nOm alles goed te organiseren vragen wij u zich op te geven vóór 15 december bij:<br />\nDhr. Bas de Geus: basengreetdegeus@gmail.com<br />\nMevr. Diny Koopmanschap: bcmkoopmanschap@gmail.com<br />\n<br />\nWe hopen op een grote opkomst en een gezellige middag.<br />\n<br />\nBas de Geus,<br />\nDini Koopmanschap,<br />\nAnnet van Zijl<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Komt u ook woensdag 17 decembe.jpg"
+      "local_image": "assets/images/agenda/Komt_u_ook_woensdag_17_decembe.jpg"
     },
     "515": {
       "title": "10 dec.: Dag van de Rechten van de Mens, 14 dec.: herstart kerkactie Amnesty",
       "date": "11-10-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/10 december: Dag van de Rechte.png",
       "html": "Nog maar een jaar of vier geleden werden in onze gemeente regelmatig handtekeningenacties gehouden en brieven geschreven voor mensen die door hun eigen overheid in hun fundamentele mensenrechten werden beknot.<br />\nHun verhalen en gegevens kregen we door via Amnesty Nederland.<br />\n<br />\nEn zo konden we aandacht vragen voor hun rechten en voor hen opkomen. Helaas bracht Corona de klad in deze belangrijke activiteit van onze kerkelijke gemeente.<br />\n<br />\nEnkele gemeenteleden die daar toen bij betrokken waren, willen deze activiteit weer oppakken. Ze is er belangrijk en nodig genoeg voor! Misschien wel meer dan ooit.<br />\n<br />\nNeem het eerste artikel van de Universele Verklaring van de Rechten van de Mens. Dat artikel stelt dat &#039;iedereen vrij en met gelijke rechten in waardigheid wordt geboren&#039;.<br />\n<br />\nDat betekent dat slavernij, marteling, veroordeling zonder eerlijk proces, discriminatie vanwege geloof, politieke overtuiging, ras of gender verboden is en dat ieder mens recht dient te hebben op vrijheid van meningsuiting en vereniging en op zorg, onderwijs en nog zoveel meer….<br />\nHet is opvallend hoe breed die rechten van de mens in deze tijd onder druk staan. Wereldwijd, maar ook dichtbij in onze eigen samenleving. Beangstigend dichtbij soms...<br />\n<br />\nAlle reden om in onze gemeente deze activiteit, met ondersteuning van Amnesty, te hervatten.<br />\n<br />\nDie nieuwe start maken we op zondag 14 december.<br />\nDat is de zondag die volgt op de 10de december: de dag waarop wereldwijd aandacht wordt gevraagd voor de eerbiediging van de Universele Verklaring van de Rechten van de Mens.<br />\n<br />\nOp die 14de kunnen bij de koffie in Mariëndal lijsten worden ondertekend waarop overheden om aandacht worden gevraagd voor hun onderdanen van wie de fundamentele mensenrechten niet worden gerespecteerd.<br />\n<br />\nVoor wie wil is er ook materiaal aanwezig om deze overheden zelf aan te schrijven. Een zgn. voorbeeldbrief is hierbij behulpzaam.<br />\n<br />\nHet is de bedoeling dat de herstart van deze activiteit een vervolg krijgt. Een keer per maand zullen we in de gelegenheid worden gesteld om op deze eenvoudige manier bij te dragen aan het belangrijke werk van Amnesty.<br />\n<br />\nNamens de voorbereidingsgroep,<br />\nLeo Woltering<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/10 december: Dag van de Rechte.png"
+      "local_image": "assets/images/agenda/10_december__Dag_van_de_Rechte.png"
     },
     "514": {
       "title": "26e Leerhuis Eindhoven – Seizoen 2025-2026",
       "date": "11-10-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/26e Leerhuis Eindhoven – Sei.jpg",
       "html": "In het leerhuis ontmoeten predikanten en andere geïnteresseerden elkaar om te leren en te discussiëren over teksten uit TeNaCH, het Eerste Testament uit de Bijbel, onder de bezielende leiding van rabbijn Tzvi Marx.<br />\n<br />\nU kunt zich inschrijven voor dit Leerhuis. Ook als u wilt kennismaken met het Leerhuis, bent u van harte welkom om een les bij te wonen. Hieraan zijn geen kosten verbonden.<br />\n<br />\nInformatie en Inschrijving:<br />\nData najaar 2025: 16 sep, 21 okt, 18 nov, 16 dec<br />\nData voorjaar 2026: 20 jan, 17 feb, 17 mrt, 21 apr<br />\nDinsdags: 10.30 - 12.30 uur<br />\nBijdrage: €160 voor het seizoen;<br />\nIn overleg zijn enkele lessen à € 22.50 te volgen.<br />\nAdres: Camphuysenstraat 4, 5615 KS Eindhoven<br />\n<br />\nVoor meer informatie:<br />\nhttps://joods-christelijke-dialoog.nl/26e-leerhuis-eindhoven-met-tzvi-marx/<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/26e Leerhuis Eindhoven – Sei.jpg"
+      "local_image": "assets/images/agenda/26e_Leerhuis_Eindhoven_–_Sei.jpg"
     },
     "513": {
       "title": "Bevestiging van Dr. Gerlof Bosma als onze nieuwe predikant",
       "date": "11-10-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Bevestiging van Dr. Gerlof Bos.jpg",
       "html": "De dag zinderde en in de middag voelde je de opwinding over wat er ging gebeuren bijna tastbaar op ons kerkelijk erf.<br />\nEindelijk, na jaren van wachten en werken was daar het moment.<br />\n<br />\nMidden onder ons en bijna weggehaald bij de zieken die hij verzorgde stond hij op om zielzorger te worden.<br />\nEn wat was het een feest, die middag.<br />\n<br />\nEen combinatie van waardige ingetogenheid, van sprankelende muziek, van Psalm 100 voorgelezen in het allermooiste Frans, van “Come, Ye Sons of Art” van Henry Purcell, “Ave Verum Corpus” van Wolfgang Amadeus Mozart, een Prelude en een Fuga van Johann Sebastian Bach.<br />\n<br />\nVan een imposante rij van Predikanten tot een ouderling, die uit het dierbaarste Boek in onze kerk voorlas.<br />\nDe afsluitende zegen was echt voor ons, leden van de gemeente en de bezoekers: ”Hij Zegene U”…sprak onze nieuwe dominee.<br />\n<br />\nDaarna mochten we in de tuin en onder de stralende zon met elkaar het glas heffen. Bijgevoegd zijn enkele foto&#039;s van Henriëtte van IJzeren.<br />\n<br />\nBauke van Halem<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Bevestiging van Dr. Gerlof Bos.jpg"
+      "local_image": "assets/images/agenda/Bevestiging_van_Dr._Gerlof_Bos.jpg"
     },
     "512": {
       "title": "Van de kerkenraad",
       "date": "28-07-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Van de kerkenraad.png",
       "html": "Na een lange periode van vacant zijn, heeft het breed moderamen van de classicale vergadering van de classis Noord-Brabant, Limburg en Réunion Wallonne op 14 juni 2025 approbatie verleend op het door de kerkenraad op G.P.Th. Bosma uitgebrachte beroep tot predikant voor gewone werkzaamheden.<br />\n<br />\nDe kerkenraad is verheugd mee te kunnen delen dat de intrededienst, waarin dr. G.P.Th. Bosma wordt bevestigd tot predikant en aan onze gemeente wordt verbonden, zal worden gehouden op <b>zondag 7 september 2025 om 15.00 uur in de Laurentiuskerk, Duivelsbruglaan 1 te Breda.</b><br />\n<br />\nDe kerk is open vanaf 14.30 uur.<br />\n<br />\nTijdens de dienst is er kinderoppas. Na afloop van de dienst is er gelegenheid om ds. Bosma en zijn echtgenote te ontmoeten in het naastgelegen Mariëndal.<br />\n<br />\nParkeergelegenheid is er op het Schoolakkerplein.<br />\n<br />\n<b>LET OP: de ochtenddienst van 7 september 2025 komt te vervallen!</b><br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Van de kerkenraad.png"
+      "local_image": "assets/images/agenda/Van_de_kerkenraad.png"
     },
     "511": {
       "title": "Zomerdiensten 2025",
       "date": "16-06-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/zomerdiensten-2025.jpg",
       "html": "6 juli - vreugde en hoop - Thijske Fraanje - Lucaskerk<br />\n13 juli - vreugde en bevrijding - Henrieke ten Thije - Kruispunt<br />\n20 juli - vreugde, levenslust en naijver - Bert Kuipers - Laurentiuskerk<br />\n27 juli - vreugde en vrede - Hans van der Meulen - Jefta<br />\n3 augustus - vreugde en de Heilige Geest - Tom Rijken - Schalmkerken<br />\n10 augustus - vreugde en schoonheid - Ben Hendriksen en Ton van Prooijen - Markuskerk<br />\n17 augustus - vreugde en recht - Frank Ploum - Ekklesia<br />\n<br />\nParkeren: auto's op Kasteelplein<br />\nMeer informatie: www.pknbreda.nl<br />\n<br />\nAanvang: 10.00 uur<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/zomerdiensten-2025.jpg"
+      "local_image": "assets/images/agenda/zomerdiensten-2025.jpg"
     },
     "510": {
       "title": "Nieuwe beelden in en rond de Protestantse Laurentiuskerk Ginneken van Ludovicus",
       "date": "16-06-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Nieuwe beelden in en rond de P.jpg",
       "html": "Zomer 2025, staan er weer nieuwe beelden van Ludovicus van Eijnatte in en rond de Protestantse Laurentiuskerk Ginneken aan de Duivelsbruglaan. Dit jaar 6 werken, waarvan 3 binnen en 3 buiten in natuursteen. Het beeld ‘Vogelwezen / Feniks’ staat op het gazon tussen de muur van de Duivelsbruglaan en de kerk. ‘Omhulling’is te zien op de stilteplek van het kerkhof Oud Ginneken. Daarnaast zijn er 4 beelden die een vaste plek hebben gekregen op het kerkhof Oud Ginneken. ‘inwijding’staat op het Laurentiushof in de beukenhaag en ‘Bewogen – Onbewogen’heeft daar ook een defintieve plaats. Alle bovengenoemde beelden zijn uit arduin. Binnen in de kerk staan drie werken.  Twee ‘Lichtwezens’met in het midden ‘Gedragen Lichtreis naar morgenland’. Deze 3 beelden zijn uit albast en vangen licht door de omringende hoge ramen op het koor van de kerk. <br />\n<br />\nBovengenoemde beelden zijn symmetrisch vormgegeven en weerspiegelen orde en harmonie. De symmetrie en de sereniteit in de beelden zijn noodzakelijk om een diepere betekenis op te roepen bij de toeschouwer. Zijn studie architectuur resoneert in zijn beelden. Wat hij aan architectuur toevoegt is een natuurfilosofische dimensie. De geometrische vormen worden getransformeerd tot meer natuurlijke, organische vormen. De beelden onthullen daarmee gedachten van geborgenheid en troost, ontwikkeling, oorsprong en overdenking.<br />\n<br />\nDe beschouwing van het beeld.<br />\n<br />\nHet is interessant de diepere betekenis te vernemen die de kunstenaar toedicht aan zijn werk. Ludovicus vindt het echter belangrijker dat jij als toeschouwer ontdekt wat de betekenis van een beeld voor jezelf is. Het vraagt om  een ‘naar binnen gericht kijken’,<br />\nnaar wat we in onszelf herkennen dat zich in het beeld openbaart. Soms raakt een beeld je onmiddellijk, soms gaat het aan je voorbij of spreekt het je minder aan of ben je er nog niet klaar voor. Maar door veel te kijken, word je onontkoombaar gevoeliger voor de werkzaamheid van zijn beelden.<br />\n<br />\nKijken wordt zien en zien wordt inzien.<br />\n<br />\nVerbeelding in steen: buiten dagelijks.  In de kerk op zaterdagen in de maand juli, en augustus en in de eerste week van september van 13.30 uur – 16.30 uur. Open Monumentendagen 13 en 14 september van 13.00 uur – 17.00 uur.  www.ludovicusvaneijnatte.nl – www.protestantsegemeenteginneken.nl<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Nieuwe beelden in en rond de P.jpg"
+      "local_image": "assets/images/agenda/Nieuwe_beelden_in_en_rond_de_P.jpg"
     },
     "509": {
       "title": "Orgelconcert tijdens Kunstexpositie",
       "date": "9-05-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Orgelconcert tijdens Kunstexpo.jpg",
       "html": "Op zondag 8 juni om 15:30 uur zal er een opnieuw een orgelconcert plaatsvinden tijdens de kunstexpositie rondom de Laurentiuskerk in het Ginneken in Breda. Dit is alweer de vierde keer dat Jan Noordzij, een enthousiaste, getalenteerde organist, een concert geeft tijdens deze expositie, dat plaatsvindt op 7, 8 en 9 juni tussen 12:00 en 17:00 uur.<br />\n<br />\nJan Noordzij, oorspronkelijk afkomstig uit Nederland, woont al jaren in Antwerpen en is daar ook organist in verschillende kerken. Hij geeft concerten in binnen- en buitenland en is bekend om zijn virtuositeit en passie. Hij zal een gevarieerd toegankelijk programma presenteren dat zowel klassieke als moderne stukken omvat.<br />\n<br />\nDe kunstexpositie biedt een unieke gelegenheid om te genieten van prachtige kunstwerken en daarnaast te luisteren naar de betoverende klanken van het orgel. Van harte welkom om een middag vol kunst en muziek te beleven! <br />\n<br />\nDatum orgelconcert: Zondag 8 juni 2025<br />\nTijd:                       15:30 uur<br />\nToegang:                    vrije bijdrage<br />\nLocatie:                    Protestantse Laurentiuskerk, Duivelsbruglaan 1, Breda <br />\n<br />\nVoor meer informatie kunt u contact opnemen met Heleen Havinga. <br />\nHeleen Havinga<br />\nMailadres: <a href=\"mailto:info@heleenhavinga.nl\">info@heleenhavinga.nl</a><br />\n<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Orgelconcert tijdens Kunstexpo.jpg"
+      "local_image": "assets/images/agenda/Orgelconcert_tijdens_Kunstexpo.jpg"
     },
     "508": {
       "title": "Gospeldienst op Hemelvaartsdag",
       "date": "1-05-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Gospeldienst op Hemelvaartsdag.jpg",
       "html": "Donderdag 29 mei 2025 om 11:30 uur in de Grote Kerk Breda  (inloop vanaf 11.00 uur)<br />\nMet medewerking van Gospelformatie More Gospel Singers<br />\n<br />\nLiefde verbindt!<br />\nDe oecumenische viering van het jaar!<br />\n<br />\nOp Hemelvaartsdag, donderdag 29 mei, is er voorafgaand aan Breda Jazz de traditionele gospeldienst in de Grote Kerk, georganiseerd door de Raad van Kerken. Dit jaar werkt Gospelformatie  ‘More Gospel Singers’ onder begeleiding van Ivo Stuivenberg mee aan deze dienst. <br />\n<br />\nDe More Gospel Singers zijn de absolute top in Nederland op het gebied van Black Gospel: Opzwepende muziek van de ziel, uit het hart en met volle overgave gebracht. Deze muziek met de ‘goede boodschap’ is ontstaan op de katoenvelden van de zuidelijke staten van de VS. Als ambassadeur van de Black Gospel willen de More Gospel Singers in deze roerige moderne tijd een boodschap uitbrengen van vrede, verdraagzaamheid en liefde voor iedereen in deze wereld: “This little light of mine, I’m gonna let it shine”. <br />\n<br />\nVoorgangers: Hans van der Meulen (Evangelische Kerk Jefta),                         Thijske Fraanje {Protestantse Gemeente Breda),                       Freijkje van Gennip (Rooms Katholieke Kerk, Breda)<br />\n<br />\nOrganist Grote Kerk : Aart Bergwerff<br />\n<br />\nMeer informatie:<br />\nHans van der Meulen (hans.meulen@gmail.com)<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Gospeldienst op Hemelvaartsdag.jpg"
+      "local_image": "assets/images/agenda/Gospeldienst_op_Hemelvaartsdag.jpg"
     },
     "507": {
       "title": "Voortgang beroepingswerk",
       "date": "8-02-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Voortgang beroepingswerk.jpg",
       "html": "Zondag 9 februari a.s. zal de kerkenraad<br />\nde gemeente na de kerkdienst bijpraten<br />\nover de voortgang van het beroepingswerk.<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Voortgang beroepingswerk.jpg"
+      "local_image": "assets/images/agenda/Voortgang_beroepingswerk.jpg"
     },
     "506": {
       "title": "Breda-Wismar-Arad",
       "date": "8-02-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Breda-Wismar-Arad.jpg",
       "html": "Het nieuwe jaar<br />\n<br />\nAllereerst wensen wij, Graham, Pieter, Annet, Wilma, Rob en ik u allen Vrede en Alle Goeds toe voor het nieuwe jaar!<br />\nEn wat zijn de goede voornemens of wensen, zo u wilt, voor 2025?<br />\n<br />\nWat ons betreft zullen we de contacten die er zijn met onze partnergemeenten in Arad en Wismar zo goed als mogelijk, mede namens u, weer vorm geven. Want meer dan ooit, met alles wat er veraf maar ook dichtbij aan spanningen, oorlogen en andere schrikbarende dingen plaatsvinden, is het belangrijk dat wij als christenen contact hebben, en weet hebben van christenen over onze eigen grenzen heen!<br />\n<br />\nIk noem u enkele contactmomenten:<br />\n- Regelmatig contact houden met elkaar via zoom<br />\n- Voorbeden voor elkaar doen bijvoorbeeld met Pasen en/of Pinksteren<br />\n- Een tegenbezoek van onze jongeren (via Next Level) organiseren aan Wismar<br />\n- Een inzamelingsactie van drogisterijartikelen en medicijnen houden voor Arad<br />\n- Arad ook dit jaar weer financieel ondersteunen voor voedselpakketten en huur kerkzaal<br />\n- Een klein transport organiseren richting Arad met spullen voor gemeente en bejaardenhuis.<br />\n<br />\nU ziet wel: werk genoeg aan de winkel.<br />\nGraag zouden wij onze groep nog wat groter zien.<br />\nDus als het u wat lijkt, neem dan gerust contact met ons op!<br />\nMieke Frankfoorder (vz)<br />\nTel. 06-24705414<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Breda-Wismar-Arad.jpg"
+      "local_image": "assets/images/agenda/Breda-Wismar-Arad.jpg"
     },
     "505": {
       "title": "Stichting Vrienden van de prot. Laurentiuskerk te Ginneken",
       "date": "8-02-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Stichting Vrienden van de prot.jpg",
       "html": "Het bestuur kijkt met heel veel genoegen terug op het adventsconcert dat op 15 december in de kerk tot uitvoering kwam. Er werden ruim 260 kaartjes verkocht, hetgeen betekent dat ons project ‘Bach in Ginneken’ zich inmiddels een vaste plaats heeft verworven in de Bredase concertagenda. Dat is goed voor de bekendheid van het kerkgebouw en in de toekomst ook voor een bredere ondersteuning van de te verwachten restauratiekosten.<br />\n<br />\nWij hopen dat zo de oude monumentale kerk van Ginneken menigeen, ook buiten de kerkelijke gemeente, ter harte gaat. Is er iets wat de onderlinge verbinding van de Ginnekense gemeenschap beter tot uitdrukking kan brengen?<br />\n<br />\nGraag hier ook een bijzonder woord van dank aan de medeprojectbroeders Bas de Geus en Jan Schipper en natuurlijk ook aan het college van kerkrentmeesters die kerk en repetitieruimten weer om niet ter beschikking hebben willen stellen voor dit mooie project, inclusief de koffie en thee voor de koor- en orkestleden.<br />\n<br />\nInmiddels zijn er ook weer de nodige voorbereidingen getroffen voor de Laurentiuslezing 2025.<br />\nOp zondagmiddag 6 april om 15.00 uur zal de lezing worden uitgesproken door dr. Michiel van Well. De titel van de lezing zou kort kunnen worden samengevat met: ‘Technologie in plaats van God?’, met als ondertitel ‘op zoek naar het sacrale in onze technologische cultuur’.<br />\n<br />\nVoorwaar een boeiend en zeer actueel onderwerp, waar heel veel over gezegd en gedacht kan worden.<br />\nWij hopen weer op een volle kerk en een zinvolle discussie bij de nazit in Mariëndal!<br />\n<br />\nMet een hartelijke groet namens het bestuur van de Vriendenstichting,<br />\nPeter Wassink<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Stichting Vrienden van de prot.jpg"
+      "local_image": "assets/images/agenda/Stichting_Vrienden_van_de_prot.jpg"
     },
     "504": {
       "title": "Verwacht slecht weer, geen viering",
       "date": "4-01-2025",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Verwacht slecht weer, geen vie.jpg",
       "html": "De kerkdienst in onze Laurentiuskerk <br />\nzondag 5 januari gaat niet door!<br />\n<br />\nVanwege het verwachte slechte weer morgenvroeg, sneeuw en gladheid, heeft de dominee aangegeven niet te kunnen komen.  <br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Verwacht slecht weer, geen vie.jpg"
+      "local_image": "assets/images/agenda/Verwacht_slecht_weer,_geen_vie.jpg"
     },
     "503": {
       "title": "Actie Kerkbalans 2025",
       "date": "16-12-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Actie Kerkbalans 2025.jpg",
       "html": "Kerk-zijn vraagt nu en morgen om inspiratie, inzet en inkomsten. Alle drie zijn nodig.<br />\n<br />\nIn het begin van het nieuwe jaar ligt een accent op het laatste: met de actie Kerkbalans doen de kerkrentmeesters namens de gemeente een beroep op uw bereidwilligheid om bij te dragen. Ook voor de kerk stijgen de kosten.<br />\n<br />\nNiet het eerste waar u aan denkt in kersttijd, maar daarna, alstublieft!<br />\n<br />\nBas de Geus<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Actie Kerkbalans 2025.jpg"
+      "local_image": "assets/images/agenda/Actie_Kerkbalans_2025.jpg"
     },
     "502": {
       "title": "Van de Beroepingscommissie",
       "date": "16-12-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Van de Beroepingscommissie.jpg",
       "html": "Laatste nieuws vanuit de beroepingscommissie: we vorderen gestaag. Er vielen kandidaten af en er bleven kandidaten over. We zijn met hen in gesprek, kijken of ze passen binnen onze profielschets, horen hen en tijdens een persoonlijke ontmoeting proberen we dan ook nog een indruk te krijgen hoe hij of zij - in nog bredere zin - bij onze gemeente zou passen.<br />\n<br />\nFlexibiliteit bijvoorbeeld vinden wij in dat kader van belang, zodat je kunt schuiven in taken wanneer dat gewenst is en prioriteiten kunt stellen voor dat moment; niet alles is tegelijkertijd uitvoerbaar binnen 60% beschikbare tijd.<br />\n<br />\nNatuurlijk zal dat mettertijd ook enige flexibiliteit vanuit de gemeente vragen. Kortom, er zit zeker vooruitgang in het proces zodat we mogelijk binnen niet al te lange tijd kunnen overgaan tot het beroepen van een predikant.<br />\n<br />\nHartelijke groet,<br />\nElly Wilms<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Van de Beroepingscommissie.jpg"
+      "local_image": "assets/images/agenda/Van_de_Beroepingscommissie.jpg"
     },
     "501": {
       "title": "Kinderkerst - 22 december Lucaskerk",
       "date": "16-12-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Kinderkerst - 22 december Luca.jpg",
       "html": "Zondag 22 december is er een kinderkerst musical, getiteld:<br />\n\"De reis van je leven\"<br />\n<br />\nEr zijn twee uitvoeringen en wel om 15.00 uur en om 19.00 uur.<br />\nDeze vinden plaats in de Lucaskerk, Breda.<br />\n<br />\nDe toegang is gratis, maar je moet wel een plaats reserveren!<br />\nDat kan via <a href=\"https://www.theatrade.nl/\" target=\"_blank\" >www.theatrade.nl</a><br />\n<br />\nMooie adventstijd en een zalig kerstfeest gewenst!<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Kinderkerst - 22 december Luca.jpg"
+      "local_image": "assets/images/agenda/Kinderkerst_-_22_december_Luca.jpg"
     },
     "500": {
       "title": "Kerst Samenzang - 24 december 21.00 uur",
       "date": "16-12-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerst Samenzang - 24 december .jpg",
       "html": "Ook dit jaar gaan onze kerkdeuren weer open voor de Kerstavond zangdienst onder het motto: <br />\n\"Komt allen tezamen\"<br />\n<br />\nEr zullen weer veel aloude kerstliederen gezongen kunnen worden. Dr. Gerlof Bosma zal deze dienst voorgaan.<br />\n<br />\nDe dienst is op Kerstavond, 24 december om 21.00 uur<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerst Samenzang - 24 december .jpg"
+      "local_image": "assets/images/agenda/Kerst_Samenzang_-_24_december_.jpg"
     },
     "499": {
       "title": "Kerstlunch in Mariëndal - 11 december",
       "date": "16-11-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerstlunch-woensdag-11-dec.jpg",
       "html": "Woensdag 11 december is er weer kerstlunch:<br />\n<br />\n•\tAperitief vanaf 11.30 uur<br />\n•\tLunch van 12.00 tot + 13.30 uur<br />\n•\tDeelname is gratis, bijdrage wordt gewaardeerd<br />\n•\tParkeren op Schoolakkerplein<br />\n•\tVervoer voor wie slecht ter been is<br />\n<br />\nWeet u welkom. Proef de sfeer en de smakelijke driegangen lunch.<br />\n<br />\nNeem iemand mee, die er net zo van genieten zal als u.<br />\n<br />\nAanmelden bij Bas de Geus: 06-40395789, of liever nog: <br />\n<a href=\"mailto:basengreetdegeus@gmail.com\">basengreetdegeus@gmail.com</a><br />\n<br />\n<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Kerstlunch-woensdag-11-dec.jpg"
+      "local_image": "assets/images/agenda/Kerstlunch-woensdag-11-dec.jpg"
     },
     "498": {
       "title": "Onthulling gedicht Oud-Ginneken op 8 september jl.",
       "date": "18-10-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Onthulling gedicht Oud-Ginneke.jpg",
       "html": "Het was een aardige oploop na de kerkdienst van 8 september.<br />\nDe vele aanwezige gemeenteleden en belangstellenden van daarbuiten kwamen in de zon kijken naar een stukje voor twee heren. <br />\nDat waren Ko Jaquet, de dichter en voordrager, en Ko Koeman, de begraafplaatsverbeteraar uit onze gemeente. <br />\n<br />\nNadat ze ieder aan een uiteinde van het zilveren lint hadden getrokken, viel het blauwe doek. Daarvóór had Bas de Geus als verantwoordelijk kerkrentmeester een korte toelichting gegeven en ter afsluiting nodigde voorzitter Gerlof Bosma de aanwezigen om langs het paneel over het kerkhof naar Mariëndal te gaan. Daar wachtte de koffie. <br />\n<br />\nNamens de kerkrentmeesters, <br />\nBas de Geus<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Onthulling gedicht Oud-Ginneke.jpg"
+      "local_image": "assets/images/agenda/Onthulling_gedicht_Oud-Ginneke.jpg"
     },
     "497": {
       "title": "Bach in Ginneken 15 december, 16.00 uur",
       "date": "18-10-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Bach in Ginneken 15 december, .jpg",
       "html": "Met veel genoegen kondigen wij u hier nu al het inmiddels zesde concert aan binnen het project ‘Bach in Ginneken’. Het wordt in onze kerk uitgevoerd op zondagmiddag 15 december om 16.00 uur.<br />\n<br />\nEr is weer een koor samengesteld van zeer ervaren en enthousiaste zangers. Zoals altijd wordt het orkest bezet door professionele instrumentalisten die voor het merendeel woonachtig zijn in Breda en omstreken. <br />\nKoor, orkest en solisten staan weer onder de enthousiaste en kundige leiding van dirigent Ruben de Grauw.<br />\n<br />\nIn het programma zijn voor deze derde adventszondag (zondag Gaudete = ‘Verheugt u’) werken opgenomen die vooruitzien naar het Kerstfeest.<br />\n<br />\nHoofdmoot vormen van Johann Sebastian Bach (1685-1750) twee prachtige adventscantates: BWV 36 ‘Schwingt freudig euch empor’ en BWV 62 ‘Nun komm’der Heiden Heiland’. Tevens komen tot uitvoering  ‘Ave Maria’ van Robert Parsons (1535-1572), ‘Veni veni Immanuel van Zoltan Kodaly (1882-1967) en ‘Gaudete omnes’ van Gregor Aichanger (1564-1628). <br />\n<br />\nDaarnaast zal er nog een korte voordracht zijn uit de rijke Nederlandse literatuur rond deze tijd van het jaar.<br />\n<br />\nKaartjes voor dit concert à 20,00 euro p.p. – inclusief een consumptie bij de  nazit in Mariëndal – zijn vanaf half november  te koop bij de bekende boekhandels, maar ook online via de website:<br />\nwww.vriendenprotestantselaurentiuskerkginneken.nl<br />\n<br />\nAls er nog plaats is, zijn kaartjes ook nog te koop bij de ingang vóór het concert.<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Bach in Ginneken 15 december, .jpg"
+      "local_image": "assets/images/agenda/Bach_in_Ginneken_15_december,_.jpg"
     },
     "496": {
       "title": "Herdenkingsdienst - 3 november",
       "date": "18-10-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Herdenkingsdienst - 3 november.jpg",
       "html": "Zondag 3 november om 10.00u is de herdenkingsdienst in onze Laurentiuskerk in Ginneken. We herdenken onze overledenen van de afgelopen 12 maanden en noemen hun namen. <br />\n<br />\nAan het eind van de dienst mogen de kruisjes die in de kerk hangen meegenomen worden. <br />\n<br />\nU bent allen van harte welkom.<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Herdenkingsdienst - 3 november.jpg"
+      "local_image": "assets/images/agenda/Herdenkingsdienst_-_3_november.jpg"
     },
     "495": {
       "title": "Uitnodiging Startzondag 8 september",
       "date": "28-08-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Uitnodiging Startzondag 8 sept.jpg",
       "html": "De Protestantse Gemeente Ginneken houdt 8 september aanstaande haar STARTZONDAG.<br />\n<br />\nBehalve kerkdienst en ontmoeting vindt er dit jaar een unieke gebeurtenis plaats: bij de ingang van ons kerkhof zal het gedicht \"Oud-Ginneken\" worden onthuld.<br />\n<br />\nDit gedicht, geschreven door dhr. Ko Jaquet, voormalig docent aan de Nassau te Breda, is oorspronkelijk geïnspireerd op een begraafplaats in Engeland en bewerkt voor onze plaatselijke situatie.<br />\n<br />\nBij de opening van ons vernieuwde kerkhof werd het gedicht aangeboden aan dhr. Ko Koeman als blijk van waardering voor al zijn inspanning voor dit kerkhof. Onlangs is van het gedicht een weer- en vandaalbestendige uitvoering vervaardigd die een plaats verdient aan de muur bij de ingang van Oud-Ginneken.<br />\n<br />\nDe kerkenraad van de Protestantse Gemeente Ginneken nodigt u, als betrokkene bij onze gemeente, van harte uit om bij deze onthulling aanwezig te zijn.<br />\n<br />\nDeze bijzondere gebeurtenis vindt plaats om 11.15 uur aansluitend aan de kerkdienst. De plaats van handeling is te bereiken via de ingang naar de kerk, Duivelsbruglaan 1, of via de ingang naar ons gemeenschapshuis Mariëndal, Duivelsbruglaan 13. Parkeren is mogelijk aan het Schoolakkerplein.<br />\n<br />\nUiteraard bent u ook welkom bij onze kerkdienst die om 10.00 uur begint.<br />\n<br />\nNa de feestelijke onthulling is er in Mariëndal gelegenheid voor verdere ontmoeting onder genot van een hapje en drankje. Tijdens dit samenzijn zal de beroepingscommissie zich aan u presenteren en u informeren over de ontwikkelingen met betrekking tot het beroepen van een predikant voor onze gemeente.<br />\n<br />\nWij verheugen ons op een mooie en feestelijke startzondag!<br />\n<br />\nMet vriendelijke groet,<br />\n<br />\nWilly Luijk-Smits<br />\nScriba Protestantse Gemeente Ginneken<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Uitnodiging Startzondag 8 sept.jpg"
+      "local_image": "assets/images/agenda/Uitnodiging_Startzondag_8_sept.jpg"
     },
     "494": {
       "title": "Gebedsviering voor alle slachtoffers in Gaza, Israël en de Westbank",
       "date": "18-06-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Gebedsviering voor alle slacht.jpg",
       "html": "Op zaterdagavond 6 juli zal er in de Michaelkerk in Breda-Oost een gebedsviering worden gehouden waarin we alle slachtoffers gedenken van het conflict in Gaza, Israël en de Westbank. <br />\n<br />\nDeze gebedsviering wordt georganiseerd door de Michaelkerk (RK) en de Markuskerk (PKN).<br />\n<br />\nZaterdag 6 juli 19:00 uur <br />\nMichaelkerk<br />\nHooghout 67<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Gebedsviering voor alle slacht.jpg"
+      "local_image": "assets/images/agenda/Gebedsviering_voor_alle_slacht.jpg"
     },
     "493": {
       "title": "Zomerdiensten in de Grote Kerk",
       "date": "9-06-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Zomerdiensten in de Grote Kerk.jpg",
       "html": "Wat is wijsheid?<br />\n<br />\nHoe ga je om met alle vragen die in deze tijd op ons afkomen?<br />\n<br />\n<b> 7 juli:    Frank Ploum (Ekklesia Breda)<br />\n14 juli:  Thijske Fraanje (Protestantse Gemeente Breda)<br />\n21 juli:  Hans van der Meulen (Evangelische Kerk Jefta)<br />\n28 juli:  Piet Warmenhoven (gastpredikant Prt. Gem. Breda)<br />\n4 aug.:   Henk Poot (gastpredikant Prot. Gem. Ginneken)<br />\n11 aug.: Ton van Prooijen (Protestantse Gemeente Breda)</b><br />\n<br />\nOrganist Aart Bergwerff speelt in de diensten van 14 en 28 juli en 4 en 11 augustus.<br />\n<br />\nAanvang 10.00 uur<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Zomerdiensten in de Grote Kerk.jpg"
+      "local_image": "assets/images/agenda/Zomerdiensten_in_de_Grote_Kerk.jpg"
     },
     "492": {
       "title": "Nieuwe beelden in een rond de Protestantse Laurentiuskerk Ginneken van Ludovicus",
       "date": "8-06-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Nieuwe beelden in een rond de .jpg",
       "html": "Deze zomer staan er weer nieuwe beelden van Ludovicus van Eijnatte in en rond onze kerk. Ook dit jaar vijf  werken, waarvan 3 binnen en 2 buiten in natuursteen. Het beeld ‘Kathedraal van de ziel’ uit arduin staat op het gazon tussen de muur van de Duivelsbruglaan en de kerk.<br />\n<br />\n‘Maanteken’ uit graniet en arduin is te zien op de stilteplek van het kerkhof Oud Ginneken. Daarnaast zijn er 4 beelden die een vaste plek hebben gekregen op het Laurentiushof en in de twee nissen van het kerkhof. <br />\n<br />\nBinnen in de kerk staan drie werken . ‘Eeuwige kringloop’ uit arduin en ‘Wording’ uit dolomiet met in het midden<br />\n‘Kringloop van het licht’ uit albast. De beelden in de kerk op het koor vangen het licht door de omringende hoge ramen. Vooral ‘Kringloop van het licht’ werkt doorschijnend.<br />\n<br />\nBovengenoemde beelden zijn symmetrisch vormgegeven en weerspiegelen orde en harmonie. De symmetrie en de sereniteit in de beelden zijn noodzakelijk om een diepere betekenis op te roepen bij de toeschouwer. Zijn studie architectuur resoneert in zijn beelden. Wat hij aan architectuur toevoegt is een natuurfilosofische dimensie. De geometrische vormen worden getransformeerd tot meer natuurlijke, organische vormen. De beelden onthullen daarmee gedachten van geborgenheid en troost, ontwikkeling, oorsprong en overdenking.<br />\n<br />\nDe beschouwing van het beeld.<br />\nOnbevangen kijken naar de betekenis in jezelf.<br />\n<br />\nHet is interessant de diepere betekenis te vernemen die de kunstenaar toedicht aan zijn werk. Ludovicus vindt het echter belangrijker dat jij als toeschouwer ontdekt wat de betekenis van een beeld voor jezelf is. Het vraagt om een ‘naar binnen gericht kijken’.<br />\n<br />\nNaar wat we in onszelf herkennen dat zich in het beeld openbaart. Soms raakt een beeld je onmiddellijk, soms gaat het aan je voorbij of spreekt het je minder aan of ben je er nog niet klaar voor. Maar door veel te kijken, word je onontkoombaar gevoeliger voor de werkzaamheid van zijn beelden. <br />\n<br />\nKijken wordt dan zien en zien wordt inzien.<br />\n<br />\nVerbeelding in steen: buiten dagelijks. In de kerk op zaterdagen in de maand juli en augustus en in de eerste week van september van 13.30 uur – 16.30 uur. <br />\n<br />\nOpen monumentendagen 14 en 15 september van 13.00 uur – 17.00 uur. <br />\n<br />\n<a href=\"http://www.ludovicusvaneijnatte.nl/\" target=\"_blank\" >ludovicusvaneijnatte.nl</a><br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Nieuwe beelden in een rond de .jpg"
+      "local_image": "assets/images/agenda/Nieuwe_beelden_in_een_rond_de_.jpg"
     },
     "491": {
       "title": "Geloof jij?",
       "date": "17-05-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/geloof-jij.jpg",
       "html": "Je bent twintiger, dertiger of veertiger en zou op bovenstaande vraag toch wel ‘ja’ willen antwoorden. Of in ieder geval geen ‘nee’.  Je wilt wel eens met leeftijdsgenoten over je geloof en de bijbel in gesprek, maar weet ze niet goed te vinden… Dan hebben wij goed nieuws voor je!<br />\n<br />\nWij willen als jonge(re) mensen uit regio Breda praten over de betekenis van geloof / de bijbel in je leven. Daarbij mag je je eigen standpunten en vragen inbrengen, uiteraard. Anderen doen dat ook. Je zult zien dat we het regelmatig niet eens zijn. Dat is interessant en geeft de gesprekken diepgang. Je hoeft niet ervaren te zijn in (praten over) geloven trouwens. En alleen luisteren is ook goed. Als je je gewoon wat diepgang zoekt, of je wilt je verdiepen in de bijbelverhalen in relatie tot de actualiteit en je eigen leven, of belijdenis overweeg, of … nou ja, eigenlijk maakt het niet zoveel uit met welk doel je komt. Laten we elkaar eerst maar eens ontmoeten.<br />\n<br />\nDs. Marloes Meijer (<a href=\"https://www.marloesmeijer.com/\" target=\"_blank\" >marloesmeijer.com</a>)<br />\n leidt de eerste bijeenkomsten. We willen graag voor de zomer al een of twee keer bij elkaar komen, dus meld je snel aan als je interesse hebt: <a href=\"mailto:meijer.marloes@gmail.com\">meijer.marloes@gmail.com</a><br />\n<br />\nLocatie: We zijn welkom in een van de ruimtes behorend bij de protestantse Laurentiuskerk, Duivelsbruglaan 1, zodat we het optioneel afrondende drankje kunnen drinken op de Ginnekenmarkt.  Data: in nader overleg op een avond of dagdeel in het weekend. <br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/geloof-jij.jpg"
+      "local_image": "assets/images/agenda/geloof-jij.jpg"
     },
     "490": {
       "title": "Collecten: dakrenovatie",
       "date": "17-05-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Collecten: dakrenovatie.png",
       "html": "Alle collecten zijn belangrijk. Maar deze keer extra aandacht voor een bijzondere:<br />\n<br />\nHet dak van de kerk moet over enkele jaren gerenoveerd worden. Het is belangrijk om onze monumentale kerk in zo goed mogelijke staat te houden. De kerkrentmeesters hebben de  kosten hiervoor begroot op € 300.000,-.Dat is heel veel geld. Maar vele kleine bijdragen maken een grote. We hopen dat velen bij kunnen/willen dragen.<br />\n<br />\nGeef uw donatie via rekeningnummer NL50 INGB 0001 0790 21.<br />\nEn vermeld daarbij: gift dakrenovatie.  <br />\n<br />\nHartelijk dank!<br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Collecten: dakrenovatie.png"
+      "local_image": "assets/images/agenda/Collecten__dakrenovatie.png"
     },
     "489": {
       "title": "Arie Poldervaart 40 jaar predikant",
       "date": "17-05-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Arie Poldervaart 40 jaar predi.jpg",
       "html": "De dienst van zondag 26 mei wordt een feestelijke viering van Schrift en Maaltijd, waarin we met ds Arie Poldervaart in<br />\ndankbaarheid vieren dat hij 40 jaar in het \"wondere ambt\" van predikant staat. <br />\n<br />\nIn Mariëndal is er na de dienst gelegenheid tot felicitatie en iedereen is uitgenodigd voor een eenvoudige lunch. Wel aub opgeven vóór 19 mei bij Diny of Ingeborg. <br />\n<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Arie Poldervaart 40 jaar predi.jpg"
+      "local_image": "assets/images/agenda/Arie_Poldervaart_40_jaar_predi.jpg"
     },
     "488": {
       "title": "Kunstexpositie Grenzeloos, 18 t/m 20 mei, Mariendal",
       "date": "13-05-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/expositie-mei-2024.jpeg",
       "html": "Tijdens het Pinksterweekend is er een kunstexpositie in Mariendal met als titel \"Grenzeloos\".<br />\n<br />\nEr is kunst te zien van diverse schilders, beeldhouwers en keramisten. Het geheel wordt ondersteund met live muziek en op zondag met een orgelconcert.<br />\n<br />\nDe expositie is te bezichtigen van zaterdag 18 mei t/m maandag 20 mei van 13.00 uur tot 17.00 uur.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/expositie-mei-2024.jpeg"
+      "local_image": "assets/images/agenda/expositie-mei-2024.jpeg"
     }
   },
   "verdieping_articles": {
@@ -393,7 +393,7 @@ window.PGG_SCRAPED_DATA = {
       "date": "9-6-2023",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Laurentiuslezing - 17 maart om.png",
       "html": "Op zondag 17 maart 2024 organiseert de Stichting Vrienden van de protestantse Laurentiuskerk Ginneken haar jaarlijkse lezing. <br />\n\t\t\t\t                      Spreker is theoloog Carel ter Linden. Onder de titel “Wat doe ik hier in Godsnaam?” Anders denken over God. Velen kunnen niet meer uit de voeten met God die deze wereld heeft geschapen en ons mensen op de een of andere manier ziet en hoort. Welk geloof dat richting kan geven aan ons leven blijft dan over?\t<br />\n\t\t\t\t\t   De lezing begint om 15.00 uur, toegangskaarten à € 10 (inclusief nazitconsumptie) zijn verkrijgbaar aan de kerk en bij de bekende boekhandels.<br /><br />",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Laurentiuslezing - 17 maart om.png",
+      "local_image": "assets/images/agenda/Laurentiuslezing_-_17_maart_om.png",
       "category": "verhaal"
     },
     "44": {
@@ -464,7 +464,7 @@ window.PGG_SCRAPED_DATA = {
       "title": "Onthulling gedicht Oud-Ginneken op 8 september jl.",
       "date": "18-10-2024",
       "image": "https://protestantsegemeenteginneken.nl/images/agenda/Onthulling gedicht Oud-Ginneke.jpg",
-      "local_image": "https://protestantsegemeenteginneken.nl/images/agenda/Onthulling gedicht Oud-Ginneke.jpg",
+      "local_image": "assets/images/agenda/Onthulling_gedicht_Oud-Ginneke.jpg",
       "html": "Het was een aardige oploop na de kerkdienst van 8 september.<br />\nDe vele aanwezige gemeenteleden en belangstellenden van daarbuiten kwamen in de zon kijken naar een stukje voor twee heren. <br />\nDat waren Ko Jaquet, de dichter en voordrager, en Ko Koeman, de begraafplaatsverbeteraar uit onze gemeente. <br />\n<br />\nNadat ze ieder aan een uiteinde van het zilveren lint hadden getrokken, viel het blauwe doek. Daarvóór had Bas de Geus als verantwoordelijk kerkrentmeester een korte toelichting gegeven en ter afsluiting nodigde voorzitter Gerlof Bosma de aanwezigen om langs het paneel over het kerkhof naar Mariëndal te gaan. Daar wachtte de koffie. <br />\n<br />\nNamens de kerkrentmeesters, <br />\nBas de Geus<br />\n<br /><br />",
       "category": "gedicht"
     },

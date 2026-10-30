@@ -143,7 +143,53 @@
     const newsGrid = document.getElementById('news-grid-main');
     const homeFeatured = document.getElementById('home-news-featured');
     const homeSide = document.getElementById('home-news-side');
+    const hubNewsList = document.getElementById('pkn-hub-news-list');
+    const hubVerdiepingList = document.getElementById('pkn-hub-verdieping-list');
     const archiveTableBody = document.getElementById('news-archive-tbody');
+
+    // PKN 3-koloms Hub: Kolom 1 ("Het recente nieuws" zoals op protestantsekerk.nl)
+    if (hubNewsList) {
+      hubNewsList.innerHTML = featuredNewsIds
+        .slice(0, 4)
+        .map((id) => {
+          const art = data.agenda_articles[id] || (data.agenda_archive || []).find((x) => x.id === id);
+          if (!art) return '';
+          const img = art.local_image || art.image || 'assets/images/herfst-2022.jpg';
+          return `
+            <article class="pkn-hub-item" onclick="openArticle('agenda', '${id}')">
+              <img class="pkn-hub-thumb" src="${img}" alt="${escapeHtml(art.title)}" onerror="this.src='assets/images/herfst-2022.jpg'" loading="lazy" />
+              <div>
+                <div class="pkn-hub-item-meta">${escapeHtml(art.date || 'Actueel')}</div>
+                <h3 class="pkn-hub-item-title">${escapeHtml(art.title)}</h3>
+              </div>
+            </article>
+          `;
+        })
+        .join('');
+    }
+
+    // PKN 3-koloms Hub: Kolom 2 ("Verdieping en inspiratie" zoals op protestantsekerk.nl)
+    if (hubVerdiepingList && data.verdieping_articles) {
+      const hubVIds = ['a_498', '46', '45', '41'];
+      hubVerdiepingList.innerHTML = hubVIds
+        .map((id) => {
+          const art = data.verdieping_articles[id];
+          if (!art) return '';
+          const isPoem = art.category === 'gedicht';
+          const img = art.local_image || art.image || 'assets/images/Bijbel-PGG.png';
+          const catTag = isPoem ? 'Gedicht' : 'Verhaal';
+          return `
+            <article class="pkn-hub-item" onclick="openArticle('verdieping', '${id}')">
+              <img class="pkn-hub-thumb" src="${img}" alt="${escapeHtml(art.title)}" onerror="this.src='assets/images/Bijbel-PGG.png'" loading="lazy" />
+              <div>
+                <div class="pkn-hub-item-meta"><span style="color:var(--pkn-orange-dark);">${catTag}</span> &bull; ${escapeHtml(art.date || '')}</div>
+                <h3 class="pkn-hub-item-title">${escapeHtml(art.title)}</h3>
+              </div>
+            </article>
+          `;
+        })
+        .join('');
+    }
 
     if (newsGrid) {
       newsGrid.innerHTML = featuredNewsIds
@@ -531,6 +577,19 @@
   };
 
   // Global Search across all sections and scraped articles
+  window.submitHeroSearch = function (e) {
+    if (e) e.preventDefault();
+    const heroInput = document.getElementById('hero-search-input');
+    const q = heroInput ? heroInput.value.trim() : '';
+    openModal('search-modal');
+    const modalInput = document.getElementById('global-search-input');
+    if (modalInput) {
+      modalInput.value = q;
+      setTimeout(() => modalInput.focus(), 60);
+    }
+    window.runGlobalSearch(q);
+  };
+
   window.runGlobalSearch = function (query) {
     const resultsContainer = document.getElementById('global-search-results');
     if (!resultsContainer) return;

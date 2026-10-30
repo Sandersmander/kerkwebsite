@@ -7,428 +7,480 @@
   <meta name="description" content="Officiële website van de Protestantse Gemeente Ginneken (PKN) in Breda. Informatie over zondagse erediensten om 10:00 uur in de historische Laurentiuskerk naast de Ginnekenmarkt, activiteiten, pastoraat, diaconaat en verhuur van Mariëndal." />
   <meta name="keywords" content="Protestantse kerk Breda, Protestantse gemeente Ginneken, PKN Breda Ginneken, Laurentiuskerk, Protestantse Laurentiuskerk Ginneken, Mariëndal" />
 
-  <!-- Google Fonts: Plus Jakarta Sans (benadert PKN Museo Sans) & Lora (voor liturgische koppen) -->
+  <!-- Google Fonts: Bree Serif (officiële PKN kop-font op protestantsekerk.nl) & Plus Jakarta Sans (Museo Sans alternatief) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:ital,wght@0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
   <!-- ========================================================================
-       BOVENBALK (PKN Verbinding & Directe Snelkoppelingen)
-       ======================================================================== -->
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <div class="topbar-left">
-        <span class="topbar-item">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Laurentiuskerk &bull; Duivelsbruglaan 1, 4835 JD Breda (Ginnekenmarkt)
-        </span>
-        <span class="topbar-item">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          Eredienst elke zondag om 10:00 uur
-        </span>
-      </div>
-      <div class="topbar-links">
-        <a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
-          Kerkomroep Live
-        </a>
-        <a href="https://www.youtube.com/channel/UCNx5_R4W4CPvf3F_fTOlz1Q/featured/" target="_blank" rel="noopener">
-          Grote Kerk YouTube
-        </a>
-        <a href="https://protestantsekerk.nl/" target="_blank" rel="noopener">
-          Protestantse Kerk (PKN) &nearr;
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- ========================================================================
-       HEADER & OVERZICHTELIJK MENU (Volgens PGGinnekenOpzetWebsite.pdf & KerkWebsite.pdf)
+       HEADER (Authentieke protestantsekerk.nl indeling + 5 pijlers PG Ginneken)
        ======================================================================== -->
   <header class="site-header">
-    <div class="container header-inner">
-      <!-- Officieel PKN-gemeente Ginneken RGB Logo op witte ondergrond -->
-      <a href="#welkom" class="brand-logo" onclick="navigateTo('welkom'); return false;" title="Protestantse Gemeente Ginneken — Startpagina">
-        <img src="assets/images/logo/pkn-ginneken-rgb.jpg" alt="Logo Protestantse Gemeente Ginneken (PKN)" class="brand-logo-img" />
-      </a>
+    <div class="container">
+      <!-- Bovenste rij: Officieel PKN-gemeente Ginneken logo links, Payoff & snellinks rechts -->
+      <div class="header-top-row">
+        <a href="#welkom" class="brand-logo" onclick="navigateTo('welkom'); return false;" title="Protestantse Gemeente Ginneken — Startpagina">
+          <img src="assets/images/logo/pkn-ginneken-rgb.png" alt="Logo Protestantse Gemeente Ginneken (PKN)" class="brand-logo-img" />
+        </a>
 
-      <!-- Hoofdmenu met de 5 exacte pijlers uit PGGinnekenOpzetWebsite.pdf (Els Hagemans) -->
-      <nav class="main-nav" aria-label="Hoofdnavigatie">
-        <!-- 1. WELKOM -->
-        <div class="nav-item">
-          <button class="nav-link active" data-nav="welkom,nieuws,contact,publiciteit,fotos,geschiedenis" onclick="navigateTo('welkom')">
-            Welkom
-            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="dropdown-menu dropdown-menu-wide">
-            <a href="#welkom" class="dropdown-link" onclick="navigateTo('welkom'); return false;">
-              <span class="dropdown-icon">&#127968;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Welkom (Startpagina)</span>
-                <span class="dropdown-desc">Kennismaking met de Protestantse Gemeente Ginneken</span>
-              </span>
-            </a>
-            <a href="#nieuws" class="dropdown-link" onclick="navigateTo('nieuws'); return false;">
-              <span class="dropdown-icon">&#128240;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Nieuws</span>
-                <span class="dropdown-desc">Het recente nieuws, agenda en nieuwsarchief</span>
-              </span>
-            </a>
-            <a href="#contact" class="dropdown-link" onclick="navigateTo('contact'); return false;">
-              <span class="dropdown-icon">&#9993;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Contact</span>
-                <span class="dropdown-desc">Contactgegevens van kerkenraad, koster en kerkelijk bureau</span>
-              </span>
-            </a>
-            <div>
-              <a href="#publiciteit" class="dropdown-link" onclick="navigateTo('publiciteit'); return false;">
-                <span class="dropdown-icon">&#128227;</span>
-                <span class="dropdown-text">
-                  <span class="dropdown-title">Publiciteit</span>
-                  <span class="dropdown-desc">Kerknieuws, Laurentiusbrief en Foto's</span>
-                </span>
-              </a>
-              <div class="dropdown-subitems">
-                <a href="#publiciteit" class="dropdown-sublink" onclick="navigateTo('publiciteit', 'kerknieuws-anchor'); return false;">Kerknieuws</a>
-                <a href="#publiciteit" class="dropdown-sublink" onclick="navigateTo('publiciteit', 'laurentiusbrief-anchor'); return false;">Laurentiusbrief</a>
-                <a href="#fotos" class="dropdown-sublink" onclick="navigateTo('fotos'); return false;">Foto's (14 albums)</a>
-              </div>
-            </div>
-            <a href="#geschiedenis" class="dropdown-link" onclick="navigateTo('geschiedenis'); return false;">
-              <span class="dropdown-icon">&#127963;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Geschiedenis</span>
-                <span class="dropdown-desc">Zeven eeuwen historie van de Laurentiuskerk (sinds 1316)</span>
-              </span>
-            </a>
-            <a href="#contact" class="dropdown-link" onclick="navigateTo('contact', 'locatie-anchor'); return false;">
-              <span class="dropdown-icon">&#128205;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Locatie van de kerk</span>
-                <span class="dropdown-desc">Duivelsbruglaan 1–13 naast de Ginnekenmarkt in Breda</span>
-              </span>
-            </a>
+        <div class="header-top-right">
+          <div class="pkn-payoff">
+            Vindplaats van<br />geloof, hoop en liefde
+          </div>
+
+          <div class="header-utility-links">
+            <a href="#diensten" onclick="navigateTo('diensten'); return false;">Zondag 10:00 uur</a>
+            <a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener">Kerkomroep Live &nearr;</a>
+            <a href="#anbi" onclick="navigateTo('anbi'); return false;">ANBI</a>
+            <a href="#contact" onclick="navigateTo('contact'); return false;">Contact</a>
+          </div>
+
+          <div class="header-actions">
+            <button class="btn-icon" onclick="openModal('search-modal'); setTimeout(() => document.getElementById('global-search-input').focus(), 80);" title="Zoeken op de hele website" aria-label="Zoeken">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <button class="btn-sitemap" onclick="openModal('sitemap-modal')" title="Volledig menu-overzicht">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              Alle pagina's
+            </button>
+            <button class="mobile-menu-toggle" onclick="openModal('sitemap-modal')" aria-label="Open menu">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
           </div>
         </div>
-
-        <!-- 2. KERKDIENSTEN -->
-        <div class="nav-item">
-          <button class="nav-link" data-nav="diensten,jeugd,diaconaat,pastoraat" onclick="navigateTo('diensten')">
-            Kerkdiensten
-            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="dropdown-menu dropdown-menu-wide">
-            <a href="#diensten" class="dropdown-link" onclick="navigateTo('diensten', 'rooster-anchor'); return false;">
-              <span class="dropdown-icon">&#9962;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Data, liturgie en kerkomroep</span>
-                <span class="dropdown-desc">Zondagdiensten om 10:00 uur, orde van dienst (PDF) &amp; Kerkomroep</span>
-              </span>
-            </a>
-            <a href="#jeugd" class="dropdown-link" onclick="navigateTo('jeugd'); return false;">
-              <span class="dropdown-icon">&#127775;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Kind en Jeugd</span>
-                <span class="dropdown-desc">De Kleine Kerk (kindernevendienst), crèche en tienergroep</span>
-              </span>
-            </a>
-            <a href="#diaconaat" class="dropdown-link" onclick="navigateTo('diaconaat'); return false;">
-              <span class="dropdown-icon">&#10084;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Diaconaat</span>
-                <span class="dropdown-desc">Omzien naar elkaar, ZWO Malawi, Kerkelijk Huisbezoek &amp; lunch</span>
-              </span>
-            </a>
-            <a href="#pastoraat" class="dropdown-link" onclick="navigateTo('pastoraat'); return false;">
-              <span class="dropdown-icon">&#129309;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Pastoraat</span>
-                <span class="dropdown-desc">Pastorale zorg en persoonlijke gesprekken met predikant of ouderling</span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <!-- 3. BREDA BREED -->
-        <div class="nav-item">
-          <button class="nav-link" data-nav="kerkenwerk" onclick="navigateTo('kerkenwerk')">
-            Breda Breed
-            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="dropdown-menu dropdown-menu-wide">
-            <a href="#kerkenwerk" class="dropdown-link" onclick="navigateTo('kerkenwerk', 'vrienden-anchor'); return false;">
-              <span class="dropdown-icon">&#127963;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Vrienden van de Laurentiuskerk</span>
-                <span class="dropdown-desc">Stichting tot behoud van ons monumentale kerkgebouw &amp; Laurentiuslezing</span>
-              </span>
-            </a>
-            <a href="#kerkenwerk" class="dropdown-link" onclick="navigateTo('kerkenwerk', 'kerkgemeenten-breda-anchor'); return false;">
-              <span class="dropdown-icon">&#127760;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Andere kerkgemeenten in Breda</span>
-                <span class="dropdown-desc">Samenwerking met PG Breda, zusterkerken, R.K. Parochie &amp; Raad van Kerken</span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <!-- 4. VERDIEPING -->
-        <div class="nav-item">
-          <button class="nav-link" data-nav="verdieping" onclick="navigateTo('verdieping')">
-            Verdieping
-            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="dropdown-menu">
-            <a href="#verdieping" class="dropdown-link" onclick="navigateTo('verdieping'); filterVerdieping('gedicht'); return false;">
-              <span class="dropdown-icon">&#10024;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Gedichten</span>
-                <span class="dropdown-desc">Poëzie, liederen en meditatieve gedichten uit onze gemeente</span>
-              </span>
-            </a>
-            <a href="#verdieping" class="dropdown-link" onclick="navigateTo('verdieping'); filterVerdieping('verhaal'); return false;">
-              <span class="dropdown-icon">&#128214;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Verhalen</span>
-                <span class="dropdown-desc">Overwegingen, Schatten van Laurentius, lezingen &amp; vorming</span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <!-- 5. ORGANISATIE -->
-        <div class="nav-item">
-          <button class="nav-link" data-nav="organisatie,anbi,verhuur" onclick="navigateTo('organisatie')">
-            Organisatie
-            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="dropdown-menu dropdown-menu-wide" style="right:0;left:auto;">
-            <div>
-              <a href="#anbi" class="dropdown-link" onclick="navigateTo('anbi'); return false;">
-                <span class="dropdown-icon">&#128203;</span>
-                <span class="dropdown-text">
-                  <span class="dropdown-title">ANBI</span>
-                  <span class="dropdown-desc">Fiscale transparantie, RSIN, beleidsplannen en jaarcijfers</span>
-                </span>
-              </a>
-              <div class="dropdown-subitems">
-                <a href="#anbi" class="dropdown-sublink" onclick="navigateTo('anbi'); switchAnbiTab('kerk'); return false;">Kerk</a>
-                <a href="#anbi" class="dropdown-sublink" onclick="navigateTo('anbi'); switchAnbiTab('diaconie'); return false;">Diaconie</a>
-              </div>
-            </div>
-
-            <div>
-              <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerkenraad-anchor'); return false;">
-                <span class="dropdown-icon">&#128101;</span>
-                <span class="dropdown-text">
-                  <span class="dropdown-title">Kerkenraad</span>
-                  <span class="dropdown-desc">Dominee, voorzitter (preses), ouderlingen en diakenen</span>
-                </span>
-              </a>
-              <div class="dropdown-subitems">
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-dominee-anchor'); return false;">Dominee</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-voorzitter-anchor'); return false;">Voorzitter</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-ouderlingen-anchor'); return false;">Ouderlingen</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-diakenen-anchor'); return false;">Diakenen</a>
-              </div>
-            </div>
-
-            <div>
-              <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerkrentmeesters-anchor'); return false;">
-                <span class="dropdown-icon">&#127970;</span>
-                <span class="dropdown-text">
-                  <span class="dropdown-title">Kerkrentmeesters</span>
-                  <span class="dropdown-desc">Beheer, leden- en bijdragenadministratie &amp; begraafplaatsen</span>
-                </span>
-              </a>
-              <div class="dropdown-subitems">
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-voorzitter-anchor'); return false;">Voorzitter</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-secretaris-anchor'); return false;">Secretaris</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-leden-anchor'); return false;">Ledenadministratie</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-bijdragen-anchor'); return false;">Bijdragenadministratie</a>
-                <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-begraafplaatsen-anchor'); return false;">Begraafplaatsen</a>
-              </div>
-            </div>
-
-            <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'koster-beheerder-anchor'); return false;">
-              <span class="dropdown-icon">&#128273;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Koster / Beheerder</span>
-                <span class="dropdown-desc">Ingeborg Haspels &bull; Gebruik kerkgebouw, Mariëndal &amp; trouwlocatie</span>
-              </span>
-            </a>
-
-            <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'veilige-kerk-org-anchor'); return false;">
-              <span class="dropdown-icon">&#128737;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Veilige kerk</span>
-                <span class="dropdown-desc">Gedragscode Veilige Kerk en vertrouwenspersonen</span>
-              </span>
-            </a>
-
-            <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerk-en-uitvaart-anchor'); return false;">
-              <span class="dropdown-icon">&#128367;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Kerk en uitvaart</span>
-                <span class="dropdown-desc">Wat te doen bij overlijden &amp; uitvaartdienst in de Laurentiuskerk</span>
-              </span>
-            </a>
-
-            <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerkelijk-bureau-anchor'); return false;">
-              <span class="dropdown-icon">&#128193;</span>
-              <span class="dropdown-text">
-                <span class="dropdown-title">Kerkelijk Bureau</span>
-                <span class="dropdown-desc">Mevr. A. van Halem (Duivelsbruglaan 11) &amp; Privacyverklaring</span>
-              </span>
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Rechts: PKN Motto (uit KerkWebsite.pdf), Zoeken & Menu-overzicht -->
-      <div class="header-actions">
-        <span class="header-motto">Vindplaats van geloof, hoop en liefde</span>
-        <button class="btn-icon" onclick="openModal('search-modal'); setTimeout(() => document.getElementById('global-search-input').focus(), 80);" title="Zoeken op de hele website" aria-label="Zoeken">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        </button>
-        <button class="btn-sitemap" onclick="openModal('sitemap-modal')" title="Volledig menu-overzicht">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          Menu Overzicht
-        </button>
-        <button class="mobile-menu-toggle" onclick="openModal('sitemap-modal')" aria-label="Open menu">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-        </button>
       </div>
+
+      <!-- Tweede rij: Gecentreerd hoofdmenu met exact de 5 pijlers van PGGinnekenOpzetWebsite.pdf -->
+      <div class="header-nav-row">
+        <nav class="main-nav" aria-label="Hoofdnavigatie">
+          <!-- 1. WELKOM -->
+          <div class="nav-item">
+            <button class="nav-link active" data-nav="welkom,nieuws,contact,publiciteit,fotos,geschiedenis" onclick="navigateTo('welkom')">
+              Welkom
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu-wide">
+              <a href="#welkom" class="dropdown-link" onclick="navigateTo('welkom'); return false;">
+                <span class="dropdown-icon">&#127968;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Welkom (Startpagina)</span>
+                  <span class="dropdown-desc">Kennismaking met de Protestantse Gemeente Ginneken</span>
+                </span>
+              </a>
+              <a href="#nieuws" class="dropdown-link" onclick="navigateTo('nieuws'); return false;">
+                <span class="dropdown-icon">&#128240;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Nieuws</span>
+                  <span class="dropdown-desc">Het recente nieuws, agenda en nieuwsarchief</span>
+                </span>
+              </a>
+              <a href="#contact" class="dropdown-link" onclick="navigateTo('contact'); return false;">
+                <span class="dropdown-icon">&#9993;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Contact</span>
+                  <span class="dropdown-desc">Contactgegevens van kerkenraad, koster en kerkelijk bureau</span>
+                </span>
+              </a>
+              <div>
+                <a href="#publiciteit" class="dropdown-link" onclick="navigateTo('publiciteit'); return false;">
+                  <span class="dropdown-icon">&#128227;</span>
+                  <span class="dropdown-text">
+                    <span class="dropdown-title">Publiciteit</span>
+                    <span class="dropdown-desc">Kerknieuws, Laurentiusbrief en Foto's</span>
+                  </span>
+                </a>
+                <div class="dropdown-subitems">
+                  <a href="#publiciteit" class="dropdown-sublink" onclick="navigateTo('publiciteit', 'kerknieuws-anchor'); return false;">Kerknieuws</a>
+                  <a href="#publiciteit" class="dropdown-sublink" onclick="navigateTo('publiciteit', 'laurentiusbrief-anchor'); return false;">Laurentiusbrief</a>
+                  <a href="#fotos" class="dropdown-sublink" onclick="navigateTo('fotos'); return false;">Foto's (14 albums)</a>
+                </div>
+              </div>
+              <a href="#geschiedenis" class="dropdown-link" onclick="navigateTo('geschiedenis'); return false;">
+                <span class="dropdown-icon">&#127963;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Geschiedenis</span>
+                  <span class="dropdown-desc">Zeven eeuwen historie van de Laurentiuskerk (sinds 1316)</span>
+                </span>
+              </a>
+              <a href="#contact" class="dropdown-link" onclick="navigateTo('contact', 'locatie-anchor'); return false;">
+                <span class="dropdown-icon">&#128205;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Locatie van de kerk</span>
+                  <span class="dropdown-desc">Duivelsbruglaan 1–13 naast de Ginnekenmarkt in Breda</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. KERKDIENSTEN -->
+          <div class="nav-item">
+            <button class="nav-link" data-nav="diensten,jeugd,diaconaat,pastoraat" onclick="navigateTo('diensten')">
+              Kerkdiensten
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu-wide">
+              <a href="#diensten" class="dropdown-link" onclick="navigateTo('diensten', 'rooster-anchor'); return false;">
+                <span class="dropdown-icon">&#9962;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Data, liturgie en kerkomroep</span>
+                  <span class="dropdown-desc">Zondagdiensten om 10:00 uur, orde van dienst (PDF) &amp; Kerkomroep</span>
+                </span>
+              </a>
+              <a href="#jeugd" class="dropdown-link" onclick="navigateTo('jeugd'); return false;">
+                <span class="dropdown-icon">&#127775;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Kind en Jeugd</span>
+                  <span class="dropdown-desc">De Kleine Kerk (kindernevendienst), crèche en tienergroep</span>
+                </span>
+              </a>
+              <a href="#diaconaat" class="dropdown-link" onclick="navigateTo('diaconaat'); return false;">
+                <span class="dropdown-icon">&#10084;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Diaconaat</span>
+                  <span class="dropdown-desc">Omzien naar elkaar, ZWO Malawi, Kerkelijk Huisbezoek &amp; lunch</span>
+                </span>
+              </a>
+              <a href="#pastoraat" class="dropdown-link" onclick="navigateTo('pastoraat'); return false;">
+                <span class="dropdown-icon">&#129309;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Pastoraat</span>
+                  <span class="dropdown-desc">Pastorale zorg en persoonlijke gesprekken met predikant of ouderling</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. BREDA BREED -->
+          <div class="nav-item">
+            <button class="nav-link" data-nav="kerkenwerk" onclick="navigateTo('kerkenwerk')">
+              Breda Breed
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu-wide">
+              <a href="#kerkenwerk" class="dropdown-link" onclick="navigateTo('kerkenwerk', 'vrienden-anchor'); return false;">
+                <span class="dropdown-icon">&#127963;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Vrienden van de Laurentiuskerk</span>
+                  <span class="dropdown-desc">Stichting tot behoud van ons monumentale kerkgebouw &amp; Laurentiuslezing</span>
+                </span>
+              </a>
+              <a href="#kerkenwerk" class="dropdown-link" onclick="navigateTo('kerkenwerk', 'kerkgemeenten-breda-anchor'); return false;">
+                <span class="dropdown-icon">&#127760;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Andere kerkgemeenten in Breda</span>
+                  <span class="dropdown-desc">Samenwerking met PG Breda, zusterkerken, R.K. Parochie &amp; Raad van Kerken</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. VERDIEPING -->
+          <div class="nav-item">
+            <button class="nav-link" data-nav="verdieping" onclick="navigateTo('verdieping')">
+              Verdieping
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="dropdown-menu">
+              <a href="#verdieping" class="dropdown-link" onclick="navigateTo('verdieping'); filterVerdieping('gedicht'); return false;">
+                <span class="dropdown-icon">&#10024;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Gedichten</span>
+                  <span class="dropdown-desc">Poëzie, liederen en meditatieve gedichten uit onze gemeente</span>
+                </span>
+              </a>
+              <a href="#verdieping" class="dropdown-link" onclick="navigateTo('verdieping'); filterVerdieping('verhaal'); return false;">
+                <span class="dropdown-icon">&#128214;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Verhalen</span>
+                  <span class="dropdown-desc">Overwegingen, Schatten van Laurentius, lezingen &amp; vorming</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5. ORGANISATIE -->
+          <div class="nav-item">
+            <button class="nav-link" data-nav="organisatie,anbi,verhuur" onclick="navigateTo('organisatie')">
+              Organisatie
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu-wide" style="right:0;left:auto;">
+              <div>
+                <a href="#anbi" class="dropdown-link" onclick="navigateTo('anbi'); return false;">
+                  <span class="dropdown-icon">&#128203;</span>
+                  <span class="dropdown-text">
+                    <span class="dropdown-title">ANBI</span>
+                    <span class="dropdown-desc">Fiscale transparantie, RSIN, beleidsplannen en jaarcijfers</span>
+                  </span>
+                </a>
+                <div class="dropdown-subitems">
+                  <a href="#anbi" class="dropdown-sublink" onclick="navigateTo('anbi'); switchAnbiTab('kerk'); return false;">Kerk</a>
+                  <a href="#anbi" class="dropdown-sublink" onclick="navigateTo('anbi'); switchAnbiTab('diaconie'); return false;">Diaconie</a>
+                </div>
+              </div>
+
+              <div>
+                <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerkenraad-anchor'); return false;">
+                  <span class="dropdown-icon">&#128101;</span>
+                  <span class="dropdown-text">
+                    <span class="dropdown-title">Kerkenraad</span>
+                    <span class="dropdown-desc">Dominee, voorzitter (preses), ouderlingen en diakenen</span>
+                  </span>
+                </a>
+                <div class="dropdown-subitems">
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-dominee-anchor'); return false;">Dominee</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-voorzitter-anchor'); return false;">Voorzitter</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-ouderlingen-anchor'); return false;">Ouderlingen</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'kr-diakenen-anchor'); return false;">Diakenen</a>
+                </div>
+              </div>
+
+              <div>
+                <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerkrentmeesters-anchor'); return false;">
+                  <span class="dropdown-icon">&#127970;</span>
+                  <span class="dropdown-text">
+                    <span class="dropdown-title">Kerkrentmeesters</span>
+                    <span class="dropdown-desc">Beheer, leden- en bijdragenadministratie &amp; begraafplaatsen</span>
+                  </span>
+                </a>
+                <div class="dropdown-subitems">
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-voorzitter-anchor'); return false;">Voorzitter</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-secretaris-anchor'); return false;">Secretaris</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-leden-anchor'); return false;">Ledenadministratie</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-bijdragen-anchor'); return false;">Bijdragenadministratie</a>
+                  <a href="#organisatie" class="dropdown-sublink" onclick="navigateTo('organisatie', 'krm-begraafplaatsen-anchor'); return false;">Begraafplaatsen</a>
+                </div>
+              </div>
+
+              <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'koster-beheerder-anchor'); return false;">
+                <span class="dropdown-icon">&#128273;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Koster / Beheerder</span>
+                  <span class="dropdown-desc">Ingeborg Haspels &bull; Gebruik kerkgebouw, Mariëndal &amp; trouwlocatie</span>
+                </span>
+              </a>
+
+              <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'veilige-kerk-org-anchor'); return false;">
+                <span class="dropdown-icon">&#128737;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Veilige kerk</span>
+                  <span class="dropdown-desc">Gedragscode Veilige Kerk en vertrouwenspersonen</span>
+                </span>
+              </a>
+
+              <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerk-en-uitvaart-anchor'); return false;">
+                <span class="dropdown-icon">&#128367;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Kerk en uitvaart</span>
+                  <span class="dropdown-desc">Wat te doen bij overlijden &amp; uitvaartdienst in de Laurentiuskerk</span>
+                </span>
+              </a>
+
+              <a href="#organisatie" class="dropdown-link" onclick="navigateTo('organisatie', 'kerkelijk-bureau-anchor'); return false;">
+                <span class="dropdown-icon">&#128193;</span>
+                <span class="dropdown-text">
+                  <span class="dropdown-title">Kerkelijk Bureau</span>
+                  <span class="dropdown-desc">Mevr. A. van Halem (Duivelsbruglaan 11) &amp; Privacyverklaring</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Sierlijke PKN booglijn onder de navigatie (zoals op protestantsekerk.nl) -->
+    <div class="pkn-arch-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 24" preserveAspectRatio="none">
+        <path d="M0,0 L1440,0 L1440,4 Q720,24 0,4 Z" fill="#FAF9F6" />
+        <path d="M0,4 Q720,24 1440,4" fill="none" stroke="#DFD9CE" stroke-width="1.5" />
+      </svg>
     </div>
   </header>
 
   <!-- ========================================================================
-       SNELKEUZE BALK (Afgestemd op de 5 hoofdpijlers van PGGinnekenOpzetWebsite.pdf)
-       ======================================================================== -->
-  <div class="quick-menu-bar">
-    <div class="container">
-      <div class="quick-pills" role="tablist" aria-label="Snelmenu">
-        <button class="quick-pill active" data-target="welkom" onclick="navigateTo('welkom')">Welkom</button>
-        <button class="quick-pill" data-target="nieuws" onclick="navigateTo('nieuws')">Nieuws</button>
-        <button class="quick-pill" data-target="publiciteit" onclick="navigateTo('publiciteit')">Publiciteit (Kerknieuws &amp; Laurentiusbrief)</button>
-        <button class="quick-pill" data-target="fotos" onclick="navigateTo('fotos')">Foto's</button>
-        <button class="quick-pill" data-target="geschiedenis" onclick="navigateTo('geschiedenis')">Geschiedenis</button>
-        <button class="quick-pill" data-target="diensten" onclick="navigateTo('diensten')">Kerkdiensten &amp; Liturgie</button>
-        <button class="quick-pill" data-target="jeugd" onclick="navigateTo('jeugd')">Kind en Jeugd</button>
-        <button class="quick-pill" data-target="diaconaat" onclick="navigateTo('diaconaat')">Diaconaat</button>
-        <button class="quick-pill" data-target="pastoraat" onclick="navigateTo('pastoraat')">Pastoraat</button>
-        <button class="quick-pill" data-target="kerkenwerk" onclick="navigateTo('kerkenwerk')">Breda Breed</button>
-        <button class="quick-pill" data-target="verdieping" onclick="navigateTo('verdieping')">Verdieping (Gedichten &amp; Verhalen)</button>
-        <button class="quick-pill" data-target="organisatie" onclick="navigateTo('organisatie')">Organisatie &amp; Kerkenraad</button>
-        <button class="quick-pill" data-target="anbi" onclick="navigateTo('anbi')">ANBI (Kerk &amp; Diaconie)</button>
-        <button class="quick-pill" data-target="contact" onclick="navigateTo('contact')">Contact &amp; Locatie</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ========================================================================
-       SECTIE 1: WELKOM (HOME — Volgens KerkWebsite.pdf & PGGinnekenOpzetWebsite.pdf)
+       SECTIE 1: WELKOM (HOME — Geïnspireerd op protestantsekerk.nl & KerkWebsite.pdf)
        ======================================================================== -->
   <main>
     <section id="sec-welkom" class="view-section active" style="padding-top:0;">
-      <!-- 16:9 Hero met foto IMG20260524150523.jpg van Els Hagemans en gecentreerde kernboodschap -->
-      <div class="hero-16-9">
-        <div class="hero-16-9-bg"></div>
-        <div class="hero-16-9-overlay"></div>
-        <div class="hero-16-9-content">
-          <div class="hero-badge" style="margin:0 auto 1.15rem;display:inline-flex;">
-            <span>&#10013;</span> Protestantse Laurentiuskerk Ginneken &bull; Breda
-          </div>
-          <h1 class="hero-mission-quote">
-            “De Protestantse Gemeente Ginneken: Een open en actieve geloofsgemeenschap midden in de wijk, verbonden door traditie en gericht op de wereld van nu.”
-          </h1>
-          <div class="hero-buttons" style="justify-content:center;">
-            <button class="btn btn-orange" onclick="navigateTo('diensten')">
-              Kerkdiensten &amp; Liturgie
-            </button>
-            <button class="btn btn-primary" onclick="navigateTo('nieuws')">
-              Het Recente Nieuws
-            </button>
-            <button class="btn btn-outline-light" onclick="navigateTo('contact', 'locatie-anchor')">
-              Locatie &amp; Contact
-            </button>
-          </div>
-        </div>
-      </div>
+      <div class="container">
+        <!-- 1. PKN ASYMMETRISCHE 2-KOLOMS HERO (Zoals op protestantsekerk.nl) -->
+        <div class="pkn-hero-section">
+          <div class="pkn-hero-grid">
+            <!-- Linkerkolom: Welkom, Kernboodschap, Pil-zoekbalk & Eerstvolgende dienst -->
+            <div class="pkn-hero-left">
+              <h1 class="pkn-welcome-heading">Welkom in Ginneken,</h1>
+              <p class="pkn-mission-lead">
+                “De Protestantse Gemeente Ginneken: Een open en actieve geloofsgemeenschap midden in de wijk, verbonden door traditie en gericht op de wereld van nu.”
+              </p>
 
-      <!-- Directe Dienst-strip onder de Hero -->
-      <div class="hero-service-strip">
-        <div class="container hero-service-strip-inner">
-          <div style="display:flex;align-items:center;gap:0.85rem;flex-wrap:wrap;">
-            <span class="badge badge-red">Eerstvolgende Kerkdienst</span>
-            <strong style="color:var(--text-main);">Zondag 1 november om 10:00 uur — Gedachtenisdienst</strong>
-            <span style="color:var(--text-secondary);font-size:0.92rem;">Voorganger: ds. G.P.Th. Bosma &bull; Collecte: Tools to Work</span>
-          </div>
-          <div style="display:flex;gap:0.65rem;flex-wrap:wrap;">
-            <a href="https://protestantsegemeenteginneken.nl/documenten/261101HerdenkingsdienstGinneken-GB.pdf" target="_blank" rel="noopener" class="btn btn-primary" style="padding:0.45rem 0.95rem;font-size:0.84rem;">
-              Orde van Dienst (PDF) &nearr;
-            </a>
-            <button class="btn btn-outline" style="padding:0.45rem 0.95rem;font-size:0.84rem;" onclick="navigateTo('diensten')">
-              Alle Kerkdiensten &rarr;
-            </button>
-          </div>
-        </div>
-      </div>
+              <!-- De karakteristieke protestantsekerk.nl pil-zoekbalk met ronde oranje knop -->
+              <form class="pkn-search-bar" onsubmit="submitHeroSearch(event)">
+                <input
+                  id="hero-search-input"
+                  type="search"
+                  class="pkn-search-input"
+                  placeholder="Waar ben je naar op zoek?"
+                  aria-label="Waar ben je naar op zoek?"
+                />
+                <button type="submit" class="pkn-search-btn" aria-label="Zoeken">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+              </form>
 
-      <!-- Welkom-sectie in 2 kolommen (exact volgens ontwerp KerkWebsite.pdf) -->
-      <div class="container welkom-mockup-section">
-        <h2 class="welkom-orange-title">Welkom op de website van de Protestantse Gemeente Ginneken</h2>
-        <div class="welkom-two-col">
-          <div>
-            <p style="font-size:1.05rem;color:var(--text-main);margin-bottom:1.15rem;font-weight:500;">
-              Aan allen die betrokken zijn bij de Protestantse Gemeente Ginneken: leden, gastleden, vrienden en geïnteresseerden.
-            </p>
-            <p style="font-size:1.02rem;color:var(--text-secondary);margin-bottom:1.15rem;">
-              Wij zijn een levendige, betrokken gemeente, midden in het hart van Ginneken en midden in het leven. Wij hebben een mooie, oecumenisch gekleurde liturgie waarin Woord én Sacrament centraal staan en die het waard is om gevierd te worden. Daarom nodigen wij u graag uit om de dienst eens bij te wonen op een zondagmorgen om <strong>10:00 uur</strong> in onze historische Laurentiuskerk naast de Ginnekenmarkt.
-            </p>
-            <p style="font-size:1.02rem;color:var(--text-secondary);margin-bottom:1.5rem;">
-              Na afloop van de kerkdienst is iedereen van harte welkom voor koffie en ontmoeting in ons gemeentecentrum <strong>Mariëndal</strong> (Duivelsbruglaan 13). Elke eerste zaterdag van de maand én iedere zaterdag in juli en augustus staan de deuren van de kerk bovendien ’s middags open tijdens <strong>Open Kerk Ginneken</strong> (13:30 – 16:30 uur).
-            </p>
-
-            <!-- Snelkoppelingen onder de welkomsttekst -->
-            <div class="grid-2" style="gap:1rem;">
-              <div class="card card-accent-orange" style="padding:1.1rem;">
-                <h4 style="margin-bottom:0.25rem;">Kerkdiensten &amp; Kerkomroep</h4>
-                <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:0.5rem;">Iedere zondag om 10:00 uur in de Laurentiuskerk of live meeluisteren via Kerkomroep.</p>
-                <a href="#diensten" onclick="navigateTo('diensten'); return false;" style="font-weight:700;font-size:0.88rem;color:var(--pkn-orange-dark);">Data, liturgie en kerkomroep &rarr;</a>
+              <!-- Eerstvolgende kerkdienst kaartje -->
+              <div class="pkn-next-service-box">
+                <div class="pkn-next-service-top">
+                  <span class="pkn-next-service-title">Zondag 1 november &bull; 10:00 uur</span>
+                  <span class="badge badge-orange">Eerstvolgende dienst</span>
+                </div>
+                <div class="pkn-next-service-meta">
+                  <strong>Gedachtenisdienst</strong> &bull; Voorganger: ds. G.P.Th. Bosma &bull; Collecte: Tools to Work
+                </div>
+                <div class="pkn-next-service-links">
+                  <a href="https://protestantsegemeenteginneken.nl/documenten/261101HerdenkingsdienstGinneken-GB.pdf" target="_blank" rel="noopener">
+                    Orde van Dienst (PDF) &nearr;
+                  </a>
+                  <a href="#diensten" onclick="navigateTo('diensten'); return false;">
+                    Volledig preekrooster &rarr;
+                  </a>
+                </div>
               </div>
-              <div class="card card-accent-red" style="padding:1.1rem;">
-                <h4 style="margin-bottom:0.25rem;">Publiciteit &amp; Laurentiusbrief</h4>
-                <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:0.5rem;">Blijf op de hoogte via ons kerkblad Kerknieuws en de maandelijkse digitale Laurentiusbrief.</p>
-                <a href="#publiciteit" onclick="navigateTo('publiciteit'); return false;" style="font-weight:700;font-size:0.88rem;">Naar Publiciteit &amp; Foto's &rarr;</a>
+            </div>
+
+            <!-- Rechterkolom: 16:9 Foto van de Laurentiuskerk (IMG20260524150523.jpg door Els Hagemans) -->
+            <div class="pkn-hero-photo-card" onclick="navigateTo('diensten')" title="Bekijk onze kerkdiensten en de Laurentiuskerk">
+              <img src="assets/images/hero-laurentiuskerk-16-9.jpg" alt="De monumentale Protestantse Laurentiuskerk in Breda-Ginneken" />
+              <div class="pkn-hero-photo-overlay">
+                <div class="pkn-hero-photo-caption">
+                  <div>
+                    <div class="pkn-hero-photo-sub">Protestantse Laurentiuskerk &bull; Duivelsbruglaan 1 (Ginnekenmarkt)</div>
+                    <div class="pkn-hero-photo-title">Iedere zondag om 10:00 uur eredienst en ontmoeting</div>
+                  </div>
+                  <span class="pkn-circle-arrow" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Rechterkolom: Foto KerkEnLaurentiushof.jpg (aangeleverd door Els Hagemans) met onderschrift -->
-          <div>
-            <figure class="welkom-photo-figure">
-              <img src="assets/images/kerk-en-laurentiushof.jpg" alt="De Laurentiuskerk en het Laurentiushof in het Ginneken" />
-              <figcaption class="welkom-photo-caption">
-                Onze monumentale Protestantse Laurentiuskerk (sinds 1316) en het Laurentiushof aan de Duivelsbruglaan in het Ginneken.
-              </figcaption>
-            </figure>
+        <!-- 2. PKN 3-KOLOMS CONTENT HUB (Exact zoals op protestantsekerk.nl) -->
+        <div class="pkn-hub-grid">
+          <!-- Kolom 1: Het recente nieuws -->
+          <div class="pkn-hub-card">
+            <h2 class="pkn-hub-heading">Het recente nieuws</h2>
+            <div id="pkn-hub-news-list" class="pkn-hub-list"></div>
+            <div class="pkn-hub-more">
+              <a href="#nieuws" onclick="navigateTo('nieuws'); return false;">Bekijk meer &rsaquo;</a>
+            </div>
+          </div>
+
+          <!-- Kolom 2: Verdieping en inspiratie (Gedichten & Verhalen) -->
+          <div class="pkn-hub-card">
+            <h2 class="pkn-hub-heading">Verdieping en inspiratie</h2>
+            <div id="pkn-hub-verdieping-list" class="pkn-hub-list"></div>
+            <div class="pkn-hub-more">
+              <a href="#verdieping" onclick="navigateTo('verdieping'); return false;">Bekijk meer &rsaquo;</a>
+            </div>
+          </div>
+
+          <!-- Kolom 3: 5 Gestapelde PKN Actiekaarten (inclusief rode ANBI/Geef-kaart) -->
+          <div class="pkn-action-stack">
+            <a href="#diensten" class="pkn-action-card" onclick="navigateTo('diensten'); return false;">
+              <div>
+                <div class="pkn-action-card-title">Kerkdiensten &amp; Liturgie</div>
+                <span class="pkn-action-card-sub">Rooster, voorgangers &amp; orde van dienst</span>
+              </div>
+              <span class="pkn-action-arrow">&rarr;</span>
+            </a>
+
+            <a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener" class="pkn-action-card">
+              <div>
+                <div class="pkn-action-card-title">Kerkomroep Live</div>
+                <span class="pkn-action-card-sub">Luister rechtstreeks of achteraf mee</span>
+              </div>
+              <span class="pkn-action-arrow">&rarr;</span>
+            </a>
+
+            <a href="#publiciteit" class="pkn-action-card" onclick="navigateTo('publiciteit'); return false;">
+              <div>
+                <div class="pkn-action-card-title">Kerknieuws &amp; Laurentiusbrief</div>
+                <span class="pkn-action-card-sub">Publiciteit, kerkblad &amp; 14 fotoalbums</span>
+              </div>
+              <span class="pkn-action-arrow">&rarr;</span>
+            </a>
+
+            <a href="#kerkenwerk" class="pkn-action-card" onclick="navigateTo('kerkenwerk'); return false;">
+              <div>
+                <div class="pkn-action-card-title">Breda Breed &amp; Vrienden</div>
+                <span class="pkn-action-card-sub">Vrienden van de Laurentiuskerk &amp; regio</span>
+              </div>
+              <span class="pkn-action-arrow">&rarr;</span>
+            </a>
+
+            <a href="#anbi" class="pkn-action-card pkn-action-red" onclick="navigateTo('anbi'); return false;">
+              <div>
+                <div class="pkn-action-card-title">&#10084; Geef aan Kerk &amp; Diaconie</div>
+                <span class="pkn-action-card-sub">Steun onze gemeente &bull; ANBI-overzicht</span>
+              </div>
+              <span class="pkn-action-arrow">&rarr;</span>
+            </a>
           </div>
         </div>
 
-        <!-- "Het recente nieuws" Master-Detail sectie (exact volgens ontwerp KerkWebsite.pdf) -->
-        <div style="margin-top:4rem;padding-top:3rem;border-top:1px solid var(--border-subtle);">
-          <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;margin-bottom:1.75rem;">
+        <!-- 3. WELKOM OP DE WEBSITE (2 kolommen met foto KerkEnLaurentiushof.jpg volgens KerkWebsite.pdf) -->
+        <div class="welkom-showcase-card">
+          <h2 class="welkom-orange-title">Welkom op de website van de Protestantse Gemeente Ginneken</h2>
+          <div class="welkom-two-col">
             <div>
-              <h2 class="welkom-orange-title" style="margin-bottom:0.25rem;">Het recente nieuws</h2>
-              <p style="color:var(--text-secondary);font-size:0.96rem;margin:0;">Actuele mededelingen, vieringen en activiteiten uit de Protestantse Gemeente Ginneken.</p>
+              <p style="font-size:1.05rem;color:var(--text-main);margin-bottom:1.1rem;font-weight:600;">
+                Aan allen die betrokken zijn bij de Protestantse Gemeente Ginneken: leden, gastleden, vrienden en geïnteresseerden.
+              </p>
+              <p style="font-size:1rem;color:var(--text-secondary);margin-bottom:1.1rem;">
+                Wij zijn een levendige, betrokken gemeente, midden in het hart van Ginneken en midden in het leven. Wij hebben een mooie, oecumenisch gekleurde liturgie waarin Woord én Sacrament centraal staan en die het waard is om gevierd te worden. Daarom nodigen wij u graag uit om de dienst eens bij te wonen op een zondagmorgen om <strong>10:00 uur</strong> in onze historische Laurentiuskerk naast de Ginnekenmarkt.
+              </p>
+              <p style="font-size:1rem;color:var(--text-secondary);margin-bottom:1.45rem;">
+                Na afloop van de kerkdienst is iedereen van harte welkom voor koffie en ontmoeting in ons gemeentecentrum <strong>Mariëndal</strong> (Duivelsbruglaan 13). Elke eerste zaterdag van de maand én iedere zaterdag in juli en augustus staan de deuren van de kerk bovendien ’s middags open tijdens <strong>Open Kerk Ginneken</strong> (13:30 – 16:30 uur).
+              </p>
+
+              <div class="grid-2" style="gap:1rem;">
+                <div style="background:var(--bg-cream);padding:1.05rem 1.2rem;border-radius:10px;border-left:4px solid var(--pkn-plum);">
+                  <h4 style="margin-bottom:0.2rem;font-family:var(--font-serif);font-weight:400;color:var(--pkn-plum);">Pastoraat &amp; Diaconaat</h4>
+                  <p style="font-size:0.86rem;color:var(--text-secondary);margin-bottom:0.45rem;">Omzien naar elkaar in vreugde en verdriet, huisbezoek en diaconale projecten.</p>
+                  <a href="#pastoraat" onclick="navigateTo('pastoraat'); return false;" style="font-weight:700;font-size:0.86rem;color:var(--pkn-orange-dark);">Lees meer over Pastoraat &rarr;</a>
+                </div>
+                <div style="background:var(--bg-cream);padding:1.05rem 1.2rem;border-radius:10px;border-left:4px solid var(--pkn-orange);">
+                  <h4 style="margin-bottom:0.2rem;font-family:var(--font-serif);font-weight:400;color:var(--pkn-plum);">Mariëndal, Huwelijk &amp; Uitvaart</h4>
+                  <p style="font-size:0.86rem;color:var(--text-secondary);margin-bottom:0.45rem;">Onze monumentale Laurentiuskerk als officiële trouwlocatie, uitvaartplek of podium.</p>
+                  <a href="#organisatie" onclick="navigateTo('organisatie', 'koster-beheerder-anchor'); return false;" style="font-weight:700;font-size:0.86rem;color:var(--pkn-orange-dark);">Gebruik &amp; Koster-Beheerder &rarr;</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Rechterkolom: Foto KerkEnLaurentiushof.jpg (aangeleverd door Els Hagemans) -->
+            <div>
+              <figure class="welkom-photo-figure">
+                <img src="assets/images/kerk-en-laurentiushof.jpg" alt="De Laurentiuskerk en het Laurentiushof in het Ginneken" />
+                <figcaption class="welkom-photo-caption">
+                  Onze monumentale Protestantse Laurentiuskerk (sinds 1316) en het Laurentiushof aan de Duivelsbruglaan in het Ginneken.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. UITGELICHT IN DE GEMEENTE (Master-Detail Nieuwssectie uit KerkWebsite.pdf) -->
+        <div style="margin-bottom:1.5rem;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;">
+            <div>
+              <h2 class="welkom-orange-title" style="margin-bottom:0.2rem;">Uitgelicht in onze gemeente</h2>
+              <p style="color:var(--text-secondary);font-size:0.95rem;margin:0;">Actuele mededelingen, concerten, vieringen en activiteiten in en rond de Laurentiuskerk.</p>
             </div>
             <button class="btn btn-outline" onclick="navigateTo('nieuws')">
               Alle nieuwsberichten &amp; archief &rarr;
@@ -436,9 +488,7 @@
           </div>
 
           <div class="news-master-detail">
-            <!-- Linkerkolom: Groot uitgelicht nieuwsbericht met oranje "lees meer" knop -->
             <div id="home-news-featured"></div>
-            <!-- Rechterkolom: 4 gestapelde compacte nieuwsberichten -->
             <div id="home-news-side" class="news-side-stack"></div>
           </div>
         </div>
@@ -1668,21 +1718,33 @@
   </main>
 
   <!-- ========================================================================
-       FOOTER (Met officieel wit outline PKN-gemeente Ginneken logo & 5 pijlers)
+       FOOTER (Authentieke protestantsekerk.nl opmaak met booglijn & "Vragen of contact?")
        ======================================================================== -->
   <footer class="site-footer">
+    <!-- Sierlijke PKN booglijn aan de bovenzijde van de footer -->
+    <div class="footer-arch-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 28" preserveAspectRatio="none">
+        <path d="M0,0 L1440,0 L1440,22 Q720,2 0,22 Z" fill="#F5F3EF" />
+        <path d="M0,22 Q720,2 1440,22" fill="none" stroke="#D5CEC2" stroke-width="1.5" />
+      </svg>
+    </div>
+
     <div class="container">
+      <h2 class="footer-heading-center">Vragen of contact?</h2>
+
       <div class="footer-grid">
         <div>
-          <!-- Officieel wit outline logo op donkere ondergrond (conform huisstijlrichtlijnen) -->
-          <img src="assets/images/logo/pkn-ginneken-outline-wit.png" alt="Logo Protestantse Gemeente Ginneken (wit outline)" class="footer-logo-img" />
-          <p style="font-size:0.9rem;margin-bottom:1rem;color:rgba(255,255,255,0.78);">
-            “Een open en actieve geloofsgemeenschap midden in de wijk, verbonden door traditie en gericht op de wereld van nu.”
-          </p>
-          <p style="font-size:0.86rem;color:rgba(255,255,255,0.68);">
-            <strong>Kerkgebouw:</strong> Duivelsbruglaan 1, 4835 JD Breda<br />
+          <div class="footer-title">Protestantse Gemeente Ginneken</div>
+          <p style="font-size:0.9rem;margin-bottom:0.85rem;color:var(--text-secondary);">
+            <strong>Laurentiuskerk:</strong> Duivelsbruglaan 1, 4835 JD Breda<br />
+            <strong>Kerkelijk Bureau:</strong> Duivelsbruglaan 11, 4835 JD Breda<br />
             <strong>Mariëndal:</strong> Duivelsbruglaan 13, 4835 JD Breda<br />
             <strong>Eredienst:</strong> Elke zondag om 10:00 uur
+          </p>
+          <p style="font-size:0.88rem;">
+            <a href="#contact" onclick="navigateTo('contact'); return false;" style="font-weight:700;color:var(--pkn-orange-dark);">
+              Alle contactgegevens &amp; route &rsaquo;
+            </a>
           </p>
         </div>
 
@@ -1690,11 +1752,10 @@
           <div class="footer-title">1. Welkom &amp; 2. Kerkdiensten</div>
           <ul class="footer-links">
             <li><a href="#welkom" onclick="navigateTo('welkom'); return false;">Welkom (Startpagina)</a></li>
-            <li><a href="#nieuws" onclick="navigateTo('nieuws'); return false;">Nieuws</a></li>
-            <li><a href="#contact" onclick="navigateTo('contact'); return false;">Contact &amp; Locatie van de kerk</a></li>
+            <li><a href="#nieuws" onclick="navigateTo('nieuws'); return false;">Nieuws &amp; Agenda</a></li>
             <li><a href="#publiciteit" onclick="navigateTo('publiciteit'); return false;">Publiciteit (Kerknieuws &amp; Laurentiusbrief)</a></li>
             <li><a href="#fotos" onclick="navigateTo('fotos'); return false;">Foto's (14 Fotoalbums)</a></li>
-            <li><a href="#geschiedenis" onclick="navigateTo('geschiedenis'); return false;">Geschiedenis</a></li>
+            <li><a href="#geschiedenis" onclick="navigateTo('geschiedenis'); return false;">Geschiedenis (sinds 1316)</a></li>
             <li><a href="#diensten" onclick="navigateTo('diensten'); return false;">Data, liturgie en kerkomroep</a></li>
             <li><a href="#jeugd" onclick="navigateTo('jeugd'); return false;">Kind en Jeugd</a></li>
             <li><a href="#diaconaat" onclick="navigateTo('diaconaat'); return false;">Diaconaat</a></li>
@@ -1709,6 +1770,8 @@
             <li><a href="#kerkenwerk" onclick="navigateTo('kerkenwerk', 'kerkgemeenten-breda-anchor'); return false;">Andere kerkgemeenten in Breda</a></li>
             <li><a href="#verdieping" onclick="navigateTo('verdieping'); filterVerdieping('gedicht'); return false;">Verdieping: Gedichten</a></li>
             <li><a href="#verdieping" onclick="navigateTo('verdieping'); filterVerdieping('verhaal'); return false;">Verdieping: Verhalen</a></li>
+            <li><a href="http://www.kerkomroep.nl/" target="_blank" rel="noopener">Kerkomroep Live &nearr;</a></li>
+            <li><a href="https://protestantsekerk.nl/" target="_blank" rel="noopener">Protestantse Kerk in Nederland &nearr;</a></li>
           </ul>
         </div>
 
@@ -1719,25 +1782,28 @@
             <li><a href="#anbi" onclick="navigateTo('anbi'); switchAnbiTab('diaconie'); return false;">ANBI — Diaconie</a></li>
             <li><a href="#organisatie" onclick="navigateTo('organisatie', 'kerkenraad-anchor'); return false;">Kerkenraad (dominee, voorzitter, ouderlingen, diakenen)</a></li>
             <li><a href="#organisatie" onclick="navigateTo('organisatie', 'kerkrentmeesters-anchor'); return false;">Kerkrentmeesters &amp; Begraafplaatsen</a></li>
-            <li><a href="#organisatie" onclick="navigateTo('organisatie', 'koster-beheerder-anchor'); return false;">Koster / Beheerder</a></li>
+            <li><a href="#organisatie" onclick="navigateTo('organisatie', 'koster-beheerder-anchor'); return false;">Koster / Beheerder (Mariëndal)</a></li>
             <li><a href="#organisatie" onclick="navigateTo('organisatie', 'veilige-kerk-org-anchor'); return false;">Veilige kerk</a></li>
             <li><a href="#organisatie" onclick="navigateTo('organisatie', 'kerk-en-uitvaart-anchor'); return false;">Kerk en uitvaart</a></li>
-            <li><a href="#organisatie" onclick="navigateTo('organisatie', 'kerkelijk-bureau-anchor'); return false;">Kerkelijk Bureau</a></li>
+            <li><a href="#organisatie" onclick="navigateTo('organisatie', 'kerkelijk-bureau-anchor'); return false;">Kerkelijk Bureau &amp; Privacy</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <div>
-          &copy; Protestantse Gemeente Ginneken (PKN) &bull; Alle rechten voorbehouden &bull; Webmaster: <a href="mailto:lnicolai@ziggo.nl" style="color:#FFB74D;">Lennart Nicolai</a>
+      <!-- Onderste balk met officieel PKN-gemeente Ginneken logo + Payoff (zoals op protestantsekerk.nl) -->
+      <div class="footer-brand-bar">
+        <div class="footer-brand-left">
+          <img src="assets/images/logo/pkn-ginneken-rgb.png" alt="Logo Protestantse Gemeente Ginneken" class="footer-logo-img" />
+          <span class="footer-brand-payoff">Vindplaats van geloof, hoop en liefde</span>
         </div>
-        <div style="display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center;">
-          <button onclick="openModal('portal-modal')" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.22);color:#FFB74D;padding:0.25rem 0.7rem;border-radius:6px;cursor:pointer;font-size:0.8rem;font-family:inherit;">
+
+        <div class="footer-bottom-links">
+          <button onclick="openModal('portal-modal')" style="background:var(--bg-white);border:1px solid var(--border-color);color:var(--pkn-plum);padding:0.3rem 0.75rem;border-radius:500px;cursor:pointer;font-size:0.8rem;font-weight:700;font-family:inherit;">
             &#9881; Webmaster Portal (invoerAgenda)
           </button>
-          <a href="#organisatie" onclick="navigateTo('organisatie', 'kerkelijk-bureau-anchor'); return false;" style="color:rgba(255,255,255,0.7);">Privacyverklaring</a>
-          <a href="#anbi" onclick="navigateTo('anbi'); return false;" style="color:rgba(255,255,255,0.7);">ANBI</a>
-          <a href="https://protestantsekerk.nl/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.7);">Protestantse Kerk in Nederland &nearr;</a>
+          <a href="#organisatie" onclick="navigateTo('organisatie', 'kerkelijk-bureau-anchor'); return false;">Privacyverklaring</a>
+          <a href="#anbi" onclick="navigateTo('anbi'); return false;">ANBI</a>
+          <span>&copy; Protestantse Gemeente Ginneken</span>
         </div>
       </div>
     </div>

@@ -1,46 +1,54 @@
 /* ==========================================================================
-   Protestantse Gemeente Ginneken — Huisstijl Protestantse Kerk in Nederland (PKN)
-   Kleurenpalet PKN Handboek:
-   - PKN Rood (Basis):       #CF3835
-   - PKN Oranje (Basis):     #E98C00
-   - PKN Paars (Steunkleur): #8D3175
-   - PKN Taupe / Aarde:      #7F705D
-   - PKN Crème / Papier:     #FAF7F2
+   Protestantse Gemeente Ginneken — Authentieke PKN Huisstijl (protestantsekerk.nl)
+   Geïnspireerd op https://protestantsekerk.nl/ & Klantbriefing PG Ginneken
+   
+   Kleurenpalet (uit protestantse-kerk.css & PKN Huisstijlhandboek):
+   - PKN Warm Zand / Achtergrond: #F5F3EF
+   - PKN Kaart Wit:               #FFFFFF
+   - PKN Koppen Paars/Bordeaux:   #73285F / #8D3175
+   - PKN Oranje (CTA & Payoff):   #E98C00 -> #DC621B
+   - PKN Rood (Steunkleur/Actie): #CF3835 / #C34442
+   - PKN Donkerpaars/Tekst:       #341E2F / #433B32
+   - PKN Taupe / Subtiel:         #7E6F5D / #C2BAA9
    ========================================================================== */
 
 :root {
-  --pkn-red: #CF3835;
-  --pkn-red-dark: #AD2825;
+  --pkn-plum: #73285F;
+  --pkn-purple: #8D3175;
+  --pkn-purple-light: #F7EFF5;
+  --pkn-red: #C34442;
+  --pkn-red-bright: #CF3835;
+  --pkn-red-dark: #A32E2C;
   --pkn-red-light: #FDF2F2;
   --pkn-orange: #E98C00;
-  --pkn-orange-dark: #C87600;
-  --pkn-orange-light: #FFF8EB;
-  --pkn-purple: #8D3175;
-  --pkn-purple-light: #F9F0F6;
-  --pkn-taupe: #7F705D;
+  --pkn-orange-dark: #DC621B;
+  --pkn-orange-light: #FFF7EB;
+  --pkn-taupe: #7E6F5D;
   --pkn-taupe-light: #EFECE6;
-  
-  --bg-cream: #FAF7F2;
-  --bg-white: #FFFFFF;
-  --bg-subtle: #F3EFEA;
-  
-  --text-main: #231F20;
-  --text-secondary: #524B45;
-  --text-muted: #786E65;
-  --border-color: #E5DEC9;
-  --border-subtle: #EAE4DC;
+  --pkn-line: #DFD9CE;
 
-  --shadow-sm: 0 2px 8px rgba(35, 31, 32, 0.05);
-  --shadow-md: 0 8px 24px rgba(35, 31, 32, 0.08);
-  --shadow-lg: 0 16px 40px rgba(35, 31, 32, 0.12);
+  --bg-cream: #F5F3EF;
+  --bg-header: #FAF9F6;
+  --bg-white: #FFFFFF;
+  --bg-subtle: #ECE8E1;
+
+  --text-main: #341E2F;
+  --text-secondary: #4E443C;
+  --text-muted: #7E6F5D;
+  --border-color: #DFD9CE;
+  --border-subtle: #E8E3DA;
+
+  --shadow-sm: 0 2px 10px rgba(52, 30, 47, 0.05);
+  --shadow-md: 0 6px 24px rgba(52, 30, 47, 0.07);
+  --shadow-lg: 0 14px 38px rgba(52, 30, 47, 0.11);
 
   --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-pill: 9999px;
+  --radius-md: 11px;
+  --radius-lg: 16px;
+  --radius-pill: 500px;
 
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-serif: 'Lora', Georgia, serif;
+  --font-serif: 'Bree Serif', 'Lora', Georgia, serif;
   --container-max: 1240px;
 }
 
@@ -71,149 +79,159 @@ img {
 }
 
 a {
-  color: var(--pkn-red);
+  color: var(--pkn-plum);
   text-decoration: none;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 a:hover {
-  color: var(--pkn-red-dark);
+  color: var(--pkn-orange-dark);
 }
 
 .container {
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1.75rem;
 }
 
 /* ==========================================================================
-   Top Bar (PKN Landelijke Verbinding & Snelkoppelingen)
-   ========================================================================== */
-.topbar {
-  background: linear-gradient(90deg, var(--pkn-red) 0%, #D95326 55%, var(--pkn-orange) 100%);
-  color: #fff;
-  font-size: 0.85rem;
-  padding: 0.5rem 0;
-}
-
-.topbar-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.topbar-left {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-}
-
-.topbar-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  color: rgba(255, 255, 255, 0.95);
-  font-weight: 500;
-}
-
-.topbar-links {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.topbar-links a {
-  color: #fff;
-  font-weight: 600;
-  opacity: 0.92;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.14);
-}
-
-.topbar-links a:hover {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.25);
-}
-
-/* ==========================================================================
-   Header & Overzichtelijk PKN Menu
+   HEADER (Authentieke protestantsekerk.nl opbouw + sierlijke booglijn)
    ========================================================================== */
 .site-header {
-  background: var(--bg-white);
-  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-header);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 2px 14px rgba(52, 30, 47, 0.04);
 }
 
-.header-inner {
+/* Bovenste rij: Logo links, Payoff "Vindplaats van geloof, hoop en liefde" + snellinks rechts */
+.header-top-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 82px;
-  gap: 1rem;
+  padding: 1.15rem 0 0.7rem;
+  gap: 1.5rem;
 }
 
 .brand-logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.9rem;
-  color: var(--text-main);
   text-decoration: none;
   flex-shrink: 0;
 }
 
-.brand-logo:hover {
-  color: var(--text-main);
+.brand-logo-img {
+  height: 52px;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
+  display: block;
 }
 
-.pkn-mark {
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
-}
-
-.brand-text {
+.header-top-right {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
 }
 
-.brand-eyebrow {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--pkn-red);
+/* PKN Payoff in 2 regels rechts uitgelijnd met subtiel verticaal lijntje */
+.pkn-payoff {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
   font-weight: 700;
+  line-height: 1.24;
+  color: var(--pkn-orange);
+  text-align: right;
+  padding-right: 1.15rem;
+  border-right: 1px solid #C2BAA9;
+  white-space: nowrap;
 }
 
-.brand-title {
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--text-main);
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-}
-
-.brand-subtitle {
-  font-size: 0.78rem;
-  color: var(--text-muted);
+.header-utility-links {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  font-size: 0.88rem;
   font-weight: 500;
+  color: var(--pkn-taupe);
 }
 
-/* Main Navigation */
+.header-utility-links a {
+  color: var(--pkn-taupe);
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+
+.header-utility-links a:hover {
+  color: var(--pkn-plum);
+  text-decoration: underline;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-color);
+  background: var(--bg-white);
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-icon:hover {
+  border-color: var(--pkn-orange);
+  color: var(--pkn-orange-dark);
+  background: var(--pkn-orange-light);
+}
+
+.btn-sitemap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-color);
+  background: var(--bg-white);
+  color: var(--text-main);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.btn-sitemap:hover {
+  border-color: var(--pkn-plum);
+  color: var(--pkn-plum);
+  background: var(--pkn-purple-light);
+}
+
+/* Tweede rij: Gecentreerde hoofdnavigatie (de 5 pijlers van Els Hagemans) */
+.header-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0 0.55rem;
+  position: relative;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 0.2rem;
+  justify-content: center;
+  gap: 0.65rem;
+  flex-wrap: nowrap;
 }
 
 .nav-item {
@@ -223,12 +241,12 @@ a:hover {
 .nav-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  padding: 0.65rem 0.85rem;
-  font-size: 0.94rem;
+  gap: 0.4rem;
+  padding: 0.55rem 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-main);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-pill);
   cursor: pointer;
   background: transparent;
   border: none;
@@ -240,20 +258,35 @@ a:hover {
 .nav-link:hover,
 .nav-link.active,
 .nav-item:hover > .nav-link {
-  color: var(--pkn-red);
-  background: var(--pkn-red-light);
+  color: var(--pkn-plum);
+  background: rgba(115, 40, 95, 0.07);
 }
 
 .nav-link svg.chevron {
   width: 14px;
   height: 14px;
+  color: var(--pkn-orange);
   transition: transform 0.2s ease;
-  opacity: 0.7;
 }
 
 .nav-item:hover > .nav-link svg.chevron {
   transform: rotate(180deg);
-  opacity: 1;
+}
+
+/* Sierlijke gebogen PKN booglijn onder de header */
+.pkn-arch-divider {
+  display: block;
+  width: 100%;
+  height: 22px;
+  overflow: hidden;
+  line-height: 0;
+  background: var(--bg-cream);
+}
+
+.pkn-arch-divider svg {
+  width: 100%;
+  height: 22px;
+  display: block;
 }
 
 /* Dropdown Menu */
@@ -261,18 +294,24 @@ a:hover {
   position: absolute;
   top: calc(100% + 4px);
   left: 0;
-  min-width: 290px;
+  min-width: 310px;
   background: var(--bg-white);
   border: 1px solid var(--border-subtle);
-  border-top: 3px solid var(--pkn-red);
+  border-top: 3px solid var(--pkn-orange);
   border-radius: 0 0 var(--radius-md) var(--radius-md);
   box-shadow: var(--shadow-lg);
-  padding: 0.6rem;
+  padding: 0.65rem;
   opacity: 0;
   visibility: hidden;
   transform: translateY(8px);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   z-index: 1100;
+}
+
+.dropdown-menu-wide {
+  min-width: 350px;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 .nav-item:hover .dropdown-menu,
@@ -286,7 +325,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
-  padding: 0.65rem 0.75rem;
+  padding: 0.6rem 0.75rem;
   border-radius: var(--radius-sm);
   color: var(--text-main);
   transition: background 0.15s ease;
@@ -294,25 +333,25 @@ a:hover {
 
 .dropdown-link:hover {
   background: var(--bg-cream);
-  color: var(--pkn-red);
+  color: var(--pkn-plum);
 }
 
 .dropdown-icon {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   border-radius: 8px;
-  background: var(--pkn-red-light);
-  color: var(--pkn-red);
+  background: var(--pkn-orange-light);
+  color: var(--pkn-orange-dark);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin-top: 2px;
 }
 
 .dropdown-link:hover .dropdown-icon {
-  background: var(--pkn-red);
+  background: var(--pkn-plum);
   color: #fff;
 }
 
@@ -335,61 +374,38 @@ a:hover {
   line-height: 1.35;
 }
 
-/* Header Action Buttons */
-.header-actions {
+.dropdown-subitems {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+  padding-left: 2.75rem;
+  padding-bottom: 0.45rem;
 }
 
-.btn-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-pill);
-  border: 1px solid var(--border-subtle);
+.dropdown-sublink {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
   background: var(--bg-cream);
-  color: var(--text-main);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.btn-icon:hover {
-  border-color: var(--pkn-red);
-  color: var(--pkn-red);
-  background: var(--pkn-red-light);
-}
-
-.btn-sitemap {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.5rem 0.9rem;
+  padding: 0.2rem 0.6rem;
   border-radius: var(--radius-pill);
   border: 1px solid var(--border-color);
-  background: var(--bg-cream);
-  color: var(--text-secondary);
-  font-size: 0.83rem;
-  font-weight: 700;
-  cursor: pointer;
-  font-family: inherit;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
 }
 
-.btn-sitemap:hover {
-  border-color: var(--pkn-orange);
-  background: var(--pkn-orange-light);
-  color: var(--pkn-orange-dark);
+.dropdown-sublink:hover {
+  background: var(--pkn-plum);
+  color: #fff;
+  border-color: var(--pkn-plum);
 }
 
 .mobile-menu-toggle {
   display: none;
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--border-color);
   background: var(--bg-white);
   color: var(--text-main);
   align-items: center;
@@ -398,91 +414,596 @@ a:hover {
 }
 
 /* ==========================================================================
-   Hero Section & PKN Curve
+   PKN HERO SECTIE (Asymmetrisch 2-koloms zoals protestantsekerk.nl + 16:9 foto)
    ========================================================================== */
-.hero {
+.pkn-hero-section {
+  padding: 1.5rem 0 2.75rem;
+}
+
+.pkn-hero-grid {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 2.75rem;
+  align-items: stretch;
+}
+
+.pkn-hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.pkn-welcome-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 3.4vw, 3rem);
+  font-weight: 400;
+  color: var(--pkn-plum);
+  line-height: 1.15;
+  margin-bottom: 0.85rem;
+}
+
+.pkn-mission-lead {
+  font-size: 1.05rem;
+  color: var(--text-main);
+  line-height: 1.62;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+/* De iconische protestantsekerk.nl pil-zoekbalk met ronde oranje knop */
+.pkn-search-bar {
   position: relative;
-  background: linear-gradient(135deg, #2B211E 0%, #3F2925 60%, #5A2826 100%);
+  display: flex;
+  align-items: center;
+  background: var(--bg-white);
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.35rem 0.35rem 1.35rem;
+  box-shadow: 0 6px 22px rgba(52, 30, 47, 0.08);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pkn-search-bar:focus-within {
+  border-color: var(--pkn-orange);
+  box-shadow: 0 8px 26px rgba(233, 140, 0, 0.16);
+}
+
+.pkn-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.96rem;
+  color: var(--text-main);
+  outline: none;
+  padding-right: 0.75rem;
+}
+
+.pkn-search-input::placeholder {
+  color: var(--pkn-taupe);
+}
+
+.pkn-search-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(40deg, #E98C00, #DC621B);
   color: #fff;
-  padding: 4.5rem 0 5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(220, 98, 27, 0.3);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.pkn-search-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(220, 98, 27, 0.42);
+}
+
+/* Eerstvolgende kerkdienst kaartje onder de zoekbalk */
+.pkn-next-service-box {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: 1.15rem 1.35rem;
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--pkn-orange);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.pkn-next-service-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pkn-next-service-title {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  color: var(--pkn-plum);
+  font-weight: 400;
+}
+
+.pkn-next-service-meta {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.pkn-next-service-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.25rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.pkn-next-service-links a {
+  color: var(--pkn-orange-dark);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.pkn-next-service-links a:hover {
+  color: var(--pkn-plum);
+  text-decoration: underline;
+}
+
+/* Rechterkolom Hero: 16:9 Foto IMG20260524150523.jpg van Els Hagemans */
+.pkn-hero-photo-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 16 / 9.6;
+  min-height: 390px;
+  background: #231F20;
+  cursor: pointer;
+}
+
+.pkn-hero-photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+  transition: transform 0.6s ease;
+}
+
+.pkn-hero-photo-card:hover img {
+  transform: scale(1.025);
+}
+
+.pkn-hero-photo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 15, 18, 0.02) 0%,
+    rgba(20, 15, 18, 0.15) 50%,
+    rgba(28, 16, 25, 0.82) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem 2.2rem;
+}
+
+.pkn-hero-photo-caption {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.pkn-hero-photo-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 1.3;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+.pkn-hero-photo-sub {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.pkn-circle-arrow {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(40deg, #E98C00, #DC621B);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.pkn-hero-photo-card:hover .pkn-circle-arrow {
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
+   PKN 3-KOLOMS HUB (Exact zoals protestantsekerk.nl: Nieuws | Verdieping | Acties)
+   ========================================================================== */
+.pkn-hub-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.92fr;
+  gap: 1.75rem;
+  margin-bottom: 3rem;
+  align-items: stretch;
+}
+
+.pkn-hub-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: 1.85rem 1.75rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.pkn-hub-heading {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 400;
+  color: var(--pkn-plum);
+  margin-bottom: 1.25rem;
+  line-height: 1.25;
+}
+
+.pkn-hub-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pkn-hub-item {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.pkn-hub-item:first-child {
+  padding-top: 0;
+}
+
+.pkn-hub-item:last-child {
+  border-bottom: none;
+}
+
+.pkn-hub-item:hover {
+  transform: translateX(3px);
+}
+
+.pkn-hub-item:hover .pkn-hub-item-title {
+  color: var(--pkn-plum);
+  text-decoration: underline;
+}
+
+.pkn-hub-thumb {
+  width: 88px;
+  height: 62px;
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: center top;
+  background: var(--bg-subtle);
+  flex-shrink: 0;
+}
+
+.pkn-hub-item-meta {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--pkn-taupe);
+  margin-bottom: 0.15rem;
+}
+
+.pkn-hub-item-title {
+  font-size: 0.93rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.32;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.hero-bg-image {
-  position: absolute;
-  inset: 0;
-  background-image: url('../images/herfst-2022.jpg');
-  background-size: cover;
-  background-position: center 35%;
-  opacity: 0.32;
-  mix-blend-mode: luminosity;
+.pkn-hub-more {
+  margin-top: 1.1rem;
+  padding-top: 0.75rem;
+  text-align: right;
+  font-size: 0.92rem;
+  font-weight: 700;
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(35, 25, 23, 0.92) 0%, rgba(45, 28, 25, 0.78) 55%, rgba(65, 30, 28, 0.55) 100%);
-}
-
-.hero-inner {
-  position: relative;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: 1.25fr 0.85fr;
-  gap: 3rem;
-  align-items: center;
-}
-
-.hero-badge {
+.pkn-hub-more a {
+  color: var(--pkn-taupe);
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: rgba(233, 140, 0, 0.22);
-  border: 1px solid rgba(233, 140, 0, 0.55);
-  color: #FFD180;
-  padding: 0.35rem 0.9rem;
-  border-radius: var(--radius-pill);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  margin-bottom: 1.25rem;
+  gap: 0.3rem;
 }
 
-.hero h1 {
+.pkn-hub-more a:hover {
+  color: var(--pkn-plum);
+}
+
+/* Rechterkolom in 3-koloms hub: Gestapelde PKN Actiekaarten */
+.pkn-action-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  justify-content: space-between;
+}
+
+.pkn-action-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: 1.15rem 1.35rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  flex: 1;
+}
+
+.pkn-action-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.pkn-action-card-title {
   font-family: var(--font-serif);
-  font-size: clamp(2.1rem, 4vw, 3.25rem);
-  font-weight: 700;
-  line-height: 1.18;
-  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--pkn-plum);
+  line-height: 1.25;
+}
+
+.pkn-action-card-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+  display: block;
+  font-family: var(--font-sans);
+}
+
+.pkn-action-arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(40deg, #E98C00, #DC621B);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.95rem;
+  transition: transform 0.18s ease;
+}
+
+.pkn-action-card:hover .pkn-action-arrow {
+  transform: translateX(3px);
+}
+
+/* Rode PKN Geef/ANBI kaart (zoals "Geef aan Kerk in Actie" op protestantsekerk.nl) */
+.pkn-action-card.pkn-action-red {
+  background: var(--pkn-red);
   color: #fff;
 }
 
-.hero h1 span {
-  color: #FFB74D;
+.pkn-action-card.pkn-action-red .pkn-action-card-title,
+.pkn-action-card.pkn-action-red .pkn-action-card-sub {
+  color: #fff;
 }
 
-.hero-lead {
-  font-size: 1.12rem;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 2rem;
-  max-width: 620px;
+.pkn-action-card.pkn-action-red .pkn-action-card-sub {
+  opacity: 0.9;
 }
 
-.hero-buttons {
+.pkn-action-card.pkn-action-red .pkn-action-arrow {
+  background: #fff;
+  color: var(--pkn-red);
+}
+
+/* ==========================================================================
+   WELKOM SECTIE & UITGELICHT NIEUWS (Volgens KerkWebsite.pdf van Els Hagemans)
+   ========================================================================== */
+.welkom-showcase-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 3rem;
+}
+
+.welkom-orange-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.65rem, 2.4vw, 2.1rem);
+  color: var(--pkn-plum);
+  font-weight: 400;
+  margin-bottom: 1.35rem;
+  line-height: 1.25;
+}
+
+.welkom-two-col {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2.75rem;
+  align-items: center;
+}
+
+.welkom-photo-figure {
+  background: var(--bg-cream);
+  padding: 0.85rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.welkom-photo-figure img {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  aspect-ratio: 16 / 10.5;
+  object-fit: cover;
+}
+
+.welkom-photo-caption {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 0.65rem 0.35rem 0.15rem;
+  text-align: center;
+}
+
+/* Master-Detail Nieuws Sectie */
+.news-master-detail {
+  display: grid;
+  grid-template-columns: 1.12fr 0.88fr;
+  gap: 1.75rem;
+  align-items: stretch;
+}
+
+.news-featured-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.news-featured-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.news-featured-img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+  background: var(--bg-subtle);
+}
+
+.news-featured-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.news-featured-body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 400;
+  margin: 0.45rem 0 0.7rem;
+  color: var(--pkn-plum);
+}
+
+.news-featured-body p {
+  color: var(--text-secondary);
+  font-size: 0.96rem;
+  line-height: 1.65;
+  margin-bottom: 1.35rem;
+  flex: 1;
+}
+
+.news-side-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  justify-content: space-between;
+}
+
+.news-compact-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1.05rem;
+  display: grid;
+  grid-template-columns: 104px 1fr;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  box-shadow: var(--shadow-sm);
+  flex: 1;
+}
+
+.news-compact-card:hover {
+  transform: translateX(3px);
+  box-shadow: var(--shadow-md);
+}
+
+.news-compact-thumb {
+  width: 104px;
+  height: 76px;
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: center 20%;
+  background: var(--bg-subtle);
+}
+
+.news-compact-title {
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+
+.news-compact-card:hover .news-compact-title {
+  color: var(--pkn-plum);
+}
+
+.news-compact-excerpt {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.38;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   KNOPPEN, KAARTEN & SUBPAGINA SECTIES
+   ========================================================================== */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.8rem 1.5rem;
+  padding: 0.7rem 1.45rem;
   border-radius: var(--radius-pill);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   cursor: pointer;
   border: none;
   font-family: inherit;
@@ -491,167 +1012,55 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--pkn-red);
+  background: var(--pkn-plum);
   color: #fff;
-  box-shadow: 0 4px 14px rgba(207, 56, 53, 0.35);
+  box-shadow: 0 4px 12px rgba(115, 40, 95, 0.22);
 }
 
 .btn-primary:hover {
-  background: var(--pkn-red-dark);
+  background: var(--pkn-purple);
   color: #fff;
   transform: translateY(-1px);
 }
 
 .btn-orange {
-  background: var(--pkn-orange);
+  background: linear-gradient(40deg, #E98C00, #DC621B);
   color: #fff;
-  box-shadow: 0 4px 14px rgba(233, 140, 0, 0.3);
+  box-shadow: 0 4px 14px rgba(220, 98, 27, 0.28);
 }
 
 .btn-orange:hover {
-  background: var(--pkn-orange-dark);
+  filter: brightness(1.05);
   color: #fff;
   transform: translateY(-1px);
 }
 
 .btn-outline-light {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.16);
   color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .btn-outline-light:hover {
-  background: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.28);
   color: #fff;
 }
 
 .btn-outline {
-  background: transparent;
-  color: var(--pkn-red);
-  border: 1.5px solid var(--pkn-red);
+  background: var(--bg-white);
+  color: var(--pkn-plum);
+  border: 1.5px solid var(--pkn-plum);
 }
 
 .btn-outline:hover {
-  background: var(--pkn-red);
+  background: var(--pkn-plum);
   color: #fff;
 }
 
-/* Next Service Highlight Card in Hero */
-.hero-card {
-  background: rgba(255, 255, 255, 0.97);
-  color: var(--text-main);
-  border-radius: var(--radius-lg);
-  padding: 1.85rem;
-  box-shadow: var(--shadow-lg);
-  border-top: 5px solid var(--pkn-orange);
-}
-
-.hero-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.hero-card-tag {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  font-weight: 800;
-  color: var(--pkn-red);
-  background: var(--pkn-red-light);
-  padding: 0.25rem 0.65rem;
-  border-radius: var(--radius-pill);
-}
-
-.hero-card-time {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--pkn-taupe);
-}
-
-.hero-card h3 {
-  font-family: var(--font-serif);
-  font-size: 1.3rem;
-  color: var(--text-main);
-  margin-bottom: 0.5rem;
-}
-
-.hero-card-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  font-size: 0.92rem;
-  color: var(--text-secondary);
-  margin: 1rem 0 1.25rem;
-}
-
-.hero-card-meta div {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.hero-card-footer {
-  display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-
-/* ==========================================================================
-   Section Navigation Tabs / Quick Jump Bar
-   ========================================================================== */
-.quick-menu-bar {
-  background: var(--bg-white);
-  border-bottom: 1px solid var(--border-subtle);
-  padding: 0.85rem 0;
-}
-
-.quick-pills {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  overflow-x: auto;
-  padding-bottom: 2px;
-  scrollbar-width: none;
-}
-
-.quick-pills::-webkit-scrollbar {
-  display: none;
-}
-
-.quick-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.95rem;
-  border-radius: var(--radius-pill);
-  font-size: 0.84rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--bg-cream);
-  border: 1px solid var(--border-subtle);
-  white-space: nowrap;
-  cursor: pointer;
-  transition: all 0.18s ease;
-}
-
-.quick-pill:hover,
-.quick-pill.active {
-  background: var(--pkn-red);
-  color: #fff;
-  border-color: var(--pkn-red);
-}
-
-/* ==========================================================================
-   Page Sections & Views
-   ========================================================================== */
 .view-section {
   display: none;
-  padding: 3.5rem 0 4.5rem;
-  animation: fadeIn 0.25s ease;
+  padding: 2.5rem 0 4.5rem;
+  animation: fadeIn 0.22s ease;
 }
 
 .view-section.active {
@@ -659,50 +1068,50 @@ a:hover {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
+  from { opacity: 0; transform: translateY(5px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 .section-header {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .section-eyebrow {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--pkn-red);
-  margin-bottom: 0.4rem;
+  color: var(--pkn-orange-dark);
+  margin-bottom: 0.35rem;
 }
 
 .section-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.75rem, 3vw, 2.4rem);
-  color: var(--text-main);
-  line-height: 1.25;
+  font-size: clamp(1.85rem, 3vw, 2.45rem);
+  font-weight: 400;
+  color: var(--pkn-plum);
+  line-height: 1.22;
   margin-bottom: 0.65rem;
 }
 
 .section-lead {
-  font-size: 1.06rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
-  max-width: 760px;
+  max-width: 780px;
 }
 
-/* Sub-navigation tabs within sections */
 .subnav-tabs {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .subnav-btn {
-  padding: 0.6rem 1.2rem;
+  padding: 0.55rem 1.25rem;
   border-radius: var(--radius-pill);
   border: 1px solid var(--border-color);
   background: var(--bg-white);
@@ -715,19 +1124,16 @@ a:hover {
 }
 
 .subnav-btn:hover {
-  border-color: var(--pkn-red);
-  color: var(--pkn-red);
+  border-color: var(--pkn-plum);
+  color: var(--pkn-plum);
 }
 
 .subnav-btn.active {
-  background: var(--pkn-red);
+  background: var(--pkn-plum);
   color: #fff;
-  border-color: var(--pkn-red);
+  border-color: var(--pkn-plum);
 }
 
-/* ==========================================================================
-   Cards, Grids & Content Layouts
-   ========================================================================== */
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -776,7 +1182,7 @@ a:hover {
 }
 
 .card-accent-purple {
-  border-top: 4px solid var(--pkn-purple);
+  border-top: 4px solid var(--pkn-plum);
 }
 
 .card-accent-taupe {
@@ -785,14 +1191,15 @@ a:hover {
 
 .card h3 {
   font-family: var(--font-serif);
-  font-size: 1.28rem;
+  font-size: 1.32rem;
+  font-weight: 400;
   margin-bottom: 0.75rem;
-  color: var(--text-main);
+  color: var(--pkn-plum);
 }
 
 .card h4 {
   font-size: 1.05rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.45rem;
   color: var(--text-main);
 }
 
@@ -808,9 +1215,9 @@ a:hover {
 .badge {
   display: inline-flex;
   align-items: center;
-  padding: 0.22rem 0.65rem;
+  padding: 0.22rem 0.7rem;
   border-radius: var(--radius-pill);
-  font-size: 0.76rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
@@ -826,7 +1233,7 @@ a:hover {
 
 .badge-purple {
   background: var(--pkn-purple-light);
-  color: var(--pkn-purple);
+  color: var(--pkn-plum);
 }
 
 .badge-taupe {
@@ -834,7 +1241,7 @@ a:hover {
   color: var(--pkn-taupe);
 }
 
-/* Article / News Cards */
+/* Article Cards in Grids */
 .article-card {
   background: var(--bg-white);
   border-radius: var(--radius-md);
@@ -857,6 +1264,7 @@ a:hover {
   height: 195px;
   width: 100%;
   object-fit: cover;
+  object-position: center 20%;
   background: var(--bg-subtle);
 }
 
@@ -876,11 +1284,11 @@ a:hover {
 
 .article-card-title {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--text-main);
-  margin-bottom: 0.6rem;
-  line-height: 1.35;
+  font-size: 1.18rem;
+  font-weight: 400;
+  color: var(--pkn-plum);
+  margin-bottom: 0.55rem;
+  line-height: 1.32;
 }
 
 .article-card-excerpt {
@@ -893,27 +1301,27 @@ a:hover {
 .article-card-link {
   font-size: 0.88rem;
   font-weight: 700;
-  color: var(--pkn-red);
+  color: var(--pkn-orange-dark);
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
 }
 
-/* Service Schedule Table / List */
+/* Service Schedule Rows */
 .service-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.95rem;
 }
 
 .service-row {
   background: var(--bg-white);
   border: 1px solid var(--border-subtle);
-  border-left: 5px solid var(--pkn-red);
+  border-left: 4px solid var(--pkn-plum);
   border-radius: var(--radius-md);
-  padding: 1.25rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   display: grid;
-  grid-template-columns: 220px 1fr auto;
+  grid-template-columns: 210px 1fr auto;
   gap: 1.25rem;
   align-items: center;
   box-shadow: var(--shadow-sm);
@@ -924,17 +1332,18 @@ a:hover {
 }
 
 .service-date {
-  font-weight: 800;
-  color: var(--text-main);
-  font-size: 1.02rem;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  color: var(--pkn-plum);
+  font-size: 1.06rem;
 }
 
 .service-time {
   display: inline-block;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  color: var(--pkn-red);
-  background: var(--pkn-red-light);
+  color: var(--pkn-orange-dark);
+  background: var(--pkn-orange-light);
   padding: 0.15rem 0.55rem;
   border-radius: 6px;
   margin-top: 0.25rem;
@@ -951,11 +1360,10 @@ a:hover {
   color: var(--text-secondary);
 }
 
-/* Info Table (ANBI & Contact) */
 .info-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
+  margin: 0.85rem 0;
 }
 
 .info-table tr {
@@ -964,9 +1372,9 @@ a:hover {
 
 .info-table th,
 .info-table td {
-  padding: 0.75rem 0.5rem;
+  padding: 0.7rem 0.5rem;
   text-align: left;
-  font-size: 0.94rem;
+  font-size: 0.93rem;
   vertical-align: top;
 }
 
@@ -982,12 +1390,12 @@ a:hover {
 }
 
 /* ==========================================================================
-   Modals (Article Reader, Photo Lightbox, Search & Sitemap)
+   MODALS
    ========================================================================== */
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(25, 20, 18, 0.72);
+  background: rgba(35, 22, 32, 0.68);
   backdrop-filter: blur(4px);
   z-index: 2000;
   display: none;
@@ -1009,7 +1417,7 @@ a:hover {
   overflow-y: auto;
   box-shadow: var(--shadow-lg);
   position: relative;
-  border-top: 5px solid var(--pkn-red);
+  border-top: 5px solid var(--pkn-plum);
 }
 
 .modal-header {
@@ -1044,12 +1452,11 @@ a:hover {
 }
 
 .modal-close:hover {
-  background: var(--pkn-red);
+  background: var(--pkn-plum);
   color: #fff;
-  border-color: var(--pkn-red);
+  border-color: var(--pkn-plum);
 }
 
-/* Photo Grid in Album Modal */
 .album-photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -1077,81 +1484,154 @@ a:hover {
   transform: scale(1.06);
 }
 
-/* Footer */
+/* ==========================================================================
+   FOOTER (Authentieke protestantsekerk.nl stijl met booglijn & "Vragen of contact?")
+   ========================================================================== */
 .site-footer {
-  background: #231F20;
-  color: rgba(255, 255, 255, 0.82);
-  padding: 4rem 0 2rem;
-  border-top: 5px solid var(--pkn-red);
+  position: relative;
+  background: #ECE8E0;
+  color: var(--text-secondary);
+  padding: 0 0 2.5rem;
+  overflow: hidden;
+}
+
+.footer-arch-top {
+  display: block;
+  width: 100%;
+  height: 28px;
+  line-height: 0;
+}
+
+.footer-arch-top svg {
+  width: 100%;
+  height: 28px;
+  display: block;
+}
+
+.footer-heading-center {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  font-weight: 400;
+  color: var(--pkn-plum);
+  margin: 2rem 0 2.5rem;
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1.1fr;
+  grid-template-columns: 1.25fr 1fr 1fr 1.15fr;
   gap: 2.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.75rem;
+  position: relative;
+  z-index: 2;
 }
 
 .footer-title {
-  color: #fff;
+  color: var(--pkn-plum);
   font-family: var(--font-serif);
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
+  font-size: 1.12rem;
+  font-weight: 400;
+  margin-bottom: 0.9rem;
 }
 
 .footer-links {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
+  gap: 0.5rem;
 }
 
 .footer-links a {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--text-secondary);
   font-size: 0.9rem;
 }
 
 .footer-links a:hover {
-  color: var(--pkn-orange);
+  color: var(--pkn-plum);
+  text-decoration: underline;
 }
 
-.footer-bottom {
-  padding-top: 1.75rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+/* Onderste balk van de footer met PKN logo + "| Vindplaats van geloof, hoop en liefde" */
+.footer-brand-bar {
+  padding-top: 2rem;
+  border-top: 1px solid #D5CEC2;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1rem;
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.6);
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
-/* ==========================================================================
-   Responsive Design
-   ========================================================================== */
+.footer-brand-left {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo-img {
+  height: 46px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-brand-payoff {
+  padding-left: 1.25rem;
+  border-left: 1px solid #BEB5A6;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--pkn-orange-dark);
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--pkn-taupe);
+}
+
+.footer-bottom-links a {
+  color: var(--pkn-taupe);
+}
+
+.footer-bottom-links a:hover {
+  color: var(--pkn-plum);
+  text-decoration: underline;
+}
+
+/* Responsive */
 @media (max-width: 1080px) {
-  .main-nav {
-    display: none;
-  }
-  .mobile-menu-toggle {
-    display: inline-flex;
-  }
-  .hero-inner,
+  .pkn-hero-grid,
+  .pkn-hub-grid,
+  .welkom-two-col,
+  .news-master-detail,
   .grid-sidebar {
     grid-template-columns: 1fr;
   }
-  .grid-3,
-  .grid-4 {
-    grid-template-columns: repeat(2, 1fr);
+  .header-utility-links {
+    display: none;
   }
+  .grid-3,
+  .grid-4,
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 760px) {
+  .header-nav-row {
+    display: none;
+  }
+  .mobile-menu-toggle {
+    display: inline-flex;
+  }
+  .pkn-payoff {
+    display: none;
+  }
   .grid-2,
   .grid-3,
   .grid-4,
@@ -1162,308 +1642,4 @@ a:hover {
     grid-template-columns: 1fr;
     gap: 0.5rem;
   }
-  .topbar-left {
-    display: none;
-  }
 }
-
-/* ==========================================================================
-   Klantbriefing & KerkWebsite.pdf / PGGinnekenOpzetWebsite.pdf Specifieke Stijl
-   ========================================================================== */
-.brand-logo-img {
-  height: 58px;
-  width: auto;
-  object-fit: contain;
-  display: block;
-}
-
-.footer-logo-img {
-  height: 54px;
-  width: auto;
-  object-fit: contain;
-  margin-bottom: 1rem;
-  opacity: 0.95;
-}
-
-.header-motto {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 600;
-  font-size: 0.92rem;
-  color: var(--pkn-orange);
-  white-space: nowrap;
-  padding-right: 0.5rem;
-  border-right: 1px solid var(--border-subtle);
-}
-
-@media (max-width: 1200px) {
-  .header-motto {
-    display: none;
-  }
-}
-
-/* Geneste sub-items in dropdownmenu (volgens PGGinnekenOpzetWebsite.pdf) */
-.dropdown-menu-wide {
-  min-width: 340px;
-  max-height: 82vh;
-  overflow-y: auto;
-}
-
-.dropdown-subitems {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-top: 0.4rem;
-  padding-left: 2.85rem;
-  padding-bottom: 0.35rem;
-}
-
-.dropdown-sublink {
-  font-size: 0.76rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--bg-subtle);
-  padding: 0.2rem 0.55rem;
-  border-radius: 6px;
-  border: 1px solid var(--border-subtle);
-  transition: all 0.15s ease;
-}
-
-.dropdown-sublink:hover {
-  background: var(--pkn-orange);
-  color: #fff;
-  border-color: var(--pkn-orange);
-}
-
-/* 16:9 Hero volgens KerkWebsite.pdf & Foto Els Hagemans (IMG20260524150523.jpg) */
-.hero-16-9 {
-  position: relative;
-  width: 100%;
-  min-height: 490px;
-  aspect-ratio: 16 / 7.2;
-  max-height: 620px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background: #231F20;
-}
-
-.hero-16-9-bg {
-  position: absolute;
-  inset: 0;
-  background-image: url('../images/hero-laurentiuskerk-16-9.jpg');
-  background-size: cover;
-  background-position: center 42%;
-  transform: scale(1.01);
-  transition: transform 0.6s ease;
-}
-
-.hero-16-9-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(25, 20, 18, 0.38) 0%,
-    rgba(25, 20, 18, 0.56) 55%,
-    rgba(25, 20, 18, 0.78) 100%
-  );
-}
-
-.hero-16-9-content {
-  position: relative;
-  z-index: 2;
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem;
-  text-align: center;
-  color: #fff;
-}
-
-.hero-mission-quote {
-  font-family: var(--font-serif);
-  font-size: clamp(1.45rem, 2.7vw, 2.3rem);
-  font-weight: 600;
-  line-height: 1.38;
-  color: #ffffff;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
-  margin-bottom: 1.75rem;
-}
-
-.hero-service-strip {
-  background: var(--bg-white);
-  border-bottom: 2px solid var(--border-subtle);
-  box-shadow: var(--shadow-sm);
-  padding: 1rem 0;
-}
-
-.hero-service-strip-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-/* Welkom sectie volgens KerkWebsite.pdf */
-.welkom-mockup-section {
-  padding: 3.5rem 0 2.5rem;
-}
-
-.welkom-orange-title {
-  font-family: var(--font-serif);
-  font-size: clamp(1.6rem, 2.5vw, 2.15rem);
-  color: var(--pkn-orange);
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  line-height: 1.25;
-}
-
-.welkom-two-col {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 2.75rem;
-  align-items: start;
-}
-
-.welkom-photo-figure {
-  background: var(--bg-white);
-  padding: 0.85rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-md);
-}
-
-.welkom-photo-figure img {
-  width: 100%;
-  border-radius: var(--radius-sm);
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-}
-
-.welkom-photo-caption {
-  font-size: 0.86rem;
-  color: var(--text-secondary);
-  padding: 0.65rem 0.25rem 0.15rem;
-  font-style: italic;
-  text-align: center;
-}
-
-/* Het recente nieuws Master-Detail volgens KerkWebsite.pdf */
-.news-master-detail {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 2rem;
-  align-items: stretch;
-}
-
-.news-featured-card {
-  background: var(--bg-white);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-md);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.news-featured-card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-lg);
-}
-
-.news-featured-img {
-  width: 100%;
-  height: 290px;
-  object-fit: cover;
-  background: var(--bg-subtle);
-}
-
-.news-featured-body {
-  padding: 1.75rem;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.news-featured-body h3 {
-  font-family: var(--font-serif);
-  font-size: 1.45rem;
-  margin: 0.35rem 0 0.75rem;
-  color: var(--text-main);
-}
-
-.news-featured-body p {
-  color: var(--text-secondary);
-  font-size: 0.98rem;
-  line-height: 1.65;
-  margin-bottom: 1.35rem;
-  flex: 1;
-}
-
-.news-side-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-}
-
-.news-compact-card {
-  background: var(--bg-white);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-subtle);
-  padding: 0.85rem;
-  display: grid;
-  grid-template-columns: 108px 1fr;
-  gap: 1rem;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  box-shadow: var(--shadow-sm);
-}
-
-.news-compact-card:hover {
-  border-color: var(--pkn-orange);
-  transform: translateX(3px);
-  box-shadow: var(--shadow-md);
-}
-
-.news-compact-thumb {
-  width: 108px;
-  height: 82px;
-  border-radius: 6px;
-  object-fit: cover;
-  background: var(--bg-subtle);
-}
-
-.news-compact-title {
-  font-size: 0.98rem;
-  font-weight: 700;
-  color: var(--text-main);
-  line-height: 1.3;
-  margin-bottom: 0.2rem;
-}
-
-.news-compact-excerpt {
-  font-size: 0.82rem;
-  color: var(--text-secondary);
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-@media (max-width: 980px) {
-  .welkom-two-col,
-  .news-master-detail {
-    grid-template-columns: 1fr;
-  }
-  .hero-16-9 {
-    aspect-ratio: auto;
-    min-height: 380px;
-  }
-}
-
-
