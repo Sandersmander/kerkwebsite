@@ -1167,3 +1167,303 @@ a:hover {
   }
 }
 
+/* ==========================================================================
+   Klantbriefing & KerkWebsite.pdf / PGGinnekenOpzetWebsite.pdf Specifieke Stijl
+   ========================================================================== */
+.brand-logo-img {
+  height: 58px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-logo-img {
+  height: 54px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  opacity: 0.95;
+}
+
+.header-motto {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--pkn-orange);
+  white-space: nowrap;
+  padding-right: 0.5rem;
+  border-right: 1px solid var(--border-subtle);
+}
+
+@media (max-width: 1200px) {
+  .header-motto {
+    display: none;
+  }
+}
+
+/* Geneste sub-items in dropdownmenu (volgens PGGinnekenOpzetWebsite.pdf) */
+.dropdown-menu-wide {
+  min-width: 340px;
+  max-height: 82vh;
+  overflow-y: auto;
+}
+
+.dropdown-subitems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+  padding-left: 2.85rem;
+  padding-bottom: 0.35rem;
+}
+
+.dropdown-sublink {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-subtle);
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-subtle);
+  transition: all 0.15s ease;
+}
+
+.dropdown-sublink:hover {
+  background: var(--pkn-orange);
+  color: #fff;
+  border-color: var(--pkn-orange);
+}
+
+/* 16:9 Hero volgens KerkWebsite.pdf & Foto Els Hagemans (IMG20260524150523.jpg) */
+.hero-16-9 {
+  position: relative;
+  width: 100%;
+  min-height: 490px;
+  aspect-ratio: 16 / 7.2;
+  max-height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #231F20;
+}
+
+.hero-16-9-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/hero-laurentiuskerk-16-9.jpg');
+  background-size: cover;
+  background-position: center 42%;
+  transform: scale(1.01);
+  transition: transform 0.6s ease;
+}
+
+.hero-16-9-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(25, 20, 18, 0.38) 0%,
+    rgba(25, 20, 18, 0.56) 55%,
+    rgba(25, 20, 18, 0.78) 100%
+  );
+}
+
+.hero-16-9-content {
+  position: relative;
+  z-index: 2;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-mission-quote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.45rem, 2.7vw, 2.3rem);
+  font-weight: 600;
+  line-height: 1.38;
+  color: #ffffff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
+  margin-bottom: 1.75rem;
+}
+
+.hero-service-strip {
+  background: var(--bg-white);
+  border-bottom: 2px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem 0;
+}
+
+.hero-service-strip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Welkom sectie volgens KerkWebsite.pdf */
+.welkom-mockup-section {
+  padding: 3.5rem 0 2.5rem;
+}
+
+.welkom-orange-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 2.5vw, 2.15rem);
+  color: var(--pkn-orange);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+}
+
+.welkom-two-col {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2.75rem;
+  align-items: start;
+}
+
+.welkom-photo-figure {
+  background: var(--bg-white);
+  padding: 0.85rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-md);
+}
+
+.welkom-photo-figure img {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.welkom-photo-caption {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  padding: 0.65rem 0.25rem 0.15rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Het recente nieuws Master-Detail volgens KerkWebsite.pdf */
+.news-master-detail {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.news-featured-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-featured-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.news-featured-img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  background: var(--bg-subtle);
+}
+
+.news-featured-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.news-featured-body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  margin: 0.35rem 0 0.75rem;
+  color: var(--text-main);
+}
+
+.news-featured-body p {
+  color: var(--text-secondary);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  margin-bottom: 1.35rem;
+  flex: 1;
+}
+
+.news-side-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.news-compact-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  padding: 0.85rem;
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.news-compact-card:hover {
+  border-color: var(--pkn-orange);
+  transform: translateX(3px);
+  box-shadow: var(--shadow-md);
+}
+
+.news-compact-thumb {
+  width: 108px;
+  height: 82px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--bg-subtle);
+}
+
+.news-compact-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+
+.news-compact-excerpt {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 980px) {
+  .welkom-two-col,
+  .news-master-detail {
+    grid-template-columns: 1fr;
+  }
+  .hero-16-9 {
+    aspect-ratio: auto;
+    min-height: 380px;
+  }
+}
+
+

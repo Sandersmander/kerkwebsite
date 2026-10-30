@@ -9,6 +9,7 @@
     'welkom',
     'diensten',
     'nieuws',
+    'publiciteit',
     'verdieping',
     'jeugd',
     'fotos',
@@ -39,16 +40,16 @@
     'anbi-diaconie.html': 'anbi',
     'diaconaat.html': 'diaconaat',
     'kerkrentmeesters.html': 'organisatie',
-    'publiciteit.html': 'organisatie',
+    'publiciteit.html': 'publiciteit',
     'privacyverklaring.html': 'organisatie',
     'werkaandekerk.html': 'kerkenwerk',
     'jeugd.html': 'jeugd',
     'dekleinekerk.php': 'jeugd',
     'paperclip.html': 'jeugd',
     'studenten.html': 'jeugd',
-    'service.html': 'verhuur',
-    'verhuur.html': 'verhuur',
-    'burgerlijkhuwelijk.html': 'verhuur',
+    'service.html': 'organisatie',
+    'verhuur.html': 'organisatie',
+    'burgerlijkhuwelijk.html': 'organisatie',
     'fotos.php': 'fotos',
     'geschiedenis.html': 'geschiedenis',
     'extrageschiedenis.html': 'geschiedenis',
@@ -97,7 +98,7 @@
     }
   };
 
-  // Sub-tab switcher (e.g. ANBI Kerk vs ANBI Diaconie, Geschiedenis vs Extra Geschiedenis)
+  // Sub-tab switcher (e.g. ANBI Kerk vs ANBI Diaconie)
   window.switchSubTab = function (group, tabId, btnEl) {
     document.querySelectorAll(`[data-tab-group="${group}"]`).forEach((panel) => {
       panel.style.display = panel.id === tabId ? 'block' : 'none';
@@ -106,6 +107,13 @@
       btnEl.parentElement.querySelectorAll('.subnav-btn').forEach((b) => b.classList.remove('active'));
       btnEl.classList.add('active');
     }
+  };
+
+  window.switchAnbiTab = function (which) {
+    const panelId = which === 'diaconie' ? 'anbi-diaconie-panel' : 'anbi-kerk-panel';
+    const buttons = document.querySelectorAll('#sec-anbi .subnav-btn');
+    const targetBtn = which === 'diaconie' ? buttons[1] : buttons[0];
+    window.switchSubTab('anbi', panelId, targetBtn);
   };
 
   // Modal helpers
@@ -125,17 +133,18 @@
     }
   };
 
-  // Render scraped articles & archives
-  function initScrapedContent() {
+  let featuredNewsIds = ['539', '538', '537', '536', '535', '534', '533', '532', '529', '528', '531', '527'];
+  let activeVerdiepingFilter = 'all';
+
+  function renderNewsViews() {
     const data = window.PGG_SCRAPED_DATA;
     if (!data) return;
 
-    // 1. Render latest news on Home & Nieuws page
     const newsGrid = document.getElementById('news-grid-main');
-    const homeNewsList = document.getElementById('home-news-list');
+    const homeFeatured = document.getElementById('home-news-featured');
+    const homeSide = document.getElementById('home-news-side');
     const archiveTableBody = document.getElementById('news-archive-tbody');
 
-    const featuredNewsIds = ['539', '538', '537', '536', '535', '534', '533', '532', '529', '528', '531', '527'];
     if (newsGrid) {
       newsGrid.innerHTML = featuredNewsIds
         .map((id) => {
@@ -159,23 +168,46 @@
         .join('');
     }
 
-    if (homeNewsList) {
-      homeNewsList.innerHTML = featuredNewsIds
-        .slice(0, 6)
+    // Master-Detail op de Homepagina (volgens ontwerp KerkWebsite.pdf)
+    if (homeFeatured && featuredNewsIds.length > 0) {
+      const mainId = featuredNewsIds[0];
+      const mainArt = data.agenda_articles[mainId] || (data.agenda_archive || []).find((x) => x.id === mainId);
+      if (mainArt) {
+        const plain = (mainArt.html || mainArt.summary || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        const excerpt = plain.length > 340 ? plain.slice(0, 340) + '…' : plain;
+        const img = mainArt.local_image || mainArt.image || 'assets/images/kerk-en-laurentiushof.jpg';
+        homeFeatured.innerHTML = `
+          <article class="news-featured-card" onclick="openArticle('agenda', '${mainId}')">
+            <img class="news-featured-img" src="${img}" alt="${escapeHtml(mainArt.title)}" onerror="this.src='assets/images/kerk-en-laurentiushof.jpg'" />
+            <div class="news-featured-body">
+              <div><span class="badge badge-orange">${escapeHtml(mainArt.date || 'Actueel')}</span></div>
+              <h3>${escapeHtml(mainArt.title)}</h3>
+              <p>${escapeHtml(excerpt)}</p>
+              <div>
+                <span class="btn btn-orange" style="padding:0.55rem 1.35rem;font-size:0.9rem;">lees meer &rarr;</span>
+              </div>
+            </div>
+          </article>
+        `;
+      }
+    }
+
+    if (homeSide) {
+      homeSide.innerHTML = featuredNewsIds
+        .slice(1, 5)
         .map((id) => {
           const art = data.agenda_articles[id] || (data.agenda_archive || []).find((x) => x.id === id);
           if (!art) return '';
           const plain = (art.html || art.summary || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-          const excerpt = plain.length > 105 ? plain.slice(0, 105) + '…' : plain;
+          const excerpt = plain.length > 110 ? plain.slice(0, 110) + '…' : plain;
           const img = art.local_image || art.image || 'assets/images/herfst-2022.jpg';
           return `
-            <article class="article-card" onclick="openArticle('agenda', '${id}')">
-              <img class="article-card-img" src="${img}" alt="${escapeHtml(art.title)}" onerror="this.src='assets/images/herfst-2022.jpg'" loading="lazy" />
-              <div class="article-card-body">
-                <div class="article-card-date">${escapeHtml(art.date || '')}</div>
-                <h3 class="article-card-title">${escapeHtml(art.title)}</h3>
-                <p class="article-card-excerpt">${escapeHtml(excerpt)}</p>
-                <span class="article-card-link">Lees meer &rarr;</span>
+            <article class="news-compact-card" onclick="openArticle('agenda', '${id}')">
+              <img class="news-compact-thumb" src="${img}" alt="${escapeHtml(art.title)}" onerror="this.src='assets/images/herfst-2022.jpg'" loading="lazy" />
+              <div>
+                <div style="font-size:0.75rem;color:var(--pkn-orange-dark);font-weight:700;margin-bottom:0.15rem;">${escapeHtml(art.date || '')}</div>
+                <div class="news-compact-title">${escapeHtml(art.title)}</div>
+                <div class="news-compact-excerpt">${escapeHtml(excerpt)}</div>
               </div>
             </article>
           `;
@@ -186,31 +218,131 @@
     if (archiveTableBody && data.agenda_archive) {
       renderArchiveRows(data.agenda_archive);
     }
+  }
 
-    // 2. Render Verdieping articles
-    const verdiepingGrid = document.getElementById('verdieping-grid');
-    if (verdiepingGrid && data.verdieping_articles) {
-      const vKeys = Object.keys(data.verdieping_articles).sort((a, b) => Number(b) - Number(a));
-      verdiepingGrid.innerHTML = vKeys
-        .map((id) => {
-          const art = data.verdieping_articles[id];
-          const plain = (art.html || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-          const excerpt = plain.length > 150 ? plain.slice(0, 150) + '…' : plain;
-          const img = art.local_image || art.image || 'assets/images/Bijbel-PGG.png';
-          return `
-            <article class="article-card" onclick="openArticle('verdieping', '${id}')">
-              <img class="article-card-img" src="${img}" alt="${escapeHtml(art.title)}" onerror="this.src='assets/images/Bijbel-PGG.png'" loading="lazy" />
-              <div class="article-card-body">
-                <div class="article-card-date">${escapeHtml(art.date)}</div>
-                <h3 class="article-card-title">${escapeHtml(art.title)}</h3>
-                <p class="article-card-excerpt">${escapeHtml(excerpt)}</p>
-                <span class="article-card-link">Lees verdiepingsartikel &rarr;</span>
-              </div>
-            </article>
-          `;
-        })
-        .join('');
+  window.filterVerdieping = function (cat) {
+    activeVerdiepingFilter = cat || 'all';
+    const data = window.PGG_SCRAPED_DATA;
+    if (!data || !data.verdieping_articles) return;
+
+    // Update active tab styling
+    ['all', 'gedicht', 'verhaal'].forEach((t) => {
+      const btn = document.getElementById('verdieping-tab-' + t);
+      if (btn) btn.classList.toggle('active', t === activeVerdiepingFilter);
+    });
+
+    const headingEl = document.getElementById('verdieping-list-heading');
+    if (headingEl) {
+      if (activeVerdiepingFilter === 'gedicht') {
+        headingEl.textContent = 'Gedichten & Liederen';
+      } else if (activeVerdiepingFilter === 'verhaal') {
+        headingEl.textContent = 'Verhalen, Meditaties & Schatten van Laurentius';
+      } else {
+        headingEl.textContent = 'Gedichten, Verhalen & Schatten van Laurentius';
+      }
     }
+
+    const verdiepingGrid = document.getElementById('verdieping-grid');
+    if (!verdiepingGrid) return;
+
+    const vKeys = Object.keys(data.verdieping_articles).sort((a, b) => {
+      const na = Number(String(a).replace('a_', ''));
+      const nb = Number(String(b).replace('a_', ''));
+      return nb - na;
+    });
+
+    const filteredKeys = vKeys.filter((id) => {
+      if (activeVerdiepingFilter === 'all') return true;
+      return (data.verdieping_articles[id].category || 'verhaal') === activeVerdiepingFilter;
+    });
+
+    verdiepingGrid.innerHTML = filteredKeys
+      .map((id) => {
+        const art = data.verdieping_articles[id];
+        const plain = (art.html || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        const excerpt = plain.length > 150 ? plain.slice(0, 150) + '…' : plain;
+        const isPoem = art.category === 'gedicht';
+        const img = art.local_image || art.image || (isPoem ? 'assets/images/kaars_kroonluchter_web.jpg' : 'assets/images/Bijbel-PGG.png');
+        const badgeHtml = isPoem
+          ? '<span class="badge badge-purple" style="margin-right:0.4rem;">Gedicht</span>'
+          : '<span class="badge badge-orange" style="margin-right:0.4rem;">Verhaal</span>';
+        return `
+          <article class="article-card" onclick="openArticle('verdieping', '${id}')">
+            <img class="article-card-img" src="${img}" alt="${escapeHtml(art.title)}" onerror="this.src='assets/images/Bijbel-PGG.png'" loading="lazy" />
+            <div class="article-card-body">
+              <div class="article-card-date">${badgeHtml}${escapeHtml(art.date)}</div>
+              <h3 class="article-card-title" style="margin-top:0.35rem;">${escapeHtml(art.title)}</h3>
+              <p class="article-card-excerpt">${escapeHtml(excerpt)}</p>
+              <span class="article-card-link">Lees ${isPoem ? 'gedicht' : 'verhaal'} &rarr;</span>
+            </div>
+          </article>
+        `;
+      })
+      .join('');
+  };
+
+  // Webmaster Portal (invoerAgenda) handler
+  window.submitPortalArticle = function (e) {
+    e.preventDefault();
+    const data = window.PGG_SCRAPED_DATA;
+    if (!data) return;
+
+    const cat = document.getElementById('portal-category').value;
+    const date = document.getElementById('portal-date').value.trim();
+    const title = document.getElementById('portal-title').value.trim();
+    const img = document.getElementById('portal-image').value.trim() || 'assets/images/kerk-en-laurentiushof.jpg';
+    const body = document.getElementById('portal-body').value.trim();
+    const htmlBody = escapeHtml(body).replace(/\n/g, '<br />\n');
+
+    if (cat === 'agenda') {
+      const newId = String(Date.now()).slice(-4);
+      data.agenda_articles[newId] = {
+        title: title,
+        date: date,
+        image: img,
+        local_image: img,
+        html: htmlBody
+      };
+      if (data.agenda_archive) {
+        data.agenda_archive.unshift({
+          id: newId,
+          date: date,
+          title: title,
+          summary: body.slice(0, 140)
+        });
+      }
+      featuredNewsIds.unshift(newId);
+      renderNewsViews();
+      closeModal('portal-modal');
+      navigateTo('welkom');
+      openArticle('agenda', newId);
+    } else {
+      const newId = String(Date.now()).slice(-4);
+      data.verdieping_articles[newId] = {
+        title: title,
+        date: date,
+        image: img,
+        local_image: img,
+        html: htmlBody,
+        category: cat
+      };
+      closeModal('portal-modal');
+      navigateTo('verdieping');
+      window.filterVerdieping(cat);
+      openArticle('verdieping', newId);
+    }
+  };
+
+  // Render scraped articles & archives
+  function initScrapedContent() {
+    const data = window.PGG_SCRAPED_DATA;
+    if (!data) return;
+
+    // 1. Render latest news on Home & Nieuws page
+    renderNewsViews();
+
+    // 2. Render Verdieping articles (Gedichten & Verhalen)
+    window.filterVerdieping('all');
 
     // 3. Render Kleine Kerk articles
     const kkGrid = document.getElementById('kleinekerk-grid');
